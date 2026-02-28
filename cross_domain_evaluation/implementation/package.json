@@ -1,0 +1,38 @@
+{
+  "name": "relation-graph-vue3-demo",
+  "version": "1.0.0",
+  "description": "demo",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seeksdream/relation-graph-vue3-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seeksdream/relation-graph-vue3-demo/issues"
+  },
+  "homepage": "https://github.com/seeksdream/relation-graph-vue3-demo#readme",
+  "dependencies": {
+    "@klarr-agency/circum-icons-vue": "^2.0.1",
+    "@vitejs/plugin-vue": "^3.2.0",
+    "axios": "^1.8.3",
+    "element-plus": "^2.10.4",
+    "marked": "^15.0.7",
+    "mitt": "^3.0.1",
+    "relation-graph": "2.1.42",
+    "relation-graph-vue3": "^2.2.10",
+    "vite": "^3.0.0",
+    "vue": "^3.2.47"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.11",
+    "sass": "^1.85.1"
+  }
+}

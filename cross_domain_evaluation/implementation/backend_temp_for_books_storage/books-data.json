@@ -1,0 +1,244 @@
+{
+  "lines": [
+    {
+      "from": "a",
+      "to": "b",
+      "reason": "These books were written by the same author, Doyle, Arthur Conan."
+    },
+    {
+      "from": "a",
+      "to": "c",
+      "reason": "These books were written by the same author, Doyle, Arthur Conan."
+    },
+    {
+      "from": "d",
+      "to": "e",
+      "reason": "These books were written by the same author, Doyle, Arthur Conan."
+    },
+    {
+      "from": "d",
+      "to": "f",
+      "reason": "These books were written by the same author, Doyle, Arthur Conan."
+    },
+    {
+      "from": "g",
+      "to": "h",
+      "reason": "These books were written by the same author, Arthur Conan Doyle."
+    },
+    {
+      "from": "g",
+      "to": "i",
+      "reason": "These books were written by the same author, Arthur Conan Doyle."
+    }
+  ],
+  "nodes": [
+    {
+      "data": {
+        "author": "Doyle, Arthur Conan",
+        "book_download": "https://www.gutenberg.org/ebooks/108.txt.utf-8",
+        "gutindex_id": 108,
+        "languages": [
+          "en"
+        ],
+        "pic": "https://www.gutenberg.org/cache/epub/108/pg108.cover.medium.jpg",
+        "slotType": "slot1",
+        "subjects": [
+          "Detective and mystery stories, English",
+          "Holmes, Sherlock (Fictitious character) -- Fiction",
+          "Private investigators -- England -- Fiction"
+        ],
+        "summary": "\"The Return of Sherlock Holmes\" by Sir Arthur Conan Doyle is a collection of detective stories written in the late 19th century. The book features the iconic detective Sherlock Holmes and his loyal companion Dr. John Watson as they embark on new mysteries and adventures, beginning with a thrilling case that brings Holmes back into the public eye after his presumed death.  At the start of the collection, an intriguing case unfolds involving the murder of Ronald Adair under strange circumstances. Watson narrates the events leading up to the case while grappling with the unexpected return of Sherlock Holmes, who reveals he has actually survived their last encounter with Professor Moriarty. The details of Adair's murder are recounted, describing the victim's background and the perplexing evidence surrounding his death. As tension mounts, the story sets the stage for Holmes's interplay with criminals and the complex web of London’s criminal underworld, showcasing his brilliant deductive reasoning and captivating personality. (This is an automatically generated summary.)",
+        "tiny_summary": "Sherlock Holmes returns, solving intricate mysteries in Victorian England with wit, deduction, and loyal Watson.",
+        "title": "The Return of Sherlock Holmes"
+      },
+      "id": "a",
+      "text": "a"
+    },
+    {
+      "data": {
+        "author": "Doyle, Arthur Conan",
+        "book_download": "https://www.gutenberg.org/ebooks/1661.txt.utf-8",
+        "gutindex_id": 1661,
+        "languages": [
+          "en"
+        ],
+        "pic": "https://www.gutenberg.org/cache/epub/1661/pg1661.cover.medium.jpg",
+        "slotType": "slot2",
+        "subjects": [
+          "Detective and mystery stories, English",
+          "Holmes, Sherlock (Fictitious character) -- Fiction",
+          "Private investigators -- England -- Fiction"
+        ],
+        "summary": "\"The Adventures of Sherlock Holmes\" by Arthur Conan Doyle is a collection of detective stories written during the late 19th century. The book introduces the legendary detective Sherlock Holmes and his loyal companion, Dr. John Watson, as they embark on various intriguing cases, filled with mystery and clever deductions.  The opening of the book presents \"A Scandal in Bohemia,\" where Dr. Watson reflects on his relationship with Holmes and hints at the detective's infatuation with Irene Adler, a woman of great significance in his past. In this initial chapter, a royal client, who is later revealed to be the King of Bohemia, seeks Holmes's help to retrieve a compromising photograph involving Adler before his impending marriage. Watson observes Holmes's deductive abilities as Holmes analyzes a mysterious note from the king and receives visitors of significant stature, foreshadowing the adventure ahead. This introduction sets the stage for a thrilling narrative filled with twists and an exploration of Holmes's character, particularly in relation to women and the complexities of human emotions. (This is an automatically generated summary.)",
+        "tiny_summary": "A collection of Sherlock Holmes’s most intriguing cases, showcasing brilliant deduction and Victorian London’s mysteries.",
+        "title": "The Adventures of Sherlock Holmes"
+      },
+      "id": "b",
+      "text": "b"
+    },
+    {
+      "data": {
+        "author": "Doyle, Arthur Conan",
+        "book_download": "https://www.gutenberg.org/ebooks/2852.txt.utf-8",
+        "gutindex_id": 2852,
+        "languages": [
+          "en"
+        ],
+        "pic": "https://www.gutenberg.org/cache/epub/2852/pg2852.cover.medium.jpg",
+        "slotType": "slot3",
+        "subjects": [
+          "Blessing and cursing -- Fiction",
+          "Dartmoor (England) -- Fiction",
+          "Detective and mystery stories",
+          "Dogs -- Fiction",
+          "Holmes, Sherlock (Fictitious character) -- Fiction",
+          "Private investigators -- England -- Fiction"
+        ],
+        "summary": "\"The Hound of the Baskervilles\" by Arthur Conan Doyle is a detective novel written during the late 19th century. This classic work features the iconic detective Sherlock Holmes and his loyal friend Dr. John Watson as they embark on a chilling investigation involving a legendary supernatural creature that haunts the Baskerville family. The story is set against the eerie backdrop of the English moors, where mystery and danger intertwine.  The opening of the novel introduces us to Sherlock Holmes and Dr. Watson, who are in the midst of addressing an intriguing case brought forth by Dr. James Mortimer, a country practitioner. Mortimer presents a cane belonging to a mysterious visitor, prompting Holmes to deduce details about the man based solely on the cane’s features. Their conversation soon shifts to the ominous legend of the Baskervilles and the recent suspicious death of Sir Charles Baskerville. As secrets unravel concerning the eerie curse that has plagued the Baskerville family and odd happenings that surround Sir Charles's heir, Sir Henry Baskerville, the stage is set for a gripping tale of suspense and intrigue. Holmes and Watson are drawn into a web of supernatural terror and human malevolence as they seek to protect the heir from the dark legacy of the Baskerville line. (This is an automatically generated summary.)",
+        "tiny_summary": "Holmes and Watson investigate a legendary hound haunting Baskerville Hall on the eerie Dartmoor moorlands.",
+        "title": "The Hound of the Baskervilles"
+      },
+      "id": "c",
+      "text": "c"
+    },
+    {
+      "data": {
+        "author": "Doyle, Arthur Conan",
+        "book_download": "https://www.gutenberg.org/ebooks/108.txt.utf-8",
+        "gutindex_id": 108,
+        "languages": [
+          "en"
+        ],
+        "pic": "https://www.gutenberg.org/cache/epub/108/pg108.cover.medium.jpg",
+        "slotType": "slot1",
+        "subjects": [
+          "Detective and mystery stories, English",
+          "Holmes, Sherlock (Fictitious character) -- Fiction",
+          "Private investigators -- England -- Fiction"
+        ],
+        "summary": "\"The Return of Sherlock Holmes\" by Sir Arthur Conan Doyle is a collection of detective stories written in the late 19th century. The book features the iconic detective Sherlock Holmes and his loyal companion Dr. John Watson as they embark on new mysteries and adventures, beginning with a thrilling case that brings Holmes back into the public eye after his presumed death.  At the start of the collection, an intriguing case unfolds involving the murder of Ronald Adair under strange circumstances. Watson narrates the events leading up to the case while grappling with the unexpected return of Sherlock Holmes, who reveals he has actually survived their last encounter with Professor Moriarty. The details of Adair's murder are recounted, describing the victim's background and the perplexing evidence surrounding his death. As tension mounts, the story sets the stage for Holmes's interplay with criminals and the complex web of London’s criminal underworld, showcasing his brilliant deductive reasoning and captivating personality. (This is an automatically generated summary.)",
+        "tiny_summary": "Sherlock Holmes returns, solving intricate mysteries with sharp intellect and wit in Victorian England's shadows.",
+        "title": "The Return of Sherlock Holmes"
+      },
+      "id": "d",
+      "text": "d"
+    },
+    {
+      "data": {
+        "author": "Doyle, Arthur Conan",
+        "book_download": "https://www.gutenberg.org/ebooks/1661.txt.utf-8",
+        "gutindex_id": 1661,
+        "languages": [
+          "en"
+        ],
+        "pic": "https://www.gutenberg.org/cache/epub/1661/pg1661.cover.medium.jpg",
+        "slotType": "slot2",
+        "subjects": [
+          "Detective and mystery stories, English",
+          "Holmes, Sherlock (Fictitious character) -- Fiction",
+          "Private investigators -- England -- Fiction"
+        ],
+        "summary": "\"The Adventures of Sherlock Holmes\" by Arthur Conan Doyle is a collection of detective stories written during the late 19th century. The book introduces the legendary detective Sherlock Holmes and his loyal companion, Dr. John Watson, as they embark on various intriguing cases, filled with mystery and clever deductions.  The opening of the book presents \"A Scandal in Bohemia,\" where Dr. Watson reflects on his relationship with Holmes and hints at the detective's infatuation with Irene Adler, a woman of great significance in his past. In this initial chapter, a royal client, who is later revealed to be the King of Bohemia, seeks Holmes's help to retrieve a compromising photograph involving Adler before his impending marriage. Watson observes Holmes's deductive abilities as Holmes analyzes a mysterious note from the king and receives visitors of significant stature, foreshadowing the adventure ahead. This introduction sets the stage for a thrilling narrative filled with twists and an exploration of Holmes's character, particularly in relation to women and the complexities of human emotions. (This is an automatically generated summary.)",
+        "tiny_summary": "Join Sherlock Holmes and Dr. Watson as they unravel baffling mysteries in Victorian London's foggy streets.",
+        "title": "The Adventures of Sherlock Holmes"
+      },
+      "id": "e",
+      "text": "e"
+    },
+    {
+      "data": {
+        "author": "Doyle, Arthur Conan",
+        "book_download": "https://www.gutenberg.org/ebooks/2852.txt.utf-8",
+        "gutindex_id": 2852,
+        "languages": [
+          "en"
+        ],
+        "pic": "https://www.gutenberg.org/cache/epub/2852/pg2852.cover.medium.jpg",
+        "slotType": "slot3",
+        "subjects": [
+          "Blessing and cursing -- Fiction",
+          "Dartmoor (England) -- Fiction",
+          "Detective and mystery stories",
+          "Dogs -- Fiction",
+          "Holmes, Sherlock (Fictitious character) -- Fiction",
+          "Private investigators -- England -- Fiction"
+        ],
+        "summary": "\"The Hound of the Baskervilles\" by Arthur Conan Doyle is a detective novel written during the late 19th century. This classic work features the iconic detective Sherlock Holmes and his loyal friend Dr. John Watson as they embark on a chilling investigation involving a legendary supernatural creature that haunts the Baskerville family. The story is set against the eerie backdrop of the English moors, where mystery and danger intertwine.  The opening of the novel introduces us to Sherlock Holmes and Dr. Watson, who are in the midst of addressing an intriguing case brought forth by Dr. James Mortimer, a country practitioner. Mortimer presents a cane belonging to a mysterious visitor, prompting Holmes to deduce details about the man based solely on the cane’s features. Their conversation soon shifts to the ominous legend of the Baskervilles and the recent suspicious death of Sir Charles Baskerville. As secrets unravel concerning the eerie curse that has plagued the Baskerville family and odd happenings that surround Sir Charles's heir, Sir Henry Baskerville, the stage is set for a gripping tale of suspense and intrigue. Holmes and Watson are drawn into a web of supernatural terror and human malevolence as they seek to protect the heir from the dark legacy of the Baskerville line. (This is an automatically generated summary.)",
+        "tiny_summary": "A legendary hound haunts Baskerville moors. Holmes investigates, blending suspense, superstition, and detective brilliance.",
+        "title": "The Hound of the Baskervilles"
+      },
+      "id": "f",
+      "text": "f"
+    },
+    {
+      "data": {
+        "author": "Doyle, Arthur Conan",
+        "book_download": "https://www.gutenberg.org/ebooks/108.txt.utf-8",
+        "gutindex_id": 108,
+        "languages": [
+          "en"
+        ],
+        "pic": "https://www.gutenberg.org/cache/epub/108/pg108.cover.medium.jpg",
+        "slotType": "slot1",
+        "subjects": [
+          "Detective and mystery stories, English",
+          "Holmes, Sherlock (Fictitious character) -- Fiction",
+          "Private investigators -- England -- Fiction"
+        ],
+        "summary": "\"The Return of Sherlock Holmes\" by Sir Arthur Conan Doyle is a collection of detective stories written in the late 19th century. The book features the iconic detective Sherlock Holmes and his loyal companion Dr. John Watson as they embark on new mysteries and adventures, beginning with a thrilling case that brings Holmes back into the public eye after his presumed death.  At the start of the collection, an intriguing case unfolds involving the murder of Ronald Adair under strange circumstances. Watson narrates the events leading up to the case while grappling with the unexpected return of Sherlock Holmes, who reveals he has actually survived their last encounter with Professor Moriarty. The details of Adair's murder are recounted, describing the victim's background and the perplexing evidence surrounding his death. As tension mounts, the story sets the stage for Holmes's interplay with criminals and the complex web of London’s criminal underworld, showcasing his brilliant deductive reasoning and captivating personality. (This is an automatically generated summary.)",
+        "tiny_summary": "Sherlock Holmes returns, solving baffling mysteries in Victorian England with wit, logic, and legendary deduction.",
+        "title": "The Return of Sherlock Holmes"
+      },
+      "id": "g",
+      "text": "g"
+    },
+    {
+      "data": {
+        "author": "Doyle, Arthur Conan",
+        "book_download": "https://www.gutenberg.org/ebooks/1661.txt.utf-8",
+        "gutindex_id": 1661,
+        "languages": [
+          "en"
+        ],
+        "pic": "https://www.gutenberg.org/cache/epub/1661/pg1661.cover.medium.jpg",
+        "slotType": "slot2",
+        "subjects": [
+          "Detective and mystery stories, English",
+          "Holmes, Sherlock (Fictitious character) -- Fiction",
+          "Private investigators -- England -- Fiction"
+        ],
+        "summary": "\"The Adventures of Sherlock Holmes\" by Arthur Conan Doyle is a collection of detective stories written during the late 19th century. The book introduces the legendary detective Sherlock Holmes and his loyal companion, Dr. John Watson, as they embark on various intriguing cases, filled with mystery and clever deductions.  The opening of the book presents \"A Scandal in Bohemia,\" where Dr. Watson reflects on his relationship with Holmes and hints at the detective's infatuation with Irene Adler, a woman of great significance in his past. In this initial chapter, a royal client, who is later revealed to be the King of Bohemia, seeks Holmes's help to retrieve a compromising photograph involving Adler before his impending marriage. Watson observes Holmes's deductive abilities as Holmes analyzes a mysterious note from the king and receives visitors of significant stature, foreshadowing the adventure ahead. This introduction sets the stage for a thrilling narrative filled with twists and an exploration of Holmes's character, particularly in relation to women and the complexities of human emotions. (This is an automatically generated summary.)",
+        "tiny_summary": "A collection of thrilling cases showcasing Sherlock Holmes’s unmatched detective skills and Dr. Watson’s loyal companionship.",
+        "title": "The Adventures of Sherlock Holmes"
+      },
+      "id": "h",
+      "text": "h"
+    },
+    {
+      "data": {
+        "author": "Doyle, Arthur Conan",
+        "book_download": "https://www.gutenberg.org/ebooks/2852.txt.utf-8",
+        "gutindex_id": 2852,
+        "languages": [
+          "en"
+        ],
+        "pic": "https://www.gutenberg.org/cache/epub/2852/pg2852.cover.medium.jpg",
+        "slotType": "slot3",
+        "subjects": [
+          "Blessing and cursing -- Fiction",
+          "Dartmoor (England) -- Fiction",
+          "Detective and mystery stories",
+          "Dogs -- Fiction",
+          "Holmes, Sherlock (Fictitious character) -- Fiction",
+          "Private investigators -- England -- Fiction"
+        ],
+        "summary": "\"The Hound of the Baskervilles\" by Arthur Conan Doyle is a detective novel written during the late 19th century. This classic work features the iconic detective Sherlock Holmes and his loyal friend Dr. John Watson as they embark on a chilling investigation involving a legendary supernatural creature that haunts the Baskerville family. The story is set against the eerie backdrop of the English moors, where mystery and danger intertwine.  The opening of the novel introduces us to Sherlock Holmes and Dr. Watson, who are in the midst of addressing an intriguing case brought forth by Dr. James Mortimer, a country practitioner. Mortimer presents a cane belonging to a mysterious visitor, prompting Holmes to deduce details about the man based solely on the cane’s features. Their conversation soon shifts to the ominous legend of the Baskervilles and the recent suspicious death of Sir Charles Baskerville. As secrets unravel concerning the eerie curse that has plagued the Baskerville family and odd happenings that surround Sir Charles's heir, Sir Henry Baskerville, the stage is set for a gripping tale of suspense and intrigue. Holmes and Watson are drawn into a web of supernatural terror and human malevolence as they seek to protect the heir from the dark legacy of the Baskerville line. (This is an automatically generated summary.)",
+        "tiny_summary": "Holmes investigates a legendary hound haunting Baskerville Hall, unraveling secrets across eerie Dartmoor’s misty moors.",
+        "title": "The Hound of the Baskervilles"
+      },
+      "id": "i",
+      "text": "i"
+    }
+  ],
+  "rootId": "a"
+}

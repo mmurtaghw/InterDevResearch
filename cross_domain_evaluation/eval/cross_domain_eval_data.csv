@@ -1,0 +1,502 @@
+Progress,Duration (in seconds),Finished,ResponseId,DistributionChannel,UserLanguage,Question 4_1,Question 5_1,Question 6,Q222,T6.1,T6.2_1,T1.1,T1.2_1,T1 Time_First Click,T1 Time_Last Click,T1 Time_Page Submit,T1 Time_Click Count,T2.1,T2.2_1,T2 Time_First Click,T2 Time_Last Click,T2 Time_Page Submit,T2 Time_Click Count,T3.1,T3.2_1,T3 Time_First Click,T3 Time_Last Click,T3 Time_Page Submit,T3 Time_Click Count,T4.1,T4.2_1,T4 Time_First Click,T4 Time_Last Click,T4 Time_Page Submit,T4 Time_Click Count,T5.1,T5.2_1,T5 Time_First Click,T5 Time_Last Click,T5 Time_Page Submit,T5 Time_Click Count,T8.1,T8.2_1,T8 Time_First Click,T8 Time_Last Click,T8 Time_Page Submit,T8 Time_Click Count,T9.3,T9.1,T9.2_1,T9 Time_First Click,T9 Time_Last Click,T9 Time_Page Submit,T9 Time_Click Count,T11.1,T11.2_1,T11 Time_First Click,T11 Time_Last Click,T11 Time_Page Submit,T11 Time_Click Count,C0 - NASA TLX_1,C0 - NASA TLX_2,C0 - NASA TLX_3,C0 - NASA TLX_4,C0 - NASA TLX_7,C0 - NASA TLX_8,C0 Serendipity,C0 Serendipity Info,T7.1,T7.2_1,C1 - Workload Assess_1,C1 - Workload Assess_2,C1 - Workload Assess_3,C1 - Workload Assess_4,C1 - Workload Assess_7,C1 - Workload Assess_8,C1 - Serendipity,C1 - Serendipity Det,T10.1,T10.2_1,C2 - Workload Assess_1,C2 - Workload Assess_2,C2 - Workload Assess_3,C2 - Workload Assess_4,C2 - Workload Assess_7,C2 - Workload Assess_8,C2 - Serendipity,C2 - Serendipity Det,T12.1,T12.2_1,C3 - Workload Assess_1,C3 - Workload Assess_2,C3 - Workload Assess_3,C3 - Workload Assess_4,C3 - Workload Assess_7,C3 - Workload Assess_8,C3 - Serendipity,C3 - Serendipity Det,Q202_1,Q202_2,Q202_3,Q202_4,T1,T2,T3,T4,T5,T8,T9,T11,Create New Field or Choose From Dropdown...,PICK_1,PICK_2,PICK_3,PICK_4,PICK_5,PICK_6,PICK_7,PICK_8,POOL,na,ba,DEBUG_POOL,DEBUG_PICKS
+Progress,Duration (in seconds),Finished,Response ID,Distribution Channel,User Language,"How often do you read books (fiction, non-fiction etc.) in your spare time? - Click one of the following","On a scale from 1-5, how familiar are you with Large Language Models? (ChatGPT, Gemini, etc.) - Click one of the following","Are you aware of any online digital libraries? (ACM, IEEE Xplore, etc.) If so, list a few. Otherwise, write N/A.",Do you consider English to be your first language?,"Interface 1: Tutorial
+
+You can test out the interface here using the example task below. You do not need to finish this task to continue - you may proceed when you feel you are ready. 
+
+
+Task
+
+
+
+Find a novel that deals centrally with poverty or social deprivation.
+
+
+
+Provide: 
+
+
+	Title of the chosen novel",Please indicate on a scale of 1-100 how confident you are in your answer - Confidence,"Task
+Open the text of Frankenstein; or, The Modern Prometheus. 
+
+
+
+Navigate to Chapter I (not the preliminary letters).
+
+
+
+Provide:
+
+
+	The first complete sentence that appears directly under the ‘Chapter I’ heading.",Please indicate on a scale of 1-100 how confident you are in your answer - Confidence,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"Task
+Locate a work by Jules Verne. Download the Plain Text (.txt or Plain Text UTF-8) version. 
+
+
+
+Provide:
+
+
+	The title of the book
+
+
+
+Do not reuse any book you already used in an earlier task.",Please indicate on a scale of 1-100 how confident you are in your answer - Confidence,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"Task
+Find a book called “The Prince”. 
+
+
+
+Provide:
+
+
+	The author’s name. 
+	Identify the person or group explicitly addressed in the dedication/preface
+	In one or two sentences, summarise (in your own words) the audience this work is aimed at.",Please indicate on a scale of 1-100 how confident you are in your answer - Confidence,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"Task
+
+
+Find a science‑fiction work that is short. You can decide on what basis it is considered short (for example, tagged “Short stories”/“Short fiction”). 
+
+
+
+Choose one you would like to read and briefly explain why (1–2 sentences).
+
+
+
+Provide: 
+
+The title
+	The first 5 words of the work’s main text
+
+
+Do not reuse any book you already used in an earlier task.",Rate your confidence (0–100%) that the work meets the constraints. - Confidence,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"Task
+Choose two different books (with different authors) first published between 1800 and 1899 that you think would pair well for a discussion of political philosophy (e.g., governance, liberty, socialism, utopias).  
+
+
+
+For each book provide: 
+
+
+	The title of the book.
+	In a sentence, justify briefly why these two books make a good pairing (e.g., they contrast viewpoints, build on similar themes, show evolution over time).  
+
+
+
+Do not reuse any book you have already used in an earlier task.",Please indicate on a scale of 1-100 how confident you are in your answer - Confidence,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"Task
+Select three different books (different authors) from the 19th or 20th centuries that together form a mini‑syllabus on utopian or dystopian futures. 
+
+
+
+For each book, provide: 
+
+
+	The title of the book 
+	A one‑sentence rationale for why it belongs in the syllabus (max 25 words). 
+
+
+
+Do not reuse any book you have already used in an earlier task.",Rate your confidence (0–100%) that all three books meet the constraints and that your justifications are sound. - Confidence,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"Task
+Evaluate this claim: “Mary Shelley published only one novel.” 
+
+
+
+Mark True or False.","In one sentence, explain your reasoning",Rate your confidence (0–100%) that your decision is correct. - Confidence,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"Task
+Select three different books (preferably different authors) from the 19th or 20th centuries that all engage with anxiety or criticism around industrial progress, machinery, or technological change. 
+
+
+
+For each book, provide: 
+
+
+	The title of the bookIn one or two sentences, explain how these three books differ in their treatment of that theme (e.g., perspective, setting, moral stance, genre). Be specific.
+
+
+
+Do not reuse any book you’ve already chosen in earlier tasks.",Rate your confidence (0–100%) that all three books fit the theme and that your comparison is accurate. - Confidence,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"Below are a set of sliders which range from Very Low to Very High. Given the experience with the Project Gutenberg Keyword Search Interface that you just used, read the question to the left of each slider and adjust the slider into the appropriate position for your response. - Mental Demand: How mentally demanding was the task?","Below are a set of sliders which range from Very Low to Very High. Given the experience with the Project Gutenberg Keyword Search Interface that you just used, read the question to the left of each slider and adjust the slider into the appropriate position for your response. - Physical Demand: How physically demanding was the task?","Below are a set of sliders which range from Very Low to Very High. Given the experience with the Project Gutenberg Keyword Search Interface that you just used, read the question to the left of each slider and adjust the slider into the appropriate position for your response. - Temporal Demand: How hurried or rushed was the pace of the task?","Below are a set of sliders which range from Very Low to Very High. Given the experience with the Project Gutenberg Keyword Search Interface that you just used, read the question to the left of each slider and adjust the slider into the appropriate position for your response. - Performance: How successful were you in accomplishing what you were asked to do?","Below are a set of sliders which range from Very Low to Very High. Given the experience with the Project Gutenberg Keyword Search Interface that you just used, read the question to the left of each slider and adjust the slider into the appropriate position for your response. - Effort: How hard did you have to work to accomplish your level of performance?","Below are a set of sliders which range from Very Low to Very High. Given the experience with the Project Gutenberg Keyword Search Interface that you just used, read the question to the left of each slider and adjust the slider into the appropriate position for your response. - Frustration: How insecure, discouraged, irritated, stressed, and annoyed were you?","Did you find anything unexpected or interesting during these tasks? (For example, a book you haven't heard of, or a fact about a book you didn't know)","If you answered yes to the previous question, what did you find unexpected or interesting?","Interface 2: Tutorial
+
+You can test out the interface here using the example task below. You do not need to finish this task to continue - you may proceed when ready. 
+
+
+Task
+
+
+
+Identify a novel that is commonly described as one of the first feminist novels in English and is available on PG. 
+
+
+
+Provide:    
+
+
+	The title of the book
+	Explain briefly why the text supports calling it feminist text (plot point, character agency, narrative voice, etc.).",Please indicate on a scale of 1-100 how confident you are in your answer - Confidence,"Below are a set of sliders which range from Very Low to Very High. Given the experience with the Semantic Search Interface that you just used, read the question to the left of each slider and adjust the slider into the appropriate position for your response. - Mental Demand: How mentally demanding was the task?","Below are a set of sliders which range from Very Low to Very High. Given the experience with the Semantic Search Interface that you just used, read the question to the left of each slider and adjust the slider into the appropriate position for your response. - Physical Demand: How physically demanding was the task?","Below are a set of sliders which range from Very Low to Very High. Given the experience with the Semantic Search Interface that you just used, read the question to the left of each slider and adjust the slider into the appropriate position for your response. - Temporal Demand: How hurried or rushed was the pace of the task?","Below are a set of sliders which range from Very Low to Very High. Given the experience with the Semantic Search Interface that you just used, read the question to the left of each slider and adjust the slider into the appropriate position for your response. - Performance: How successful were you in accomplishing what you were asked to do?","Below are a set of sliders which range from Very Low to Very High. Given the experience with the Semantic Search Interface that you just used, read the question to the left of each slider and adjust the slider into the appropriate position for your response. - Effort: How hard did you have to work to accomplish your level of performance?","Below are a set of sliders which range from Very Low to Very High. Given the experience with the Semantic Search Interface that you just used, read the question to the left of each slider and adjust the slider into the appropriate position for your response. - Frustration: How insecure, discouraged, irritated, stressed, and annoyed were you?","Did you find anything unexpected or interesting during these tasks? (For example, a book you haven't heard of, or a fact about a book you didn't know)","If you answered yes to the previous question, what did you find unexpected or interesting?","Interface 3: Tutorial
+
+You can test out the interface here using the example task below. You do not need to finish this task to continue - you may proceed when you feel you are ready.
+
+
+Find a work that was originally written in French and for which an English translation is available. 
+
+
+
+Provide: 
+
+The title
+	The author’s name (original author)",Please indicate on a scale of 1-100 how confident you are in your answer - Confidence,"Below are a set of sliders which range from Very Low to Very High. Given the experience with the Chat Interface that you just used, read the question to the left of each slider and adjust the slider into the appropriate position for your response. - Mental Demand: How mentally demanding was the task?","Below are a set of sliders which range from Very Low to Very High. Given the experience with the Chat Interface that you just used, read the question to the left of each slider and adjust the slider into the appropriate position for your response. - Physical Demand: How physically demanding was the task?","Below are a set of sliders which range from Very Low to Very High. Given the experience with the Chat Interface that you just used, read the question to the left of each slider and adjust the slider into the appropriate position for your response. - Temporal Demand: How hurried or rushed was the pace of the task?","Below are a set of sliders which range from Very Low to Very High. Given the experience with the Chat Interface that you just used, read the question to the left of each slider and adjust the slider into the appropriate position for your response. - Performance: How successful were you in accomplishing what you were asked to do?","Below are a set of sliders which range from Very Low to Very High. Given the experience with the Chat Interface that you just used, read the question to the left of each slider and adjust the slider into the appropriate position for your response. - Effort: How hard did you have to work to accomplish your level of performance?","Below are a set of sliders which range from Very Low to Very High. Given the experience with the Chat Interface that you just used, read the question to the left of each slider and adjust the slider into the appropriate position for your response. - Frustration: How insecure, discouraged, irritated, stressed, and annoyed were you?","Did you find anything unexpected or interesting during these tasks? (For example, a book you haven't heard of, or a fact about a book you didn't know)","If you answered yes to the previous question, what did you find unexpected or interesting? (For example, a book you haven't heard of, or a fact about a book you didn't know)","Interface 4: Tutorial
+
+You can test out the interface here using the example task below. You do not need to finish this task to continue - you may proceed when you feel you are ready. 
+
+
+Task
+
+
+
+Write a concise explanation (80–120 words) of what “Gothic literature” is. 
+
+
+
+Base your explanation on at least two works (novels, prefaces, or critical essays) that are commonly considered Gothic. 
+
+
+
+For each source you use: 
+
+
+
+Give the book title 
+
+
+
+Do not reuse any books you cited in earlier tasks.",Rate your confidence (0–100%) that your definition is accurate and well supported. - Confidence,"Below are a set of sliders which range from Very Low to Very High. Given the experience with the Chat and Graph Interface that you just used, read the question to the left of each slider and adjust the slider into the appropriate position for your response. - Mental Demand: How mentally demanding was the task?","Below are a set of sliders which range from Very Low to Very High. Given the experience with the Chat and Graph Interface that you just used, read the question to the left of each slider and adjust the slider into the appropriate position for your response. - Physical Demand: How physically demanding was the task?","Below are a set of sliders which range from Very Low to Very High. Given the experience with the Chat and Graph Interface that you just used, read the question to the left of each slider and adjust the slider into the appropriate position for your response. - Temporal Demand: How hurried or rushed was the pace of the task?","Below are a set of sliders which range from Very Low to Very High. Given the experience with the Chat and Graph Interface that you just used, read the question to the left of each slider and adjust the slider into the appropriate position for your response. - Performance: How successful were you in accomplishing what you were asked to do?","Below are a set of sliders which range from Very Low to Very High. Given the experience with the Chat and Graph Interface that you just used, read the question to the left of each slider and adjust the slider into the appropriate position for your response. - Effort: How hard did you have to work to accomplish your level of performance?","Below are a set of sliders which range from Very Low to Very High. Given the experience with the Chat and Graph Interface that you just used, read the question to the left of each slider and adjust the slider into the appropriate position for your response. - Frustration: How insecure, discouraged, irritated, stressed, and annoyed were you?","Did you find anything unexpected or interesting during these tasks? (For example, a book you haven't heard of, or a fact about a book you didn't know)","If you answered yes to the previous question, what did you find unexpected or interesting?",How would you rate the trustworthiness of the responses you received from each of the interfaces you interacted with? - Project Gutenberg Keyword Search,How would you rate the trustworthiness of the responses you received from each of the interfaces you interacted with? - Semantic Search,How would you rate the trustworthiness of the responses you received from each of the interfaces you interacted with? - Chat,How would you rate the trustworthiness of the responses you received from each of the interfaces you interacted with? - Chat and Graph,T1,T2,T3,T4,T5,T8,T9,T11,Create New Field or Choose From Dropdown...,PICK_1,PICK_2,PICK_3,PICK_4,PICK_5,PICK_6,PICK_7,PICK_8,POOL,na,ba,DEBUG_POOL,DEBUG_PICKS
+"{""ImportId"":""progress""}","{""ImportId"":""duration""}","{""ImportId"":""finished""}","{""ImportId"":""_recordId""}","{""ImportId"":""distributionChannel""}","{""ImportId"":""userLanguage""}","{""ImportId"":""QID141_1""}","{""ImportId"":""QID142_1""}","{""ImportId"":""QID143_TEXT""}","{""ImportId"":""QID224""}","{""ImportId"":""QID180_TEXT""}","{""ImportId"":""QID181_1""}","{""ImportId"":""QID151_TEXT""}","{""ImportId"":""QID172_1""}","{""ImportId"":""QID193_FIRST_CLICK""}","{""ImportId"":""QID193_LAST_CLICK""}","{""ImportId"":""QID193_PAGE_SUBMIT""}","{""ImportId"":""QID193_CLICK_COUNT""}","{""ImportId"":""QID152_TEXT""}","{""ImportId"":""QID171_1""}","{""ImportId"":""QID194_FIRST_CLICK""}","{""ImportId"":""QID194_LAST_CLICK""}","{""ImportId"":""QID194_PAGE_SUBMIT""}","{""ImportId"":""QID194_CLICK_COUNT""}","{""ImportId"":""QID158_TEXT""}","{""ImportId"":""QID174_1""}","{""ImportId"":""QID195_FIRST_CLICK""}","{""ImportId"":""QID195_LAST_CLICK""}","{""ImportId"":""QID195_PAGE_SUBMIT""}","{""ImportId"":""QID195_CLICK_COUNT""}","{""ImportId"":""QID159_TEXT""}","{""ImportId"":""QID173_1""}","{""ImportId"":""QID196_FIRST_CLICK""}","{""ImportId"":""QID196_LAST_CLICK""}","{""ImportId"":""QID196_PAGE_SUBMIT""}","{""ImportId"":""QID196_CLICK_COUNT""}","{""ImportId"":""QID160_TEXT""}","{""ImportId"":""QID177_1""}","{""ImportId"":""QID197_FIRST_CLICK""}","{""ImportId"":""QID197_LAST_CLICK""}","{""ImportId"":""QID197_PAGE_SUBMIT""}","{""ImportId"":""QID197_CLICK_COUNT""}","{""ImportId"":""QID161_TEXT""}","{""ImportId"":""QID176_1""}","{""ImportId"":""QID198_FIRST_CLICK""}","{""ImportId"":""QID198_LAST_CLICK""}","{""ImportId"":""QID198_PAGE_SUBMIT""}","{""ImportId"":""QID198_CLICK_COUNT""}","{""ImportId"":""QID215""}","{""ImportId"":""QID162_TEXT""}","{""ImportId"":""QID179_1""}","{""ImportId"":""QID199_FIRST_CLICK""}","{""ImportId"":""QID199_LAST_CLICK""}","{""ImportId"":""QID199_PAGE_SUBMIT""}","{""ImportId"":""QID199_CLICK_COUNT""}","{""ImportId"":""QID163_TEXT""}","{""ImportId"":""QID178_1""}","{""ImportId"":""QID200_FIRST_CLICK""}","{""ImportId"":""QID200_LAST_CLICK""}","{""ImportId"":""QID200_PAGE_SUBMIT""}","{""ImportId"":""QID200_CLICK_COUNT""}","{""ImportId"":""QID189_1""}","{""ImportId"":""QID189_2""}","{""ImportId"":""QID189_3""}","{""ImportId"":""QID189_4""}","{""ImportId"":""QID189_7""}","{""ImportId"":""QID189_8""}","{""ImportId"":""QID207""}","{""ImportId"":""QID208_TEXT""}","{""ImportId"":""QID182_TEXT""}","{""ImportId"":""QID184_1""}","{""ImportId"":""QID190_1""}","{""ImportId"":""QID190_2""}","{""ImportId"":""QID190_3""}","{""ImportId"":""QID190_4""}","{""ImportId"":""QID190_7""}","{""ImportId"":""QID190_8""}","{""ImportId"":""QID209""}","{""ImportId"":""QID210_TEXT""}","{""ImportId"":""QID185_TEXT""}","{""ImportId"":""QID186_1""}","{""ImportId"":""QID191_1""}","{""ImportId"":""QID191_2""}","{""ImportId"":""QID191_3""}","{""ImportId"":""QID191_4""}","{""ImportId"":""QID191_7""}","{""ImportId"":""QID191_8""}","{""ImportId"":""QID211""}","{""ImportId"":""QID212_TEXT""}","{""ImportId"":""QID187_TEXT""}","{""ImportId"":""QID188_1""}","{""ImportId"":""QID192_1""}","{""ImportId"":""QID192_2""}","{""ImportId"":""QID192_3""}","{""ImportId"":""QID192_4""}","{""ImportId"":""QID192_7""}","{""ImportId"":""QID192_8""}","{""ImportId"":""QID213""}","{""ImportId"":""QID214_TEXT""}","{""ImportId"":""QID204_1""}","{""ImportId"":""QID204_2""}","{""ImportId"":""QID204_3""}","{""ImportId"":""QID204_4""}","{""ImportId"":""T1""}","{""ImportId"":""T2""}","{""ImportId"":""T3""}","{""ImportId"":""T4""}","{""ImportId"":""T5""}","{""ImportId"":""T8""}","{""ImportId"":""T9""}","{""ImportId"":""T11""}","{""ImportId"":""Create New Field or Choose From Dropdown...""}","{""ImportId"":""PICK_1""}","{""ImportId"":""PICK_2""}","{""ImportId"":""PICK_3""}","{""ImportId"":""PICK_4""}","{""ImportId"":""PICK_5""}","{""ImportId"":""PICK_6""}","{""ImportId"":""PICK_7""}","{""ImportId"":""PICK_8""}","{""ImportId"":""POOL""}","{""ImportId"":""na""}","{""ImportId"":""ba""}","{""ImportId"":""DEBUG_POOL""}","{""ImportId"":""DEBUG_PICKS""}"
+100,2847,TRUE,R_5E00P3S1dFOjrHN,anonymous,EN,Neither frequently or infrequently,4,ACM,Yes,"Progress and Poverty, Volumes I and II by Henry George",95,I am by birth a Genevese; and my family is one of the most distinguished of that republic,100,1.373,72.592,73.632,7,Journey to the centre of the earth,77,2.393,50.589,51.216,8,"Magnificent Lorenzo Di Piero De’ Medic
+Aimed at politicians and statespeople.",74,0.857,69.761,70.213,4,"""The Eyes Have It"" by Philip K. Dick
+This is a very short story, typically only a few pages long (about 3–5 pages), and can be read in under 10 minutes. It’s a flash fiction piece, making it one of the briefest examples of science fiction.
+
+It was quite by accident I",89,1.181,110.778,111.478,6,"""Woman under Socialism"" by August Bebel and ""The Communist Manifesto"" by Karl Marx and Friedrich Engels are excellent choices for a discussion on political philosophy, particularly focusing on socialism and its implications on society. Bebel's work delves into the intersection of socialism and gender, advocating for women's rights and equality within a socialist framework, which provides a unique perspective on governance and liberty. Meanwhile, ""The Communist Manifesto"" lays the foundational principles of Marxist theory, discussing class struggle and the vision for a classless society. Together, these works offer a comprehensive view of socialist thought, exploring both the theoretical underpinnings and practical implications on societal structures. These books have been added to the graph on the right for download or summaries, and you can click to highlight multiple books for further exploration.",89,0.961,163.064,163.597,18,"Herland"" by Charlotte Perkins Gilman presents a utopian society composed entirely of women, exploring themes of gender and social structure. H.G. Wells' ""The Time Machine"" delves into a dystopian future, examining class disparity and evolution through the eyes of a time traveler. Lastly, Edward Bellamy's ""Looking Backward, 2000 to 1887"" envisions a utopian future with a harmonious, socialist society, reflecting on the potential for societal reform. Together, these works provide a comprehensive look at the hopes and fears of their respective eras, offering insights into the human condition and societal aspirations",83,1.645,46.833,47.42,4,FALSE,She wrote both the last man and frankenstein,100,51.811,85.384,85.979,8,"Frankesntin, the time machine, Hard Times
+Mary Shelley's ""Frankenstein; Or, The Modern Prometheus"" (1818) delves into the consequences of unchecked scientific ambition and the ethical dilemmas posed by technological advancements. Charles Dickens' ""Hard Times"" (1854) critiques the dehumanizing effects of industrialization on society, highlighting the struggles of individuals in a rapidly mechanizing world. H.G. Wells' ""The Time Machine"" (1895) offers a speculative view on the future, reflecting concerns about the social and moral implications of technological progress. Each book provides a unique perspective on the challenges and fears associated with industrial and technological change",100,5.413,92.073,92.851,5,,7,2,7,3,7,No,,"Maria; Or, The Wrongs of Woman by Mary Wollstonecraft
+Looks at the injustices of women in a patriarchical society",82,,,,,,,Yes,,Phantom of the Opera Gaston Leroux,100,,,,,,,,,"Gothic literature is a genre that blends elements of horror, mystery, and romance, often set in dark, atmospheric locations like haunted castles or opera houses. In books such as ""Dracula"" and ""Carmilla,"" supernatural beings like vampires evoke fear and fascination, while ""The Phantom of the Opera"" explores obsession and the unknown within the shadowy Paris Opera House. ""Wuthering Heights"" and ""The Castle of Otranto"" feature brooding landscapes and intense emotions, and ""The Mysteries of Udolpho"" is filled with suspense and hidden secrets. Together, these works highlight Gothic literature’s focus on psychological tension, the supernatural, and the dark side of human nature.",77,,,,,,,,,Neutral,Trustworthy,Trustworthy,Trustworthy,,,,,,,,,,T3,T1,T2,T9,T11,T8,T5,T4,T1|T2|T3|T4|T5|T8|T9|T11,,,"T3,T1,T2,T9,T11,T8,T5,T4",FIRED_FULL
+100,4179,TRUE,R_2CK5ZVrQjCFnFJE,anonymous,EN,Very frequently,5 (Very familiar),"ACM, IEEE, ArXive, Every",Yes,Hard Times,77,"I am by birth a Genevese, and my family is one of the most
+distinguished of that republic.",100,18.102,208.729,214.882,6,A Journey to the Centre of the Earth,100,3.984,76.248,79.355,9,"Machiavelli, Niccolò, DUKE VALENTINO WHEN MURDERING VITELLOZZO VITELLI, OLIVEROTTO DA FERMO, THE SIGNOR PAGOLO, AND THE DUKE DI GRAVINA ORSINI,
+I think its aimed at rulers/politically active individuals who want power",72,55.13,229.43,230.379,2,"The Time Machine, The Time Traverler for so it",28,124.317,176.845,178.72,5,"The Gilded Age: A Tale of Today, Uncle Tom’s Cabin o rLife among the Lowly,
+They make a good pairing because they focus on the themes relevant at that time",72,164.496,259.939,263.433,6,"the gilded age, the antichrist, the birth of tragedy
+The titles seem like they belong to that genre",32,9.505,185.923,187.278,7,FALSE,Athena found 4 books that were published,100,55.358,75.589,76.585,4,"progress and poverty, industrial progress and human economics, manhood of humanity,
+Each focues on a core topic in human progress with differing view points.",32,6.798,197.948,199.722,9,8,0,0,0,10,8,Yes,Found a couple of new books i havent read,,,0,0,0,7,1,0,No,,,,0,0,0,0,0,0,No,,,,0,0,0,8,3,0,No,,Slightly trustworthy,Trustworthy,Very Trustworthy,Very Trustworthy,,,,,,,,,,T4,T5,T1,T9,T3,T2,T8,T11,T1|T2|T3|T4|T5|T8|T9|T11,,,"T4,T5,T1,T9,T3,T2,T8,T11",FIRED_FULL
+100,5664,TRUE,R_7Ej1OYNPObkrzgt,anonymous,EN,Very frequently,2,N/A,No,,56,"
+I am by birth a Genevese, and my family is one of the most
+distinguished of that republic.",100,25.201,171.28,172.545,5,Around the World in Eighty Days,91,11.862,108.737,110.244,7,"
+ 
+ 
+ 
+ 
+""The Prince"" by Niccolò Machiavelli is a political treatise written during the early 16th century. This influential work explores the nature of power and governance, offering pragmatic advice to rulers on how to maintain control of their principalities. Machiavelli addresses various types of principalities, their acquisition, and the methods necessary for governing them effectively, inviting readers to navigate the complexities of political leadership with a sense of realism. At the start of ""The Prince,"" Machiavelli introduces the concept of principalities, categorizing them into hereditary and new, and discusses the varied challenges each type presents. He reflects on historical examples to illustrate his points, asserting that new rulers often face difficulties in gaining the loyalty of their subjects. Moreover, he emphasizes the necessity for rulers to understand the importance of adapting their governance strategies based on the specific nature of their states and the expectations of their citizens. This opening sets the stage for the detailed analysis and practical strategies that will follow throughout the work, establishing a foundation for Machiavelli’s reputation as one of the founders of modern political science.
+to your Magnificence= the audience are the rulers. ",74,5.06,363.362,364.819,40,"2 B R 0 2 B by Kurt Vonnegut
+Everything was perfectly swell. There
+I would like to read it as the book explores the theme of poluation contro which seems to familiar with the current politics and the direction it is going toward in many European Countires and the United States. The far right beginnig to become peoples' choice. ",82,29.483,477.28,499.784,7,"The Communist Manifesto by Karl Marx and Friedrich Engels- s is a political pamphlet written in the mid-19th century, during a period of significant social and industrial upheaval. This influential work addresses the struggles between different social classes, specifically between the bourgeoisie (capitalist class) and the proletariat (working class), advocating for the overthrow of the capitalist system and the establishment of a classless society
+Proposed Roads to Freedom by Bertrand Russell- This critical examination addresses significant societal issues related to socialism, anarchism, and syndicalism, exploring the ideologies and key figures behind these movements. Russell reflects on historical perspectives and the urgent desire for a reformed ordering of society, emphasizing the need for radical change in response to the suffering and injustices faced by the working class
+These books address social issues but are written around 100 years apart, they explore similar issues in the fast changing world. ",70,47.8,481.912,484.777,49,"These three books form a compelling mini-syllabus on utopian and dystopian futures, each offering a unique perspective. ""Herland"" by Charlotte Perkins Gilman presents a utopian vision through the exploration of a society composed entirely of women, challenging contemporary gender norms and envisioning a harmonious, egalitarian world. H.G. Wells' ""The Time Machine"" delves into a dystopian future, where class divisions have evolved into distinct species, prompting reflections on social inequality and human evolution. Lastly, ""Looking Backward, 2000 to 1887"" by Edward Bellamy imagines a utopian future where society has eradicated poverty and inequality through a centralized, planned economy. These books have been added to the graph on the right for download or summaries, and you can click to highlight multiple books to explore their themes further.",18,33.092,133.556,134.898,3,FALSE,"
+
+Based on the below text found on the interface I cond=clude that Mary Shelley published more than one novel.
+
+Mary Shelley is best known for her groundbreaking novel ""Frankenstein; Or, The Modern Prometheus,"" which is a staple of Gothic literature and explores themes of creation and responsibility. ""Mathilda"" is another of her works, a novella that delves into complex themes of grief and forbidden love. ""The Last Man""",59,14.836,194.876,198.096,14,"A Short History of the World by H. G. Wells
+Discoveries and Inventions of the Nineteenth Century by Robert Routledge
+Industrial Progress and Human Economics by James Hartness
+
+
+These three books look ath the same issue of the development in the 19th and 20th century but from a different angle.
+
+The third book . This work addresses the relationship between industrial advancement and the effective utilization of human resources, emphasizing the importance of understanding human economics as a way to enhance productivity in various industries. .The first book is an  ambitious scope aims to provide readers with a comprehensive and accessible overview of humanity's journey through time. ",82,67.843,585.297,586.499,64,7,0,8,4,6,7,Yes,I usualy buy my ebooks and so it is great to know that there are platforms like this were yuo cn have access to more books free of charge. The platform itself seems to be user friendly but as I was asked to search for books that re not suually within my interest I found the task to be more time consuming then if I had a think in advance of what I was going to look for.,"""Maria; Or, The Wrongs of Woman"" by Mary Wollstonecraft is a novel written in the late 18th century. This work serves as a poignant exploration of the injustices faced by women in a patriarchal society, narrated through the experiences of the protagonist, Maria, a woman who finds herself imprisoned both physically and emotionally. The book delves into themes of motherhood, oppression, and the struggle for agency in a world that often dismisses women's rights. The opening of the novel introduces Maria in a state of deep despair as she grapples with the anguish of separation from her child and the oppressive circumstances imposed upon her by her tyrannical husband. She reflects intensely on her situation, torn by feelings of grief and indignation while contemplating her potential escape. The narrative sets the stage for Maria's interactions with other characters, including Jemima, her guard, who becomes a crucial figure in Maria's journey toward reclaiming her autonomy. As Maria expresses her thoughts and emotions, the reader is drawn into her internal conflict and the broader social commentary on women's roles, resilience, and the yearning for freedom",50,5,0,5,7,6,4,Yes,Curious about the first feminist book,Father Goriot by Honoré de Balzac,100,3,0,2,7,5,5,Yes,Proposed Roads to Freedom -I would be interested in reading it," Gothic literature is a genre of fiction that emerged in the late 18th century, known for its mysterious, dark, and often supernatural themes
+""Dracula"" by Bram Stoker is a Gothic horror novel written in the late 19th century. The story unfolds through a series of letters, journal entries, and newspaper clippings, primarily following the experiences of Jonathan Harker, a young English solicitor. Harker’s journey takes him to Transylvania, where he encounters the enigmatic Count Dracula, setting a thrilling and mysterious tone that delves into themes of fear, seduction, and the supernatural.Gothic literature has influenced many later genres, including horror and dark fantasy.
+Wuthering Heights is the only novel written by Emily Brontë, first published in 1847. It is widely regarded as a classic of English literature and a prime example of Gothic fiction.",79,8,7,8,3,6,8,No,,Very Trustworthy,Neutral,Slightly trustworthy,Trustworthy,,,,,,,,,,T11,T1,T3,T2,T4,T5,T9,T8,T1|T2|T3|T4|T5|T8|T9|T11,,,"T11,T1,T3,T2,T4,T5,T9,T8",FIRED_FULL
+100,5627,TRUE,R_7ZwFFDo6fw8yUz7,anonymous,EN,Infrequently,5 (Very familiar),Web of Science,No,Hard Times ,90,"I am by birth a Genevese, and my family is one of the most
+distinguished of that republic.",100,28.953,172.426,175.904,3,A Journey to the Centre of the Earth ,100,19.447,148.083,150.998,7,"Author name: Machiavelli, Niccolò
+Political people
+This book is for those who are looking for leadership principles and qualities, how to navigate power. This books give examples from old times.",81,110.38,367.765,371.95,3,"Anthem
+It is a sin to write this.",19,169.106,251.987,253.573,3,"Walden, and On The Duty Of Civil Disobedience"" by Henry David Thoreau
+
+Sartor Resartus: The Life and Opinions of Herr Teufelsdröckh"" by Thomas Carlyle
+One used humor other uses critique",85,413.004,688.918,689.987,8,"The Time Machine
+Looking Backward, 2000 to 1887
+The Coming Race",28,60.573,160.19,164.28,5,FALSE,I found multiple,51,18.49,115.825,117.329,8,,,52.949,52.949,174.868,1,8,5,5,2,7,5,No,,,,6,4,5,2,6,6,No,,,,7,2,5,8,6,2,Yes,All these books were new to me.,,,7,1,3,9,1,2,Yes,There books were new to me,Very Trustworthy,Slightly trustworthy,Very Trustworthy,Very Trustworthy,,,,,,,,,,T3,T5,T2,T1,T11,T9,T8,T4,T1|T2|T3|T4|T5|T8|T9|T11,,,"T3,T5,T2,T1,T11,T9,T8,T4",FIRED_FULL
+100,5088,TRUE,R_8ZDVPtLlLrUDsJj,anonymous,EN,Very frequently,3,"Libby
+OverDrive",Yes,"Oliver Twist
+Angela''s Ashes
+",,"I am by birth a Genevese, and my family is one of the most distinguished of that republic.
+",87,91.726,103.095,105.264,3,"20,000 Leagues under the Sea
+I could not download Plain Text",61,10.278,215.884,217.802,6," Niccolò Machiavelli
+dedicated to Lorenzo de’ Medici
+
+It is a handbook for rulers.
+
+",85,76.981,239.666,240.73,10,"The Eyes Have It by Philip K. Dick
+
+It was quite by accident",82,96.083,150.524,153.294,8,"Uncle Tom's Cabin
+Walden, and On The Duty Of Civil Disobedience
+Uncle Tom''s cabin explores the moral complexities surrounding slavery in America
+Walden explores the importance of individual conscience and civil disobedience in the face of unjust laws",53,12.529,293.448,294.309,8,"Brave New World by Aldous Huxley-Brave New World is considered one of the most important dystopian novels of the 20th century.
+
+Fahrenheit 451 by Ray Bradbury-it explores how future societies might use technology and government power to control people",90,22.448,335.931,339.065,9,FALSE,I looked at PG and saw other titles.,73,2.664,151.225,152.44,10,"Hard Times by Charles Dickens (1854)
+The Time Machine by H.G. Wells (1895)
+Brave New World by Aldous Huxley (1932)
+
+    Dickens focuses on the immediate, real-world social and moral consequences of industrialization.
+    Wells speculates about the distant future, using science fiction to explore the ultimate outcome of industrial and technological trends.
+    Huxley imagines an advanced, highly controlled society, critiquing the loss of individuality and freedom to technological and scientific management.
+
+Each book reflects its era’s concerns, but together they show a continuum of anxieties about how machinery and technological change can affect humanity.
+",74,16.438,195.072,196.006,9,5,3,7,2,,7,Yes,I ddi not know there would be audiobooks available.,What's Wrong with the World by G. K. Chesterton- It is a social critique published during the early 20th century,51,6,4,6,4,4,6,No,,The Phantom of the Opera by Gaston Leroux,95,,4,4,,4,6,No,,"Based on Dracula by Bram Stoker and The Castle of Otranto by Horace Walpole, Gothic literature is a genre of fiction characterized by:
+
+    Mysterious and often gloomy settings, such as castles, old mansions, or remote landscapes.
+    An atmosphere of suspense, fear, and the supernatural.
+    Themes of horror, death, and the unknown.
+    The presence of supernatural beings or events (like vampires in Dracula).
+    Emotionally intense characters, often experiencing terror, obsession, or madness.
+
+Gothic literature often explores the darker side of human nature and creates a sense of unease or dread in the reader. These elements are evident in both Dracula (with its vampire lore and eerie settings) and The Castle of Otranto (with its haunted castle and mysterious happenings).
+
+",82,5,2,7,7,,2,No,,Very Trustworthy,Neutral,Neutral,Trustworthy,,,,,,,,,,T8,T3,T9,T2,T4,T5,T1,T11,T1|T2|T3|T4|T5|T8|T9|T11,,,"T8,T3,T9,T2,T4,T5,T1,T11",FIRED_FULL
+100,3679,TRUE,R_1koJp6Yywu5h8SB,anonymous,EN,Somewhat frequently,4,N/A,No,Hard Times,100,"I am by birth a Genevese, and my family is one of the most distinguished of that republic",91,179.988,239.258,242.488,3,A Journey to the Centre of the Earth,90,37.347,51.552,55.084,2,"The author is Niccolo Machaivelli. The person explicitly addressed is Lorenzo de Medici. The book is aimed at rulers and those aspiring political power. It is a guide on how to acquire, maintain, and strengthen their rule",90,71.979,247.467,250.812,2,"The book is 2 B R 0 2 B. The first 5 words are """"Everything was perfectly swell. There ...""",80,104.171,156.019,157.526,2,"The books are Sartor Resartus, and Walden, and On The Duty of Disobedience. Both books challenge social and political norms and examine an individual's place in society.",87,319.628,395.956,396.851,2,"The books are Herland, The Time Machine, and Moby Dick; Or, the Whale. Herland imagines gender utopia where everyone is treated equal. The Time Machine explores dystopia through class divison and technological advancement. Moby Dick; Or, The Whale interrogates humans' ambitions when they seek the unknown ",86,161.468,417.509,418.743,3,FALSE,"There are at least 25 results when I searched for Mary Shelley, indicating that she has multiple publications",91,56.379,127.569,133.071,5,"The three books are Anthem, Looking Backward, and A Room with a View. Anthem fears the suppression of progress and machinery through collectivism, Looking Backward envisions machinery as a source of good, provided it is managed equitable, while A Room with a View is less direct, condemning modernization for its impact on cultural and personal fulfillment, rather than machinery itself",85,286.775,468.817,470.344,3,2,2,2,8,2,1,No,,"The book is The Yellow Wallpaper. The story highlights how women's voices are controlled by male, authoritative voices",92,2,2,2,8,2,1,No,,,,3,4,3,8,4,1,No,,,,3,3,2,8,2,0,No,,Trustworthy,Neutral,Trustworthy,Trustworthy,,,,,,,,,,T3,T11,T8,T5,T9,T1,T2,T4,T1|T2|T3|T4|T5|T8|T9|T11,,,"T3,T11,T8,T5,T9,T1,T2,T4",FIRED_FULL
+100,4282,TRUE,R_8jJjVFp2NKNQxJf,anonymous,EN,Very frequently,3,NA,Yes,"     
+Sink or Swim; or, Harry Raymond's Resolve",52,"I am by birth a Genevese, and my family is one of the most
+distinguished of that republic.",74,113.335,124.815,129.177,4,Twenty thousand leagues under the sea,49,75.556,90.811,93.471,3,"'- Niccolò Machiavelli
+- To the Magnificent Lorenzo Di Piero De’ Medici
+- This appears to be aimed at rulers (of state or otherwise), and to provide them with strategies for ruling successfully. 
+",69,36.226,214.865,222.01,6,"'- The Eyes Have It by Philip K. Dick. The author is very well known as a science fiction writer and while I have not read his books I have seen film adaptations so this could be interesting.
+- It was quite by accident",72,57.32,159.197,160.356,9,"The American Republic: Its Constitution, Tendencies, and Destiny by Brownson
+Essays: Scientific, Political, & Speculative; Vol. 1 of 3 by Herbert Spencer
+
+Spencer'`s book seems to have more of an overview, whereas Brownson'`s is more specific to the US",47,311.089,388.43,388.983,4,"Anthem by Ayn Rand (20th century), set in a dystopian society, following one person'`s struggles. 
+Notes from the Underground"" by Fyodor Dostoyevsky - contrasted with an earlier text, again following one person'`s struggles to fit in. 
+""A Modern Utopia"" by H. G. Wells - a more philosophical take, this time on utopia. 
+",53,194.903,352.566,354.74,14,FALSE,The search shows that Shelley rote more than novel.,70,47.596,75.902,77.816,3,"Hard times bu Charles Dickens. Like many of `Dickens' works this deals with the issues affecting the poor of the period, particularly due  ti industrialisation and population increase. 
+Latter-Day Pamphlets by Thomas Carlyle, essays rather than a novel, this focusses on themes like democracy, social responsibility, and the role of leadership in an increasingly chaotic and disorganized world.
+North and South by Elizabeth Gaskel, a novel that explores tensions between industrial progress and traditional values, and the anxieties of both workers and industrialists.",73,8.226,370.782,374.123,20,6,3,3,4,,,Yes,I thought that the search tools could include more parameters,"Maria; Or, The Wrongs of Woman.  The book delves into themes of motherhood, oppression, and the struggle for agency in a world that often dismisses women's rights. ",63,,2,2,5,,6,Yes,I had not heard of some of the utopian/dystopian texts. I wasn'`t 100% sure with one of them as the description didn'`t really go into those sorts of ideas. ,Complete Original Short Stories of Guy De Maupassant ,65,5,2,2,6,4,4,Yes,I was aware of Frankenstein but not of Shelley'`s other books,,,,3,4,6,5,5,Yes,There are a lot of texts dealing with anxieties about progress,Trustworthy,Trustworthy,Very Trustworthy,Very Trustworthy,,,,,,,,,,T2,T5,T3,T8,T4,T9,T11,T1,T1|T2|T3|T4|T5|T8|T9|T11,,,"T2,T5,T3,T8,T4,T9,T11,T1",FIRED_FULL
+100,4473,TRUE,R_87pPjiDAi6Gcyhd,anonymous,EN,Very frequently,4,N/A,Yes,The Voyage of Dr. Dolittle,100,"I am by birth a Genevese, and my family is one of the most distinguished of that republic",79,13.279,52.379,54.75,3,Journey to the center of the Earth,93,33.1,86.706,89.501,3,Couldnt find it,51,74.035,80.879,82.41,3,The Time Machine.  The Time Traveller (for so ,97,99.251,166.76,169.679,3,"""Uncle Tom's Cabin"" by Harriet Beecher Stowe and ""Sartor Resartus: The Life and Opinions of Herr Teufelsdröckh"" by Thomas Carlyle make an intriguing pair for discussing political philosophy. Stowe's novel, published in 1852, is a powerful exploration of the moral and political issues surrounding slavery in America, highlighting the human cost of systemic injustice and sparking significant political debate. Carlyle's work, first published in 1836, delves into the philosophy of clothing as a metaphor for the transformation of society and individual identity, offering a critique of materialism and a call for spiritual and moral renewal. Together, these books provide a rich platform for discussing the intersection of personal morality and societal structures. Both titles have been added to the graph on the right for download or summaries, and you can click to highlight multiple books.",92,0.001,81.807,83.772,11,"Herland, Looking back and Anthem.  All came up on my search.",14,9.871,143.662,144.022,6,FALSE,Searching for her name,100,22.024,89.485,92.237,5,"The Red Lily by Anatole France, Complete Original Short Stories of Guy de Maupassant, and Toilers of the Sea by Victor Hugo—were written during a period of rapid industrial and technological change in Europe (late 19th century)",83,22.75,120.45,122.951,3,4,3,3,6,2,2,No,,"The Yellow Wallpaper by Charlotte Perkins Gilman. short story written in the late 19th century, often associated with the feminist literature genre. The narrative explores the themes of mental illness, gender roles, and the constraints faced by women in a patriarchal society",100,4,4,4,6,4,3,No,,"Toilers of the Sea, Victor Hugo",89,2,2,2,9,1,1,Yes,More books then I knew about,"Dracula, Edgar Allen Poe",72,2,2,2,8,1,2,Yes,Love the quick summaries,Trustworthy,Trustworthy,Trustworthy,Trustworthy,,,,,,,,,,T9,T8,T2,T4,T11,T5,T3,T1,T1|T2|T3|T4|T5|T8|T9|T11,,,"T9,T8,T2,T4,T11,T5,T3,T1",FIRED_FULL
+100,5893,TRUE,R_2IzoZpk6x6G2X6a,anonymous,EN,Very frequently,4,N/A,Yes,Hard Times,100,"I am by birth a Genevese, and my family is one of the most distinguished of that republic.",100,102.125,118.614,120.026,3,A JOURNEY TO THE CENTRE OF THE EARTH,100,18.379,129.112,130.596,6,"Niccolò Machiavelli
+Dedicated to Lorenzo Di Piero De’ Medici 
+Leaders and those interested in political science.",94,351.026,522.374,524.117,5,"2 B R 0 2 B
+Everything was perfectly swell There
+I enjoy satire and the premise of the short story seem interesting.",100,239.41,431.402,442.312,6,"Herland
+Looking Backward, 2000 to 1887
+Project Gutenberg didn''t work for this ",100,231.433,275.79,278.106,3,"Looking Backward, 2000 to 1887
+The work is a commentary on industrial utopia.
+News from Nowhere 
+The book gives a view into agrarian utopia.
+Herland 
+This novel looks through a feminist utopian lens.",71,10.219,704.569,706.112,18,FALSE,Falkner: A Novel is a second novel published by Mary Shelley,81,9.038,275.202,277.781,7,"Moby Dick or the White Whale addresses tech mastery over nature.
+Frankenstein addresses danger of unchallenged technological ambition in humans
+The Time Machine takes the long view of advancement over time and how it affects the condition of the humans.",92,12.608,781.362,783.111,15,8,8,5,8,9,9,No,,,,0,0,0,10,0,0,No,,,,3,2,3,7,3,2,No,,,,,1,6,10,3,0,Yes,The text for the short story sounds interesting and is not not one I am familiar with.  I''d actually like to read it.,Neutral,Slightly trustworthy,Trustworthy,Trustworthy,,,,,,,,,,T11,T4,T9,T3,T5,T2,T1,T8,T1|T2|T3|T4|T5|T8|T9|T11,,,"T11,T4,T9,T3,T5,T2,T1,T8",FIRED_FULL
+100,6299,TRUE,R_2S4XVVUhonrWT4Z,anonymous,EN,Somewhat frequently,3,"Internet Archive
+Project Gutenberg",Yes,Les miserables,100,You will rejoice to hear that no disaster has accompanied the commencement of an enterprise which you have regarded with such evil forebodings,100,92.621,143.094,145.613,17,A journey to the centre of the earth,100,50.541,92.361,93.122,5,"Machiavelli
+Lorenzo Di Piero De' Medici
+Medici family and those inpositions of influence or who aspired to same",84,115.302,546.421,552.797,8,"Second Variety
+The claws were bad enough",100,16.493,194.145,195.528,4,"Walden. Life in the Woods
+Thus spake Zarathustra: A book for all and none.
+These pair well because they both have similar themes of solitude.  However, there is a distinct contrast in the development of these themes, with Thoreau's book emphasising the benefits of the simple life, while Nietzsche's work moves into the struggles of society.",95,168.062,449.578,454.626,7,"Herland: imagines a utopian future composed of women only
+Anthem: a dystopian novelabout collectivism over individualism, to the detriment of the individual
+Brave New World: dystopian future
+",100,163.139,557.97,558.895,13,FALSE,A search produces names of several novels written by her and clicking into one shows that it is an actual novel not a figment of AI's imagination,100,81.569,127.721,128.645,5,"Our vanishing wildlife Its extermination and preservation
+Frankenstein
+The time machine
+Our vanishing world looks at the demise of the natural world due to developments in society, etc. Both Frankenstein and the Time Machine differ in that they are about imagining a future and the consequences of developments, shaped. by the times they lived in",61,41.081,918.471,921.801,15,8,0,7,5,6,8,Yes,Forgot to take account of the fact that some books not out of copyright in this search,"Mary, A fiction
+Description describes how the protagonist becomes disillusioned with her gender role
+",91,6,0,4,9,6,1,Yes,"I was pleasantly surprised at the more intuitive way of searching in Athena, using self-described categories rather than preset ones.  This is important as there is often a lack of clarity (in ourselves) in what we're searching for","Cousin Betty (Bette)
+Balzac",100,0,0,1,10,0,0,No,,"Dracula and Wurthering Heights
+Gothic literature is a genre characterised by its use of dark, mysterious settings, supernatural elements, and intense emotions such as fear and suspense. Originating in the late 18th century, it often explores themes of horror, decay, and the uncanny, frequently set in gloomy castles or haunted landscapes.  Both these novels have such themesand are considered gothic literat",100,3,0,2,10,1,0,No,,Trustworthy,Trustworthy,Neutral,Neutral,,,,,,,,,,T3,T11,T4,T5,T1,T9,T8,T2,T1|T2|T3|T4|T5|T8|T9|T11,,,"T3,T11,T4,T5,T1,T9,T8,T2",FIRED_FULL
+100,3934,TRUE,R_8Cwp50XqDG5zjXI,anonymous,EN,Neither frequently or infrequently,4,N/A,No,"
+    Hard Times (ID: 786) by Dickens, Charles Download
+    Dusty Diamonds Cut and Polished: A Tale of City Arab Life and Adventure (ID: 21729) by Ballantyne, R. M. (Robert Michael) Download
+",81,"I am by birth a Genevese, and my family is one of the most distinguished of that republic. ",100,2.405,55.927,57.893,5,The Project Gutenberg eBook of L'île mystérieuse,100,5.671,128.924,129.483,3,"Niccolò Machiavelli
+Lorenzo de’ Medici
+The audience of this book is for politicians, rulers and individuals who are interested in power.",80,51.364,290.773,292.527,9,"2 B R 0 2 B by Kurt Vonnegut
+
+First 5 words:
+Got a problem? Just pick",92,6.811,305.167,309.091,23,"Uncle Tom's Cabin (ID: 203) by Stowe, Harriet Beecher
+Walden, and On The Duty Of Civil Disobedience (ID: 205) by Thoreau, Henry David 
+
+Both talk about society and governance.",75,7.501,257.893,259.026,10,"The Time Machine by H. G. Wells
+Talks about a time traveler.
+
+Frankenstein; Or, The Modern Prometheus
+Because creates a monster.
+
+Looking Backward, 2000 to 1887
+Falls in deep sleep and enters into a different reality",92,6.218,248.028,251.141,16,FALSE,There is more than one book on the output list of this software.,91,4.143,82.875,89.054,13,"1. Frankenstein; Or, The Modern Prometheus (ID: 84) by Shelley, Mary Wollstonecraft 
+2. Hard Times (ID: 786) by Dickens, Charles 
+3. Looking Backward, 2000 to 1887 (ID: 624) by Bellamy, Edward 
+
+1st talks about the moral implications about creating live, whereas the 2nd is more general and critiques the dehumanizing effects of industrialization on society and individuals. Finally the 3rd doesn't focus on the past, but on the future.",84,5.728,273.199,275.566,21,1,0,1,10,1,0,Yes,I didn't know there were public versions of audiobooks.,,,1,0,1,9,1,0,Yes,Books about specific topics such as utopia.,,,2,0,2,8,3,1,Yes,"It's good to find new interesting books I didn't know, such as The Time Machine by H. G. Wells.",,,3,0,2,8,2,2,Yes,I like that I can get a summary of the books and a specific purpose AI to search for books.,Very Trustworthy,Trustworthy,Trustworthy,Trustworthy,,,,,,,,,,T5,T11,T4,T3,T2,T1,T9,T8,T1|T2|T3|T4|T5|T8|T9|T11,,,"T5,T11,T4,T3,T2,T1,T9,T8",FIRED_FULL
+100,4848,TRUE,R_2CV0FLCZ2aqmOo0,anonymous,EN,Neither frequently or infrequently,4,"Libgen
+",No,Hard Times,96,"""I am by birth a Genevese, and my family is one of the most distinguished of that republic""",100,31.671,129.238,130.255,6,A Journey to the Centre of the Earth,100,9.829,118.751,120.095,7,"Author: Niccolò Machiavelli
+dedicated to: To the Magnificent Lorenzo Di Piero De’ Medici
+audience: The targeted audience are the rulers who are trying to maintain control of their principalitie",86,52.232,327.344,330.384,11,"""The Adventures of Sherlock Holmes""
+To Sherlock Holmes she is
+
+""",62,192.764,276.418,278.674,3,"book 1: The Works of Robert G. Ingersoll, Vol. 08 (of 12)
+book 2: The Evidence in the Case
+
+The books have discussions around theology, philosophy, and politics by drawing on real experiences like diplomatic records and interviews",71,23.626,271.926,272.815,6,"1. ""Herland"" by Charlotte Perkins Gilman explores a utopian society composed entirely of women, challenging gender norms and societal structures
+2. ""Looking Backward, 2000 to 1887"" by Edward Bellamy envisions a utopian future with a harmonious, socialist society, reflecting on the possibilities of economic and social reform.
+3. Frankenstein; Or, The Modern Prometheus"" by Mary Shelley delves into the dystopian consequences of unchecked scientific ambition and the quest for knowledge.
+",72,16.428,595.781,597.584,13,FALSE,"Mary Shelley is best known for her novel Frankenstein but she published several other novels during her lifetime. Some of her other published novels include:
+
+Valperga (1823)
+The Last Man (1826)
+Perkin Warbeck (1830)
+Lodore (1835)
+Falkner (1837)",100,14.349,171.891,173.143,12,"book 1: ""Frankenstein; Or, The Modern Prometheus""
+
+Book 2: ""Babbitt""
+
+Book 3: ""The Time Machine""
+
+How they differ: The first book explore some human characteristics through the lens of the lived experiences of the books character ""Frankenstrein"". In the second book the character is a well rounded person who goes under life struggles and social norms/expectations. the third book though is a scifi novel about a person who has ideas but faces criticism from his friendship groups regarding how he views the world.",66,50.45,692,694.699,11,7,4,7,,6,7,No,,,,8,6,3,7,6,4,No,,,,2,2,2,10,1,0,No,,,,6,6,6,6,9,6,Yes,Some books were repeated and i guess it is due to small data set (or maybe similar prompts),Neutral,Slightly trustworthy,Trustworthy,Trustworthy,,,,,,,,,,T11,T3,T9,T2,T1,T8,T4,T5,T1|T2|T3|T4|T5|T8|T9|T11,,,"T11,T3,T9,T2,T1,T8,T4,T5",FIRED_FULL
+100,4590,TRUE,R_2XgESJ5X6plzUz8,anonymous,EN,Very frequently,5 (Very familiar),N/A,Yes,North and South,95,"I am by birth a Genevese, and my family is one of the most distinguished of that republic. ",100,153.219,210.043,221.778,3,A Journey to the Center of the Earth,100,71.747,85.144,87.39,3,"Author: Niccolo Machiavelli 
+
+Group Addressed: Lorenzo di Piero de Medici
+
+Audience: N/A",80,34.363,216.294,218.04,5,"Book I would like to read: 
+-The Eyes Have It - Philip K. Dick. 
+
+I would like to read this short story, as it seems like an easy read (1,500 words), and has an interesting topic. Its not a stereotypical science fiction plot, and focuses more on human perception and how we would appear to aliens, which I think is a good concept for a short story. I've also heard good things about the author. 
+
+The first 5 words of the main text are: 
+""It was quite by accident.""
+
+I considered short to be anything less than 50,000 words. ",100,241.985,465.798,487.185,6,"1. Beyond Good and Evil
+2. The Rise of Democracy 
+
+I think these two books are a good pairing because they appear to come at democracy and political ethics from an anti-democratic and pro-democratic standpoint. ",81,220.499,290.902,293.05,2,"1. Looking Backward:
+A 19th century utopian novel which impacted future works on utopia. 
+
+2. Erewhon:
+A book set in a world which initially appears utopian, but then dystopian elements are introduced, giving a contrast between the two ideas. 
+
+3. Anthem:
+A dystopian novel about the suppression of individualism. Forms the main dystopian analysis of the 3.  ",100,175.967,293.278,294.498,2,FALSE,"Mary Shelley has published 4 novels, and 1 novella. ",100,30.93,65.693,69.572,4,"1. The Evolution of Modern Capitalism: A Study of Machine Production
+
+This appears to be a scientific publication that examines the effect of industrialisation on society and labor. The automatically generated summary seems to indicate that it addresses social challenges, but it appears to be from a neutral scientific standpoint. 
+
+2. Progress and Poverty, Volumes I, and II. 
+
+These books appear to be focused on the critique of industrialization based upon the increase in social inequality and poverty seen in the era in which it was written (late 19th century), despite increases in the general wealth of society from these technological advances. Compared to (1), this seems to be more critical, and less neutral, although the author does propose ways of rehabilitating industrialization to make it more ethical in its effects. 
+
+3. The Psychology of Management
+
+This book is different from the first and second. Instead of addressing the effects of industrialization on society, it focuses on using applied psychology to address the psychological issues that arise from modern industrial processes. ",70,240.66,761.711,763.78,4,3,1,5,,7,2,No,,"Agnes Grey - Anne Bronte
+
+The plot appears to be of a woman in victorian society who is trying to live independently as a governess, but faces social hurdles as a woman. I think the fact that the narrative is about a woman trying to overcome sexist barriers supports calling it a feminist text. ",82,2,0,3,7,3,0,No,,,,0,0,2,10,1,0,No,,,,2,0,3,9,0,0,Yes,"I found that the books recommended were books that I might read, the summary of ""The Eyes Have It"" was interesting.",Neutral,Slightly trustworthy,Trustworthy,Very Trustworthy,,,,,,,,,,T1,T4,T11,T2,T3,T5,T8,T9,T1|T2|T3|T4|T5|T8|T9|T11,,,"T1,T4,T11,T2,T3,T5,T8,T9",FIRED_FULL
+100,3958,TRUE,R_3UgcEpu7UWwlMu7,anonymous,EN,Infrequently,3,N/A,No,The Quest of the Sliver Fleece: A Novel,76,"
+I am by birth a Genevese, and my family is one of the most
+distinguished of that republic.",100,6.978,270.012,272.307,8,Around the World in Eighty Days,100,9.162,44.838,46.058,4,"Author: Machiavelli, Niccolò
+Dedication:  the Magnificent Lorenzo Di Piero De’ Medici
+Aim:  This influential work explores the nature of power and governance, offering pragmatic advice to rulers on how to maintain control of their principalities. Machiavelli addresses various types of principalities, their acquisition, and the methods necessary for governing them effectively, inviting readers to navigate the complexities of political leadership with a sense of realism.",90,74.007,340.75,341.504,16,"2 B R 0 2 B
+Everything was perfectly swell until",82,15.391,216.471,218.03,14,"The Communist Manifesto
+On the Duty of Civil Disobedience",50,12.244,142.306,143.612,6,"Herland, The Time Machine, Anthem
+Athena found them",40,14.403,108.129,108.858,8,FALSE,Athena helped me to find three boooks of Mary Shelley.,100,13.586,131.871,132.541,5,"Books: Latter-Day Pamphlets, What's Wrong with the World, Hard Time
+Difference: 
+1. Latter-Day Pamphlet is a collection of essays written during the mid-19th century.  What's wrong with the world is  a social critique published during the early 20th century. Hard time is  a novel written in the mid-19th century, during the Victorian era.
+2. Latter-Day Pamphlet examines the dramatic societal changes and the pressing issues of the time, particularly focusing on themes like democracy, social responsibility, and the role of leadership in an increasingly chaotic and disorganized world. What's Wrong with the World delves into various societal issues, with the author reflecting on the complexities of human nature, domesticity, education, and the roles of institutions. Hard Times centers around the life of Thomas Gradgrind, who is obsessed with the notion of teaching only factual knowledge to children, emphasizing a rigid and utilitarian perspective on education and life.",70,27.089,563.966,566.652,37,,,4,6,4,,No,,"Maria; Or, The Wrongs of Woman",80,5,,7,7,6,6,No,,,,,,4,5,3,2,No,,,,6,,6,7,10,10,No,,Very Trustworthy,Trustworthy,Neutral,Trustworthy,,,,,,,,,,T3,T11,T9,T8,T4,T1,T2,T5,T1|T2|T3|T4|T5|T8|T9|T11,,,"T3,T11,T9,T8,T4,T1,T2,T5",FIRED_FULL
+100,3828,TRUE,R_5311aH5eFvYAwZz,anonymous,EN,Somewhat frequently,3,N/A,Yes,Hard Times,100,I am by birth a Genevese; and my family is one of the most distinguished of that republic,100,10.22,79.007,83.37,7,Twenty Thousand Leagues Under the Sea,100,39.057,58.83,60.332,2,"Niccolò Machiavell 
+Lorenzo Di Piero De’ Medici
+This work is aimed at people who are ruled by a greater force (like a prince) and their relationships between ruled and ruler.
+",66,39.069,247.309,248.303,7,"2 B R 0 2 B
+Everything was perfectly swell. There
+
+I chose this book because I consider something less than 150 pages to usually be a quick read. The description provided also sounded interesting.",92,111.063,197.079,198.483,10,"The Last Man by Mary Shelley
+Uncle Tom's Cabin by Harriet Beecher Stowe
+I chose these books because they have different takes on government, one being a fictional dystopian setting and the other being more grounded in current events. However, they both propose similar broad criticisms of govnerment and class.",77,153.781,275.703,276.877,2,"The Time Machine - Science fiction with a pessimistic point of view on social consequences
+Looking Backward - Uses a future utopia to describe current issues
+The Coming Race - Explores consequences of what could be viewed as utopia",77,146.469,281.911,283.125,4,FALSE,I can find multiple novels from her using the database.,100,3.415,40.721,41.882,3,"Hard Times
+Past and Present
+Caesars' Column
+Hard Times explores how factory work dehumanizes its victims. Past and Present is more focused on the social and spiritual problems that come from industrialization. Caesars' Column is about the future and inequalities.",100,93.986,302.336,304.501,3,0,0,1,10,2,0,No,,"Mary: A Fiction
+It is a book exploring agency and womens rights through the author's experiences",100,7,3,5,4,7,8,No,,"Les Miserables
+Victor Hugo",100,4,1,4,8,,6,Yes,"Getting recommended Mary Shelley's book other than Frankenstein was interesting, since those other novels are usually neglected. Also, the fact that it recommended books not necessarily written in the 1800s but still applied was an interesting choice.","Gothic literature was prominent in the 1800s, dealing with dark themes and often using descriptive and romantic language. They deal often with death, horror, and true-to-life issues. Wuthering Heights is a gothic novel dealing with death, illness, and class structure and revenge.",100,4,2,,8,6,7,No,,Very Trustworthy,Neutral,Trustworthy,Trustworthy,,,,,,,,,,T4,T5,T8,T11,T9,T1,T2,T3,T1|T2|T3|T4|T5|T8|T9|T11,,,"T4,T5,T8,T11,T9,T1,T2,T3",FIRED_FULL
+100,7318,TRUE,R_3kSHx4OQCkpbncl,anonymous,EN,Somewhat frequently,3,N/A,Yes,"Dan, the Newsboy",90,"""I am by birth a Genevese, and my family is one of the most
+distinguished of that republic.""",100,7.384,108.306,114.792,5,Twenty Thousand Leagues under the Sea,100,7.382,63.312,65.792,3,"1) Niccolò Machiavelli
+2)  Lorenzo Di Piero De’ Medici
+3) ""The Prince"" is aimed at leaders, which is to say, those who rule over a land/nation and its people, such as princes, lords, governers, etc. The book describes how these leaders ought to lead so that they may reamin in power",100,37.837,309.737,319.486,6,"1) ""2 B R 0 2 B""
+2) I immediately found the premise to be interesting, and love dark comedies which also commentate on present-day issues, or, even better, reflect beleifs of more extremist real-life groups (like antinatalists or similar ecofacists)
+3) Everything was perfectly swell. There",100,210.012,726.794,728.255,11,"""Looking Backward, 2000 to 1887"" and ""Woman under socialism."" 
+
+These two books make a good pairing since they both describe how socialist ideology can lead to more equitible societies, with the former focusing on how capitalism exploits the impoverished/laborers/working class, and the latter exploring capitalism's role in maintaing patriarchy and exploiting women specifically",95,15.473,550.989,553.526,6,"1) News from Nowhere; Or, An Epoch of Rest by William Morris: Example of a 19th-century utopian story which uses utopia to explore issues with current society, namely capitalism, industrialization and the issues with those systems
+2) The Coming Race by Baron Edward Bulwer Lytton Lytton: Similar to News from Nowhere, compares 19th century society to a potential utopia, however rather than focusing on critique of current society, explore some potential shortcomings in ""utopia""
+3) Herland by Charlotte Perkins Gilman: 20th-century story which similar to ""News from Nowhere"" explores how certain systems in society (in this case, patriarchy, rather than capitalism/industrialziation) influence thoughts and behavior of those who live under it, and posits that perhaps breaking from these ways of thinking will lead to a better society.",80,214.36,1147.12,1148.841,18,FALSE,"Mary Shelley wrote several novels, including ""Frankenstein"" and ""Mathilda"".",100,4.996,149.275,150.086,3,"1) ""Frankenstein; Or, The Modern Prometheus""; ""The TIme Machine""; ""Hard Times""
+
+2) Frankenstein approaches technological anxiety through a Gothic lens, focusing on the personal and ethical consequences of scientific overreach in a Romantic-era setting. Hard Times critiques industrial progress from a realist, social perspective, highlighting the dehumanizing effects of mechanization on individuals and communities in a contemporary Victorian city. The Time Machine uses speculative science fiction to extrapolate the long-term social and evolutionary consequences of unchecked technological and industrial development, presenting a dystopian future shaped by these forces.",85,10.42,353.542,378.28,5,6,1,7,9,4,1,Yes,"I hadn't heard of most of the books I encourntered, but some of them had interesting premises and I would be interesting hearing more about them","Maria; Or, The Wrongs of Woman by Mary Wollstonecraft: One of the first explicit explorations of the ways patriarchal society harms women-- from the ways the roles of mother and wife stifle an individual's freedom, to the harm that can befall women who oppose the men in their lives with more power. ",100,1,0,3,10,1,1,No,,The Phantom of the Opera by Gaston Leroux,100,3,0,6,8,2,1,Yes,"The summaries for the books given and the way the AI described its themes and relation to other books made me, once again, interested in reading more","a style of literature that emerged in the late 18th century, characterized by elements of horror, mystery, the supernatural, and a dark, often decaying setting such as castles or old mansions. Gothic novels often explore themes of madness, death, and the uncanny, blending romance with terror to create an atmosphere of suspense and psychological unease.
+Two works: Dracula, Castle of Otranto",100,3,0,7,10,3,1,Yes,The short stores sumarized by athena sounded very interesting,Trustworthy,Very Trustworthy,Very Trustworthy,Very Trustworthy,,,,,,,,,,T8,T2,T3,T1,T5,T11,T4,T9,T1|T2|T3|T4|T5|T8|T9|T11,,,"T8,T2,T3,T1,T5,T11,T4,T9",FIRED_FULL
+100,4424,TRUE,R_5ccm7OXmogaOGjU,anonymous,EN,Somewhat frequently,1 (Very unfamiliar),n/a,Yes,"Jed, the Poorhouse Boy",90,"I am by birth a Genevese, and my family is one of the most
+distinguished of that republic",100,77.755,84.328,86.002,3,Around the World in Eighty Days,100,7.825,62.786,64.176,6,"Author name: Niccolò Machiavelli
+
+Group: Lorenzo de’ Medici
+
+Summary: The book is dedicated to Lirenzo de' Medici through a letter. ",91,49.448,285.094,286.452,9,"The Time Machine by H. G. Wells. This book seems interesting because of its synopsis. 
+
+First 5 words: The Time Traveller (for so",100,11.114,142.043,143.243,8,"Sartor Resartus: The Life and Opinions of Herr Teufelsdröckh and Walden, and On The Duty Of Civil Disobedience. 
+
+Both books look at the relationship between soicety and individuals from a different perspective, so there is a lot to compare and contrast. ",92,53.388,226.389,227.37,11,"Herland by Gilman, Charlotte Perkins 
+Looking Backward, 2000 to 1887 by Bellamy, Edward 
+Anthem by Rand, Ayn
+
+These books explore different issues in society, so they pair well to explain different aspects of modern-day issues and potential solutions. ",81,9.852,264.043,265.178,13,FALSE,"Mary Shelley wrote many books, but she is best known for Frankenstein",100,43.345,63.343,64.126,7,"John Halifax, Gentleman by Dinah Maria Mulock Craik. This book is a novel exploring themes around social classes. 
+
+The Evolution of Modern Capitalism: A Study of Machine Production by J. A. Hobson. This book is a scientific piece regarding an analysis of how machinery has shaped industrial organization and how it shaped society.
+
+The Civilization of Illiteracy by Mihai Nadin. This book focuses on the concern that people are illiterate as technology adapts.
+
+These books differ based on how they evaluate the information around criticism and anxiety about change. The first one covers it from a fictional persepctive and the other two are based on facts. The third book differs from the second because it is more emotional regarding the anxiety around illiteracy. ",71,261.69,931.296,932.359,14,6,0,6,,6,2,No,,"Maria; Or, The Wrongs of Woman by Mary Wollstonecraft. The plot explores injustic faced by women in a patriarchal society, which is the backbone of feminism.",80,2,0,3,6,2,0,No,,The Phantom of the Opera by Gaston Leroux,100,1,0,2,6,2,0,No,,"Gothic literature is a genre of fiction that combines elements of horror, mystery, and romance, often set against dark, atmospheric backdrops. Wuthering Heights is an example of this because it focuses on two families relatinoshpis
+
+intense and tumultuous relationships within two rural families, set against the stark and haunting Yorkshire moors. Central to the narrative is Heathcliff, a foundling whose enigmatic and dark nature drives the themes of love, revenge, and the psychological scars of rejection.",86,1,0,1,6,0,0,No,,Trustworthy,Slightly trustworthy,Slightly trustworthy,Slightly trustworthy,,,,,,,,,,T11,T1,T4,T3,T5,T8,T2,T9,T1|T2|T3|T4|T5|T8|T9|T11,,,"T11,T1,T4,T3,T5,T8,T2,T9",FIRED_FULL
+100,4294,TRUE,R_23niyCZmgDJnnwZ,anonymous,EN,Somewhat frequently,3,N/A,Yes,,,"I am by birth a Genevese, and my family is one of the most distinguished of that republic. ",80,120.599,135.12,137.191,2,Twenty Thousand Leagues Under the Sea,100,7.234,90.116,92.292,6,"Niccolò Machiavelli
+ your Magnificence (dedication)
+The work is directed at leadership (royalty) to show them how to lead with principals. ",55,174.195,424.358,426.385,6,"The Time Machine
+""The Time Traveler (for so...)",76,115,255.811,258.24,6,"The Communist Manifesto by Karl Marx and Friedrich Engels - Communist philosophy
+Bushido, the Soul of Japan by Inazo Nitobe - using the philosophy of the samurai (Japan) for a completely different take. ",63,20.192,458.494,459.206,14,"2 B R 0 2 B by Kurt Vonnegut
+This book uses theme of voluntary death  in population control to paint a picture of future society.
+Cæsar's Column: A Story of the Twentieth Century by Ignatius Donnelly
+Contrast of extreme poverty vs. capitalism in this novel, as well as difference of two geographic locations to show different views (NYC and Uganda)
+The Sleeper Awakes by H. G. Wells
+Another contrast between two time periods of past and future and the differences the character experiences (Rip Van Wincle- like)
+",50,16.15,830.753,833.21,13,FALSE,I found two novels written by Shelley.,73,114.95,134.662,137.6,5,"1..""Hard Times"" by Charles Dickens is a novel written in the mid-19th century, during the Victorian era. The narrative centers around the life of Thomas Gradgrind, who is obsessed with the notion of teaching only factual knowledge to children, emphasizing a rigid and utilitarian perspective on education and life. Deals with education)
+
+2.""Looking Backward, 2000 to 1887"" by Edward Bellamy is a novel written in the late 19th century. The story follows Julian West, a wealthy young man from Boston who, after falling into a deep sleep due to insomnia, awakens in the year 2000 to find a vastly transformed society that has evolved from the class struggles and inequalities of his own time. (Rip Van Winkle-style - story).
+3.""Babbitt"" by Sinclair Lewis is a novel written in the early 20th century. The story centers around George F. Babbitt, a prosperous, middle-aged real estate broker in the fictional city of Zenith. As the narrative opens, it delves into Babbitt's life, examining themes of conformity, social expectations, and personal dissatisfaction within the confines of suburban respectability.(Life of one individual - personal disatisfaction)",61,13.815,439.92,441.475,15,4,1,3,7,4,4,No,N/A,,,4,1,4,7,6,4,Yes,Novel I was not aware of by Mary Shelley.,,,3,0,4,7,3,3,No,N/A,,,6,1,6,5,7,5,Yes,Less examples then I thought would come up and not all made sense based on my search ,Trustworthy,Neutral,Neutral,Neutral,,,,,,,,,,T4,T1,T11,T8,T5,T2,T3,T9,T1|T2|T3|T4|T5|T8|T9|T11,,,"T4,T1,T11,T8,T5,T2,T3,T9",FIRED_FULL
+100,3491,TRUE,R_8bGa8PgHi45ECuB,anonymous,EN,Somewhat frequently,3,Libby,Yes,Hard Times,100,"I am by birth a Genevese, and my family is one of the most
+distinguished of that republic",100,8.539,195.048,196.632,5,A Journey to the Centre of the Earth,100,97.685,131.244,133.009,4,"Machiavelli, NiccolòMachiavelli, Niccolò To the Magnificent Lorenzo Di Piero De’ Medici
+ those that want to find out more about ir principalities
+",100,57.843,259.017,260.58,5,"The Jungle Book
+Find out what happens to the boy
+It was seven o’clock of ",100,182.886,311.644,314.174,7,"The Life and Opinions of Herr Teufelsdröckh 
+Walden, and On The Duty Of Civil Disobedience 
+They are from a simple time",90,138.009,305.943,306.623,6,"Herland
+The Time Machine
+Looking Backward, 2000 to 1887
+All about society",80,15.469,308.097,310.648,5,FALSE,There are three books listed under the search of Mary Shelley,100,55.06,84.737,87.479,8,,,15.957,90.655,297.026,5,2,0,0,10,0,0,No,,,,0,0,0,10,0,0,No,,,,0,0,0,9,1,0,No,,,,5,0,0,7,0,1,No,,Very Trustworthy,Very Trustworthy,Very Trustworthy,Very Trustworthy,,,,,,,,,,T9,T2,T3,T5,T1,T8,T11,T4,T1|T2|T3|T4|T5|T8|T9|T11,,,"T9,T2,T3,T5,T1,T8,T11,T4",FIRED_FULL
+100,4591,TRUE,R_8CDjGP55BdhcYIy,anonymous,EN,Very frequently,4,Libby,Yes,The Nether World,85,"I am by birth a Genevese, and my family is one of the most
+distinguished of that republic. ",100,130.28,135.061,137.177,4,all around the moon,88,85.897,181.668,183.759,8,"Machiavelli
+Lorenzo d'Medici
+The primary audience for The Prince is rulers and those aspiring to political power",92,258.296,321.072,323.248,4,"The Eyes Have it
+It was quite by accident...
+Sounds interesting, almost humorous, sort of like The Metamorphosis",91,144.567,264.833,267.057,8,"Women Under Socialism, The Communist Manifesto
+Both address oppression in capitalism, Marx focusing on class, Bebel focusing on women.",100,10.324,223.609,225.657,3,,,28.853,28.853,557.151,1,FALSE,"Another example is The Last Man, another novel by Mary Shelley/",100,78.55,95.386,98.442,3,"While Frankenstein and The Time Machine are sci-fi, Hard Times is more realistic.  Hard Times focuses on mechanization of human life and the loss of individuality, while Frankenstein focuses on the morals implications of creating life and The Time Machine is focused on class and consequences of industrial progress. ",93,26.766,509.459,513.003,11,7,0,9,1,8,9,No,,"""Feminism is Greek Literature"" 
+indentifies how literature protrays women and reflects societal values at the time.",86,6,0,4,10,6,5,No,,Toilers of the Sea - Victor Hugo,100,3,0,2,10,3,3,No,,,,8,0,5,7,9,7,Yes,Machiavelli's dedication to Lorenzo d' medici and how the book was written for him and people in power.,Very Trustworthy,Very Trustworthy,Very Trustworthy,Very Trustworthy,,,,,,,,,,T3,T11,T8,T2,T5,T9,T4,T1,T1|T2|T3|T4|T5|T8|T9|T11,,,"T3,T11,T8,T2,T5,T9,T4,T1",FIRED_FULL
+100,5723,TRUE,R_2pGxJwbeZpwr7a4,anonymous,EN,Somewhat frequently,3,Project Gutenberg,No,Hard Times,93,"I am by birth a Genevese, and my family is one of the most distinguished of that republic.",100,16.142,124.212,126.507,6,A Journey to the Centre of the Earth,100,107.83,183.318,185.727,5,"Niccolo Machiavelli 
+""to your Magnificence"" 
+aristocracy/leaders/those in power",77,33.766,243.443,245.5,4,Rip van Winkle - The following tale was found,71,78.981,167.445,169.71,4,"""Woman under Socialism"" by August Bebel examines the intersection of gender and socialism, providing a unique perspective on governance and equality. ""The Communist Manifesto"" by Karl Marx and Friedrich Engels is a foundational text in socialist theory, discussing class struggle and the role of the state.",95,21.074,523.043,525.385,9,"1: Herland - the book deals with a speculative utopian society composed entirely of women, written in the 20th century
+2: Looking backward by E Bellamy - written in the 19th century, the novel follows a character who finds themselves transported into a utopian society 
+3: The Time machine by H.G. Wells, written in the 19th century exploring the concept of time travel and dystopian futures
+",77,264.606,780.01,783.223,7,FALSE,She published several other novels during her lifetime. ,100,12.876,68.85,71.397,8,"Brave New World by A Huxley presents a dystopian future where technological advancement and social engineering have eliminated individuality and freedom, raising anxieties about the loss of humanity in the face of totalizing technological control. North and South by Elizabeth Gaskell explores industrial anxiety through a realistic, empathetic portrayal of class conflict and the human cost of industrialization in a mid-19th-century English mill town. Erewhon by Samuel Butler uses satirical, speculative fiction to critique society’s fear of machines and technological progress, imagining a world where machines are outlawed. ",92,33.51,627.667,630.338,13,6,8,8,3,6,6,Yes,Time was a constraint so I couldn't really explore books in detail,"Maria; Or, The Wrongs of Woman - a novel by M Wollstonecraft, exploring the topic of female oppression 
+",100,,,6,4,4,5,Yes,Novels I haven't read with interesting synopsis,Revolt of the Angels by Anatole,93,5,,8,,2,7,Yes,"Yes, some of the recommended books I hadn't heard about before the task and the task or specifically the tool used helped introduce new books ","Gothic literature is a genre predominantly developed in the 18th century, building on mythical stories, employing highly mystical characters, supernatural themes, and elements of fear. Examples include Dracula by Stoker and Frankenstein by Shelley. ",62,,7,7,2,,6,Yes,"There are interesting recommendations and also specific books that seem interesting a thought provoking
+",Very Trustworthy,Trustworthy,Trustworthy,Trustworthy,,,,,,,,,,T8,T2,T1,T11,T9,T5,T4,T3,T1|T2|T3|T4|T5|T8|T9|T11,,,"T8,T2,T1,T11,T9,T5,T4,T3",FIRED_FULL
+100,5025,TRUE,R_7mmernAgAmSXjI0,anonymous,EN,Somewhat frequently,3,PSU Libraries,Yes,Hard Times,100,"I am by birth a Genevese, and my family is one of the most distinguished of that republic. ",100,40.865,53.182,55.755,3,A Journey to the Centre of the Earth,100,6.71,107.154,110.075,5,"Machiavelli, Niccolò
+To the Magnificent Lorenzo Di Piero De’ Medici
+The work is aimed at new rulers who are trying to gain trust/loyaly in/from their subjects and how to pivot their strategies and ways of ruling 
+",80,39.516,299.086,302.119,5,"The Time Machine - I really enjoy time travel and dystopian future stories.
+
+The Time Traveller (or so",100,194.138,285.537,288.017,3,"""Woman under Socialism"" by August Bebel and ""Socialism, Utopian and Scientific"" by Friedrich Engels 
+Both authors argue that true social progress and equality can only be achieved through a revolutionary transformation of society—specifically, the transition from capitalism to socialism.",100,14.663,289.142,292.648,8,"The Time Machine by H.G. Wells - Discusses Class division 
+Anthem - builds from class division to discuss identity and society vs. the individualNotes from the Underground - continues to build to discuss rebellion and free will over societal expectations/requirements such as during the class division ",100,9.003,352.368,355.193,7,FALSE,Many books generated when entering first and last names into the search bar,100,34.201,57.586,60.381,4,"Babbit - More about character development and social changes of suburban life
+Metamorphasis - Person changes into insect - looking for acceptance of new form/transition
+Anthem - Individual against society - more about identity work and Unmentionable Times
+",52,5.818,854.068,858.492,13,0,0,0,10,0,0,No,,,,4,0,0,7,3,0,No,,,,0,0,0,10,0,0,No,,,,6,0,0,5,8,8,Yes,"The books generated really didn't have anything to do with Tech changes and had more to do with personal change. However, the books generated do appear very interesting. ",Very Trustworthy,Very Trustworthy,Very Trustworthy,Neutral,,,,,,,,,,T4,T11,T9,T1,T2,T3,T8,T5,T1|T2|T3|T4|T5|T8|T9|T11,,,"T4,T11,T9,T1,T2,T3,T8,T5",FIRED_FULL
+100,9936,TRUE,R_8jPUPhjruYlpJNy,anonymous,EN,Somewhat frequently,3,"Stella Search, Google Scholar Biblion, Borrowbox",No,,,"I am by birth a Genevese, and my family is one of the most distinguished of that republic.",75,15.365,235.089,236.435,9,"The Project Gutenberg eBook of From the Earth to the Moon; and, Round the Moon",100,180.596,189.441,191.75,3,Niccolò Machiavelli. Lorenzo de Medici. The Prince  's audience was mainly those involved in politics.,61,247.566,554.423,555.679,4,"""2 B R 0 2 B"" by Kurt Vonnegut - Everything was perfectly swell.
+
+I decided to read this one because it was the description hat I related most.",83,15.267,1069.028,1070.568,14,"Notes from the Underground (ID: 600) by Dostoyevsky, Fyodor and Utilitarianism by John Stuart Mill. For their constrasting perspectives.",60,1269.891,1409.092,1410.497,10,Herland by Charlotte Perkins Gilman; Anthem by Ayn Rand; The Sleeper Awakes by H. G. Wells. They were  the ones that appeared more interesting after reading the electronic summary.,10,4.564,794.929,796.422,15,FALSE,After a quick search for other novels written by Mary Shelley I found at least to novels: The last man and Frenkstein.,50,127.987,316.892,320.279,9,"Looking Backward, 2000 to 1887 by Edward Bellamy; What's Wrong with the World by G. K. Chesterton; The Acquisitive Society by R. H. Tawney. The first book approach the theme of industrialised society in a novel while the second uses a socially critical approach and the third is a sociopolitical critique.",32,12.076,1125.723,1127.301,23,7,4,5,7,,9,Yes,"I found the following book A HISTORY OF
+SOCIAL THOUGHT",,,8,3,7,3,8,9,Yes,A few books that Id love to read (the dystopias),"The Phantom of the Opera (ID: 175) by Leroux, Gaston",91,7,2,6,,6,9,No,,,,6,2,7,6,5,9,No,,Trustworthy,Trustworthy,Slightly trustworthy,Neutral,,,,,,,,,,T1,T9,T11,T8,T5,T2,T4,T3,T1|T2|T3|T4|T5|T8|T9|T11,,,"T1,T9,T11,T8,T5,T2,T4,T3",FIRED_FULL

@@ -1,0 +1,127 @@
+{
+    "rootId": "a",
+    "nodes": [
+      {
+        "id": "a",
+        "text": "a",
+        "data": {
+          "pic": "https://www.gutenberg.org/cache/epub/244/pg244.cover.medium.jpg",
+          "title": "A Study in Scarlet",
+          "author": "Arthur Conan Doyle",
+          "slotType": "slot1"
+        }
+      },
+      {
+        "id": "b",
+        "text": "b",
+        "data": {
+          "pic": "https://www.gutenberg.org/cache/epub/2852/pg2852.cover.medium.jpg",
+          "title": "The Hound of the Baskervilles",
+          "author": "Arthur Conan Doyle",
+          "slotType": "slot2"
+        }
+      },
+      {
+        "id": "c",
+        "text": "c",
+        "data": {
+          "pic": "https://www.gutenberg.org/cache/epub/2097/pg2097.cover.medium.jpg",
+          "title": "The Sign of the Four",
+          "author": "Arthur Conan Doyle",
+          "slotType": "slot3"
+        }
+      },
+      {
+        "id": "d",
+        "text": "d",
+        "data": {
+          "pic": "https://www.gutenberg.org/cache/epub/834/pg834.cover.medium.jpg",
+          "title": "The Memoirs of Sherlock Holmes",
+          "author": "Arthur Conan Doyle",
+          "slotType": "slot4"
+        }
+      },
+      {
+        "id": "e",
+        "text": "e",
+        "data": {
+          "pic": "https://www.gutenberg.org/cache/epub/108/pg108.cover.medium.jpg",
+          "title": "The Return of Sherlock Holmes",
+          "author": "Arthur Conan Doyle",
+          "slotType": "slot5"
+        }
+      },
+      {
+        "id": "f",
+        "text": "f",
+        "data": {
+          "pic": "https://www.gutenberg.org/cache/epub/3289/pg3289.cover.medium.jpg",
+          "title": "The Valley of Fear",
+          "author": "Arthur Conan Doyle"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "from": "a",
+        "to": "b"
+      },
+      {
+        "from": "a",
+        "to": "c"
+      },
+      {
+        "from": "a",
+        "to": "d"
+      },
+      {
+        "from": "a",
+        "to": "e"
+      },
+      {
+        "from": "a",
+        "to": "f"
+      },
+      {
+        "from": "b",
+        "to": "c"
+      },
+      {
+        "from": "b",
+        "to": "d"
+      },
+      {
+        "from": "b",
+        "to": "e"
+      },
+      {
+        "from": "b",
+        "to": "f"
+      },
+      {
+        "from": "c",
+        "to": "d"
+      },
+      {
+        "from": "c",
+        "to": "e"
+      },
+      {
+        "from": "c",
+        "to": "f"
+      },
+      {
+        "from": "d",
+        "to": "e"
+      },
+      {
+        "from": "d",
+        "to": "f"
+      },
+      {
+        "from": "e",
+        "to": "f"
+      }
+    ]
+  }
+  

@@ -1,0 +1,7 @@
+Flask==3.0.3
+Werkzeug==3.0.3
+SPARQLWrapper==1.8.5
+requests==2.26.0
+Flask-Cors==3.0.10
+pycountry==22.3.5
+numpy==1.26.4

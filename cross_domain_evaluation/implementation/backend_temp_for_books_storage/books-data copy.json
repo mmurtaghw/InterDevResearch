@@ -1,0 +1,189 @@
+{
+  "lines": [
+    {
+      "from": "a",
+      "reason": "Same Author",
+      "to": "b"
+    },
+    {
+      "from": "a",
+      "reason": "Same Author",
+      "to": "c"
+    },
+    {
+      "from": "a",
+      "reason": "Same Author",
+      "to": "d"
+    },
+    {
+      "from": "b",
+      "reason": "Same Author",
+      "to": "c"
+    },
+    {
+      "from": "b",
+      "reason": "Same Author",
+      "to": "d"
+    },
+    {
+      "from": "c",
+      "reason": "Same Author",
+      "to": "d"
+    },
+    {
+      "from": "a",
+      "reason": "Sisters -- Fiction",
+      "to": "c"
+    },
+    {
+      "from": "a",
+      "reason": "Young women -- Fiction",
+      "to": "b"
+    },
+    {
+      "from": "a",
+      "reason": "Social classes -- Fiction",
+      "to": "c"
+    },
+    {
+      "from": "a",
+      "reason": "Young women -- Fiction",
+      "to": "d"
+    },
+    {
+      "from": "b",
+      "reason": "Mate selection -- Fiction",
+      "to": "c"
+    },
+    {
+      "from": "b",
+      "reason": "Young women -- Fiction",
+      "to": "d"
+    },
+    {
+      "from": "c",
+      "reason": "Regency fiction",
+      "to": "d"
+    },
+    {
+      "from": "c",
+      "reason": "England -- Social life and customs -- 19th century -- Fiction",
+      "to": "d"
+    }
+  ],
+  "nodes": [
+    {
+      "data": {
+        "author": "Austen, Jane",
+        "book_download": "https://www.gutenberg.org/ebooks/1342.txt.utf-8",
+        "gutindex_id": 1342,
+        "languages": [
+          "en"
+        ],
+        "pic": "https://www.gutenberg.org/cache/epub/1342/pg1342.cover.medium.jpg",
+        "slotType": "slot1",
+        "subjects": [
+          "Courtship -- Fiction",
+          "Domestic fiction",
+          "England -- Fiction",
+          "Love stories",
+          "Sisters -- Fiction",
+          "Social classes -- Fiction",
+          "Young women -- Fiction"
+        ],
+        "summary": "\"Pride and Prejudice\" by Jane Austen is a classic novel written in the early 19th century. The story delves into themes of love, social class, and individual agency, largely revolving around the life of Elizabeth Bennet, one of five sisters from a modest but genteel family navigating the complex social landscape of Regency England.  The opening of the novel introduces the seemingly universal truth that a single man of wealth is a target for matchmaking mothers in the neighborhood. Mrs. Bennet is eager to marry off her daughters and is excited to hear about the arrival of Mr. Bingley, a wealthy young man who has taken up residence at Netherfield Park. Mr. Bennet's teasing yet indifferent nature contrasts sharply with Mrs. Bennet's anxious and businesslike demeanor as she plans to visit Mr. Bingley to create an opportunity for her daughters. Their witty exchanges set the tone for the story's exploration of family dynamics and social expectations, while also hinting at deeper character developments and the challenges Elizabeth will face regarding love and prejudice in her interactions with Mr. Darcy and the Bingley family. (This is an automatically generated summary.)",
+        "tiny_summary": "A timeless tale of love, social class, and sisterhood in Regency-era England.",
+        "title": "Pride and Prejudice"
+      },
+      "id": "a",
+      "text": "a"
+    },
+    {
+      "data": {
+        "author": "Austen, Jane",
+        "book_download": "https://www.gutenberg.org/ebooks/158.txt.utf-8",
+        "gutindex_id": 158,
+        "languages": [
+          "en"
+        ],
+        "pic": "https://www.gutenberg.org/cache/epub/158/pg158.cover.medium.jpg",
+        "slotType": "slot2",
+        "subjects": [
+          "Bildungsromans",
+          "England -- Fiction",
+          "Fathers and daughters -- Fiction",
+          "Female friendship -- Fiction",
+          "Humorous stories",
+          "Love stories",
+          "Mate selection -- Fiction",
+          "Young women -- Fiction"
+        ],
+        "summary": "\"Emma\" by Jane Austen is a novel written in the early 19th century, during the Regency era. The story centers around Emma Woodhouse, a lively and privileged young woman who relishes playing matchmaker among her friends, particularly after her beloved governess, Miss Taylor, marries Mr. Weston. This transition leaves Emma feeling a sense of solitude and motivates her to engage in her matchmaking schemes, which often involve her friend Harriet Smith, who is somewhat less socially positioned.  At the start of the narrative, readers are introduced to Emma's comfortable but somewhat sheltered life at Hartfield. The initial chapters outline Emma's reflections on her situation, her father Mr. Woodhouse's character, and her close bond with Miss Taylor, who has just married, leading to a poignant sense of loss for Emma. The opening portion establishes a contrast between Emma’s self-assured attitude and the potential consequences of her meddling, particularly as she begins to navigate her feelings towards Harriet and a potential match with young farmer Robert Martin. The dynamics of social class and the intricacies of relationships are evident, hinting at the complexities that will unfold as Emma's well-intentioned interventions may not yield the outcomes she anticipates. (This is an automatically generated summary.)",
+        "tiny_summary": "A witty exploration of matchmaking, love, and personal growth in a charming English village.",
+        "title": "Emma"
+      },
+      "id": "b",
+      "text": "b"
+    },
+    {
+      "data": {
+        "author": "Austen, Jane",
+        "book_download": "https://www.gutenberg.org/ebooks/161.txt.utf-8",
+        "gutindex_id": 161,
+        "languages": [
+          "en"
+        ],
+        "pic": "https://www.gutenberg.org/cache/epub/161/pg161.cover.medium.jpg",
+        "slotType": "slot3",
+        "subjects": [
+          "Domestic fiction",
+          "England -- Fiction",
+          "England -- Social life and customs -- 19th century -- Fiction",
+          "Gentry -- England -- Fiction",
+          "Inheritance and succession -- Fiction",
+          "Love stories",
+          "Mate selection -- Fiction",
+          "Regency fiction",
+          "Sisters -- Fiction",
+          "Social classes -- Fiction",
+          "Young women -- Fiction"
+        ],
+        "summary": "\"Sense and Sensibility\" by Jane Austen is a novel written in the early 19th century that explores themes of love, relationships, and the contrasting temperaments of its main characters. The story primarily revolves around the Dashwood sisters, Elinor and Marianne, who embody the principles of reason and emotion, respectively, as they navigate through their personal and financial challenges after the loss of their father.  At the start of the novel, we are introduced to the Dashwood family, who are abruptly thrown into financial uncertainty following the death of their wealthy relative, which ultimately restricts their inheritances. Elinor, the practical and reserved elder sister, and Marianne, the passionate and impulsive younger sister, must come to terms with their new circumstances. We also learn about their brother, John Dashwood, who, influenced by his self-serving wife, fails to uphold his father's dying wish to provide for their mother and siblings. The opening chapters establish the sisters' contrasting personalities and set the stage for their romantic entanglements, particularly with characters such as Edward Ferrars and Mr. Willoughby, hinting at the emotional complexities that will unfold throughout the narrative. (This is an automatically generated summary.)",
+        "tiny_summary": "A captivating story of love, inheritance, and societal expectations among sisters in Regency England.",
+        "title": "Sense and Sensibility"
+      },
+      "id": "c",
+      "text": "c"
+    },
+    {
+      "data": {
+        "author": "Austen, Jane",
+        "book_download": "https://www.gutenberg.org/ebooks/105.txt.utf-8",
+        "gutindex_id": 105,
+        "languages": [
+          "en"
+        ],
+        "pic": "https://www.gutenberg.org/cache/epub/105/pg105.cover.medium.jpg",
+        "slotType": "slot4",
+        "subjects": [
+          "Dysfunctional families -- Fiction",
+          "England -- Social life and customs -- 19th century -- Fiction",
+          "First loves -- Fiction",
+          "Love stories",
+          "Motherless families -- Fiction",
+          "Psychological fiction",
+          "Regency fiction",
+          "Rejection (Psychology) -- Fiction",
+          "Ship captains -- Fiction",
+          "Young women -- Fiction"
+        ],
+        "summary": "\"Persuasion\" by Jane Austen is a novel written in the early 19th century. The story revolves around Anne Elliot, the quiet yet perceptive daughter of a vain baronet, Sir Walter Elliot, who is struggling with his finances and social status. The novel explores themes of love, regret, and societal pressures, particularly through Anne's past romance with Captain Frederick Wentworth, a man without fortune or title, whom her family disapproved of.   At the start of the book, we are introduced to Sir Walter Elliot, who is completely absorbed in his own vanity and status as a baronet, neglecting the weighty financial problems threatening his estate, Kellynch Hall. The narrative reveals the dynamics of the Elliot family, focusing on the delicate position of Anne, who is overshadowed by her more socially ambitious sisters and neglected by her father. The opening establishes Anne's sense of duty and her longing for a life that acknowledges her character and feelings, foreshadowing the complex emotional struggles she faces as the story unfolds around her potential reconnection with Wentworth, now a successful naval captain. The stage is set for Anne's journey of self-discovery amid the entanglements of family, friendship, and social standings. (This is an automatically generated summary.)",
+        "tiny_summary": "A poignant narrative of lost love, family dynamics, and societal pressures in 19th-century England.",
+        "title": "Persuasion"
+      },
+      "id": "d",
+      "text": "d"
+    }
+  ],
+  "rootId": "a"
+}

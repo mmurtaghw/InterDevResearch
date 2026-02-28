@@ -1,0 +1,903 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://erct.adaptcentre.com/ontology#"
+     xml:base="https://erct.adaptcentre.com/ontology"
+     xmlns:erct="https://erct.adaptcentre.com/ontology#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:prov="http://www.w3.org/ns/prov#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+    <owl:Ontology rdf:about="https://erct.adaptcentre.com/ontology">
+        <rdfs:label xml:lang="en">Evidence from Randomised Controlled Trials Ontology</rdfs:label>
+        <rdfs:comment xml:lang="en">ERCT models randomised controlled trial evidence for search, filtering, submission, and export workflows.</rdfs:comment>
+        <owl:imports rdf:resource="http://www.w3.org/ns/prov-o"/>
+        <owl:versionInfo>3.0.0</owl:versionInfo>
+    </owl:Ontology>
+
+    <!-- Annotation properties for UI hints -->
+
+    <owl:AnnotationProperty rdf:about="https://erct.adaptcentre.com/ontology#uiSection">
+        <rdfs:label xml:lang="en">UI section</rdfs:label>
+        <rdfs:comment xml:lang="en">Optional UI hint indicating where a field appears in forms or filter panels.</rdfs:comment>
+    </owl:AnnotationProperty>
+
+    <owl:AnnotationProperty rdf:about="https://erct.adaptcentre.com/ontology#uiPlaceholder">
+        <rdfs:label xml:lang="en">UI placeholder</rdfs:label>
+        <rdfs:comment xml:lang="en">Optional UI hint for placeholder text shown in a form field.</rdfs:comment>
+    </owl:AnnotationProperty>
+
+    <owl:AnnotationProperty rdf:about="https://erct.adaptcentre.com/ontology#uiExample">
+        <rdfs:label xml:lang="en">UI example</rdfs:label>
+        <rdfs:comment xml:lang="en">Optional UI hint showing a representative example value.</rdfs:comment>
+    </owl:AnnotationProperty>
+
+
+    <!-- Classes -->
+
+    <owl:Class rdf:about="https://erct.adaptcentre.com/ontology#Agent">
+        <rdfs:label xml:lang="en">Agent</rdfs:label>
+        <rdfs:comment xml:lang="en">A person or organisation involved in generating or conducting trial evidence.</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Agent"/>
+    </owl:Class>
+
+    <owl:Class rdf:about="https://erct.adaptcentre.com/ontology#Trial">
+        <rdfs:label xml:lang="en">Trial</rdfs:label>
+        <rdfs:comment xml:lang="en">Top-level record used in the UI evidence view and filter facets. One trial may have multiple sectors, countries, intervention types, and outcome domains.</rdfs:comment>
+        <owl:equivalentClass rdf:resource="https://erct.adaptcentre.com/ontology#RandomisedControlledTrial"/>
+    </owl:Class>
+
+    <owl:Class rdf:about="https://erct.adaptcentre.com/ontology#RandomisedControlledTrial">
+        <rdfs:label xml:lang="en">Randomised controlled trial</rdfs:label>
+        <rdfs:comment xml:lang="en">A trial study with random assignment to treatment and control conditions.</rdfs:comment>
+    </owl:Class>
+
+    <owl:Class rdf:about="https://erct.adaptcentre.com/ontology#TrialRecord">
+        <rdfs:label xml:lang="en">Trial record</rdfs:label>
+        <rdfs:comment xml:lang="en">Legacy class used in existing exports for trial-level rows. Use erct:Trial as the canonical UI-facing class.</rdfs:comment>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <owl:equivalentClass rdf:resource="https://erct.adaptcentre.com/ontology#Trial"/>
+    </owl:Class>
+
+    <owl:Class rdf:about="https://erct.adaptcentre.com/ontology#Intervention">
+        <rdfs:label xml:lang="en">Intervention</rdfs:label>
+        <rdfs:comment xml:lang="en">A treatment or program applied in a trial arm.</rdfs:comment>
+    </owl:Class>
+
+    <owl:Class rdf:about="https://erct.adaptcentre.com/ontology#Methodology">
+        <rdfs:label xml:lang="en">Methodology</rdfs:label>
+        <rdfs:comment xml:lang="en">Method details for trial design, sampling, power, and related study setup metadata.</rdfs:comment>
+    </owl:Class>
+
+    <owl:Class rdf:about="https://erct.adaptcentre.com/ontology#EvaluationMethod">
+        <rdfs:label xml:lang="en">Evaluation method</rdfs:label>
+        <rdfs:comment xml:lang="en">Controlled concept for evaluation design or methodology facets, for example stratified randomisation.</rdfs:comment>
+    </owl:Class>
+
+    <owl:Class rdf:about="https://erct.adaptcentre.com/ontology#ExperimentalDesignType">
+        <rdfs:label xml:lang="en">Experimental design type</rdfs:label>
+        <rdfs:comment xml:lang="en">Legacy class for experimental design terms. Use erct:EvaluationMethod for canonical filterable concepts.</rdfs:comment>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+
+    <owl:Class rdf:about="https://erct.adaptcentre.com/ontology#Sampling">
+        <rdfs:label xml:lang="en">Sampling</rdfs:label>
+        <rdfs:comment xml:lang="en">Sampling strategy information for a trial or treatment arm.</rdfs:comment>
+    </owl:Class>
+
+    <owl:Class rdf:about="https://erct.adaptcentre.com/ontology#Randomized">
+        <rdfs:label xml:lang="en">Randomized sampling</rdfs:label>
+        <rdfs:comment xml:lang="en">Sampling approach where randomisation is at the individual level.</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="https://erct.adaptcentre.com/ontology#Sampling"/>
+    </owl:Class>
+
+    <owl:Class rdf:about="https://erct.adaptcentre.com/ontology#Random">
+        <rdfs:label xml:lang="en">Random (deprecated)</rdfs:label>
+        <rdfs:comment xml:lang="en">Deprecated class name. Use erct:Randomized for individual randomisation.</rdfs:comment>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <rdfs:subClassOf rdf:resource="https://erct.adaptcentre.com/ontology#Sampling"/>
+    </owl:Class>
+
+    <owl:Class rdf:about="https://erct.adaptcentre.com/ontology#Stratified">
+        <rdfs:label xml:lang="en">Stratified sampling</rdfs:label>
+        <rdfs:comment xml:lang="en">Sampling approach where assignment is stratified by a demographic variable such as gender or geography.</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="https://erct.adaptcentre.com/ontology#Sampling"/>
+    </owl:Class>
+
+    <owl:Class rdf:about="https://erct.adaptcentre.com/ontology#Clustered">
+        <rdfs:label xml:lang="en">Clustered sampling</rdfs:label>
+        <rdfs:comment xml:lang="en">Sampling approach where randomisation occurs at a group level such as village, school, or district.</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="https://erct.adaptcentre.com/ontology#Sampling"/>
+    </owl:Class>
+
+    <owl:Class rdf:about="https://erct.adaptcentre.com/ontology#ClusterUnitType">
+        <rdfs:label xml:lang="en">Cluster unit type</rdfs:label>
+        <rdfs:comment xml:lang="en">Concept describing the type of cluster used in clustered randomisation, such as village or school.</rdfs:comment>
+    </owl:Class>
+
+    <owl:Class rdf:about="https://erct.adaptcentre.com/ontology#TreatmentArm">
+        <rdfs:label xml:lang="en">Treatment arm</rdfs:label>
+        <rdfs:comment xml:lang="en">A trial arm representing one treatment or control condition.</rdfs:comment>
+    </owl:Class>
+
+    <owl:Class rdf:about="https://erct.adaptcentre.com/ontology#TreatmentVar">
+        <rdfs:label xml:lang="en">Treatment variable</rdfs:label>
+        <rdfs:comment xml:lang="en">Measured treatment effect metadata, including effect size and p-value.</rdfs:comment>
+    </owl:Class>
+
+    <owl:Class rdf:about="https://erct.adaptcentre.com/ontology#Timespan">
+        <rdfs:label xml:lang="en">Timespan</rdfs:label>
+        <rdfs:comment xml:lang="en">Start and end dates associated with a trial or intervention.</rdfs:comment>
+    </owl:Class>
+
+    <owl:Class rdf:about="https://erct.adaptcentre.com/ontology#ProvenanceActivity">
+        <rdfs:label xml:lang="en">Provenance activity</rdfs:label>
+        <rdfs:comment xml:lang="en">An activity that generated, transformed, or informed trial evidence.</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+    </owl:Class>
+
+    <owl:Class rdf:about="https://erct.adaptcentre.com/ontology#EntityWithProvenance">
+        <rdfs:label xml:lang="en">Entity with provenance</rdfs:label>
+        <rdfs:comment xml:lang="en">Any entity tracked with provenance metadata such as attribution, generation time, or generating activity.</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    </owl:Class>
+
+    <owl:Class rdf:about="https://erct.adaptcentre.com/ontology#EntityWithProvenence">
+        <rdfs:label xml:lang="en">Entity with provenence (deprecated)</rdfs:label>
+        <rdfs:comment xml:lang="en">Deprecated misspelling. Use erct:EntityWithProvenance.</rdfs:comment>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+
+    <owl:Class rdf:about="https://erct.adaptcentre.com/ontology#Researcher">
+        <rdfs:label xml:lang="en">Researcher</rdfs:label>
+        <rdfs:comment xml:lang="en">A person responsible for trial design, execution, or reporting.</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="https://erct.adaptcentre.com/ontology#Agent"/>
+    </owl:Class>
+
+    <owl:Class rdf:about="https://erct.adaptcentre.com/ontology#publicationInfo">
+        <rdfs:label xml:lang="en">Publication information</rdfs:label>
+        <rdfs:comment xml:lang="en">Bibliographic metadata for trial outputs such as DOI and JEL codes.</rdfs:comment>
+    </owl:Class>
+
+    <owl:Class rdf:about="https://erct.adaptcentre.com/ontology#Place">
+        <rdfs:label xml:lang="en">Place</rdfs:label>
+        <rdfs:comment xml:lang="en">A geographic entity used for trial location metadata.</rdfs:comment>
+    </owl:Class>
+
+    <owl:Class rdf:about="https://erct.adaptcentre.com/ontology#Country">
+        <rdfs:label xml:lang="en">Country</rdfs:label>
+        <rdfs:comment xml:lang="en">Country concept used in filtering and evidence context. Values can link to ISO or external geography schemes.</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="https://erct.adaptcentre.com/ontology#Place"/>
+    </owl:Class>
+
+    <owl:Class rdf:about="https://erct.adaptcentre.com/ontology#Region">
+        <rdfs:label xml:lang="en">Region</rdfs:label>
+        <rdfs:comment xml:lang="en">Sub-national place such as a state, province, or district.</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="https://erct.adaptcentre.com/ontology#Place"/>
+    </owl:Class>
+
+    <owl:Class rdf:about="https://erct.adaptcentre.com/ontology#Sector">
+        <rdfs:label xml:lang="en">Sector</rdfs:label>
+        <rdfs:comment xml:lang="en">Controlled concept for trial sector facets, for example health, education, agriculture, or governance.</rdfs:comment>
+    </owl:Class>
+
+    <owl:Class rdf:about="https://erct.adaptcentre.com/ontology#InterventionType">
+        <rdfs:label xml:lang="en">Intervention type</rdfs:label>
+        <rdfs:comment xml:lang="en">Controlled concept describing intervention categories used in filters and summaries.</rdfs:comment>
+    </owl:Class>
+
+    <owl:Class rdf:about="https://erct.adaptcentre.com/ontology#OutcomeDomain">
+        <rdfs:label xml:lang="en">Outcome domain</rdfs:label>
+        <rdfs:comment xml:lang="en">Controlled concept for domains of measured outcomes such as income, health, education, or behavior.</rdfs:comment>
+    </owl:Class>
+
+    <owl:Class rdf:about="https://erct.adaptcentre.com/ontology#Indicator">
+        <rdfs:label xml:lang="en">Indicator</rdfs:label>
+        <rdfs:comment xml:lang="en">Contextual indicator associated with countries or trials, for example GDP or HDI values.</rdfs:comment>
+    </owl:Class>
+
+    <owl:Class rdf:about="https://erct.adaptcentre.com/ontology#demographicVariable">
+        <rdfs:label xml:lang="en">Demographic variable</rdfs:label>
+        <rdfs:comment xml:lang="en">Variable used for stratification, such as gender or county.</rdfs:comment>
+    </owl:Class>
+
+
+    <!-- Object properties -->
+
+    <owl:ObjectProperty rdf:about="https://erct.adaptcentre.com/ontology#hasSector">
+        <rdfs:label xml:lang="en">has sector</rdfs:label>
+        <rdfs:comment xml:lang="en">Facet property used by the UI to filter trials by sector. Values should be IRIs of erct:Sector concepts. Multiple values are allowed.</rdfs:comment>
+        <rdfs:domain rdf:resource="https://erct.adaptcentre.com/ontology#Trial"/>
+        <rdfs:range rdf:resource="https://erct.adaptcentre.com/ontology#Sector"/>
+        <erct:uiSection>Filters</erct:uiSection>
+        <erct:uiPlaceholder>Select one or more sectors</erct:uiPlaceholder>
+        <erct:uiExample>http://example.org/sector/health</erct:uiExample>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="https://erct.adaptcentre.com/ontology#hasCountry">
+        <rdfs:label xml:lang="en">has country</rdfs:label>
+        <rdfs:comment xml:lang="en">Facet property used by the UI to filter trials by country. Values should be IRIs of erct:Country concepts, ideally aligned to ISO country identifiers. Multiple values are allowed.</rdfs:comment>
+        <rdfs:domain rdf:resource="https://erct.adaptcentre.com/ontology#Trial"/>
+        <rdfs:range rdf:resource="https://erct.adaptcentre.com/ontology#Country"/>
+        <erct:uiSection>Filters</erct:uiSection>
+        <erct:uiPlaceholder>Select one or more countries</erct:uiPlaceholder>
+        <erct:uiExample>http://example.org/country/KE</erct:uiExample>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="https://erct.adaptcentre.com/ontology#hasIndicator">
+        <rdfs:label xml:lang="en">has indicator</rdfs:label>
+        <rdfs:comment xml:lang="en">Links a country to one or more contextual indicators used in evidence exploration and exports.</rdfs:comment>
+        <rdfs:domain rdf:resource="https://erct.adaptcentre.com/ontology#Country"/>
+        <rdfs:range rdf:resource="https://erct.adaptcentre.com/ontology#Indicator"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="https://erct.adaptcentre.com/ontology#hasEvaluationMethod">
+        <rdfs:label xml:lang="en">has evaluation method</rdfs:label>
+        <rdfs:comment xml:lang="en">Facet property for evaluation design or methodology. Values should be IRIs of erct:EvaluationMethod concepts, for example individual randomization or stratified randomization. Multiple values are allowed when a trial reports mixed methods.</rdfs:comment>
+        <rdfs:domain rdf:resource="https://erct.adaptcentre.com/ontology#Trial"/>
+        <rdfs:range rdf:resource="https://erct.adaptcentre.com/ontology#EvaluationMethod"/>
+        <erct:uiSection>Filters</erct:uiSection>
+        <erct:uiPlaceholder>Select evaluation method</erct:uiPlaceholder>
+        <erct:uiExample>http://example.org/method/stratified_randomization</erct:uiExample>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="https://erct.adaptcentre.com/ontology#hasInterventionType">
+        <rdfs:label xml:lang="en">has intervention type</rdfs:label>
+        <rdfs:comment xml:lang="en">Facet property for intervention category. Values should be IRIs of erct:InterventionType concepts. Multiple values are allowed.</rdfs:comment>
+        <rdfs:domain rdf:resource="https://erct.adaptcentre.com/ontology#Trial"/>
+        <rdfs:range rdf:resource="https://erct.adaptcentre.com/ontology#InterventionType"/>
+        <erct:uiSection>Filters</erct:uiSection>
+        <erct:uiPlaceholder>Select intervention type</erct:uiPlaceholder>
+        <erct:uiExample>http://example.org/intervention/conditional_cash_transfer</erct:uiExample>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="https://erct.adaptcentre.com/ontology#hasOutcomeDomain">
+        <rdfs:label xml:lang="en">has outcome domain</rdfs:label>
+        <rdfs:comment xml:lang="en">Facet property for broad outcome domain. Values should be IRIs of erct:OutcomeDomain concepts such as health or income. Multiple values are allowed.</rdfs:comment>
+        <rdfs:domain rdf:resource="https://erct.adaptcentre.com/ontology#Trial"/>
+        <rdfs:range rdf:resource="https://erct.adaptcentre.com/ontology#OutcomeDomain"/>
+        <erct:uiSection>Filters</erct:uiSection>
+        <erct:uiPlaceholder>Select outcome domain</erct:uiPlaceholder>
+        <erct:uiExample>http://example.org/outcome/income</erct:uiExample>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="https://erct.adaptcentre.com/ontology#attributedTo">
+        <rdfs:label xml:lang="en">attributed to</rdfs:label>
+        <rdfs:comment xml:lang="en">Links an evidence entity to the responsible agent.</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#wasAttributedTo"/>
+        <rdfs:domain rdf:resource="https://erct.adaptcentre.com/ontology#EntityWithProvenance"/>
+        <rdfs:range rdf:resource="https://erct.adaptcentre.com/ontology#Agent"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="https://erct.adaptcentre.com/ontology#generatedAtTime">
+        <rdfs:label xml:lang="en">generated at time</rdfs:label>
+        <rdfs:comment xml:lang="en">Links an evidence entity to a timespan representing when it was generated.</rdfs:comment>
+        <rdfs:domain rdf:resource="https://erct.adaptcentre.com/ontology#EntityWithProvenance"/>
+        <rdfs:range rdf:resource="https://erct.adaptcentre.com/ontology#Timespan"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="https://erct.adaptcentre.com/ontology#generatedBy">
+        <rdfs:label xml:lang="en">generated by</rdfs:label>
+        <rdfs:comment xml:lang="en">Links an evidence entity to the activity that generated it.</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#wasGeneratedBy"/>
+        <rdfs:domain rdf:resource="https://erct.adaptcentre.com/ontology#EntityWithProvenance"/>
+        <rdfs:range rdf:resource="https://erct.adaptcentre.com/ontology#ProvenanceActivity"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="https://erct.adaptcentre.com/ontology#used">
+        <rdfs:label xml:lang="en">used</rdfs:label>
+        <rdfs:comment xml:lang="en">Indicates that a provenance activity used a prior evidence entity as input.</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#used"/>
+        <rdfs:domain rdf:resource="https://erct.adaptcentre.com/ontology#ProvenanceActivity"/>
+        <rdfs:range rdf:resource="https://erct.adaptcentre.com/ontology#EntityWithProvenance"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="https://erct.adaptcentre.com/ontology#wasInformedBy">
+        <rdfs:label xml:lang="en">was informed by</rdfs:label>
+        <rdfs:comment xml:lang="en">Relates a provenance activity to another provenance activity that informed it.</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#wasInformedBy"/>
+        <rdfs:domain rdf:resource="https://erct.adaptcentre.com/ontology#ProvenanceActivity"/>
+        <rdfs:range rdf:resource="https://erct.adaptcentre.com/ontology#ProvenanceActivity"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="https://erct.adaptcentre.com/ontology#conductedBy">
+        <rdfs:label xml:lang="en">conducted by</rdfs:label>
+        <rdfs:comment xml:lang="en">Links a trial to the researcher who conducted it.</rdfs:comment>
+        <rdfs:domain rdf:resource="https://erct.adaptcentre.com/ontology#Trial"/>
+        <rdfs:range rdf:resource="https://erct.adaptcentre.com/ontology#Researcher"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="https://erct.adaptcentre.com/ontology#performedBy">
+        <rdfs:label xml:lang="en">performed by</rdfs:label>
+        <rdfs:comment xml:lang="en">General relation linking an activity-like entity to the responsible agent.</rdfs:comment>
+        <rdfs:range rdf:resource="https://erct.adaptcentre.com/ontology#Agent"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="https://erct.adaptcentre.com/ontology#hasPublicationInfo">
+        <rdfs:label xml:lang="en">has publication information</rdfs:label>
+        <rdfs:comment xml:lang="en">Links a trial to bibliographic metadata such as DOI and JEL codes.</rdfs:comment>
+        <rdfs:domain rdf:resource="https://erct.adaptcentre.com/ontology#Trial"/>
+        <rdfs:range rdf:resource="https://erct.adaptcentre.com/ontology#publicationInfo"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="https://erct.adaptcentre.com/ontology#hasublicationInfo">
+        <rdfs:label xml:lang="en">has publication information (deprecated typo)</rdfs:label>
+        <rdfs:comment xml:lang="en">Deprecated typo from earlier mappings. Use erct:hasPublicationInfo.</rdfs:comment>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="https://erct.adaptcentre.com/ontology#hasMethodology">
+        <rdfs:label xml:lang="en">has methodology</rdfs:label>
+        <rdfs:comment xml:lang="en">Links a trial to detailed methodology metadata nodes.</rdfs:comment>
+        <rdfs:domain rdf:resource="https://erct.adaptcentre.com/ontology#Trial"/>
+        <rdfs:range rdf:resource="https://erct.adaptcentre.com/ontology#Methodology"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="https://erct.adaptcentre.com/ontology#hasExperimentalDesignType">
+        <rdfs:label xml:lang="en">has experimental design type (deprecated)</rdfs:label>
+        <rdfs:comment xml:lang="en">Deprecated ambiguous facet-like property. Use erct:hasEvaluationMethod for filtering and erct:hasMethodology for structured methodology nodes.</rdfs:comment>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <rdfs:domain rdf:resource="https://erct.adaptcentre.com/ontology#Methodology"/>
+        <rdfs:range rdf:resource="https://erct.adaptcentre.com/ontology#EvaluationMethod"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="https://erct.adaptcentre.com/ontology#hasProvenanceInfo">
+        <rdfs:label xml:lang="en">has provenance information</rdfs:label>
+        <rdfs:comment xml:lang="en">Links a trial to provenance metadata entities.</rdfs:comment>
+        <rdfs:domain rdf:resource="https://erct.adaptcentre.com/ontology#Trial"/>
+        <rdfs:range rdf:resource="https://erct.adaptcentre.com/ontology#EntityWithProvenance"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="https://erct.adaptcentre.com/ontology#hasProvenenceInfo">
+        <rdfs:label xml:lang="en">has provenence information (deprecated typo)</rdfs:label>
+        <rdfs:comment xml:lang="en">Deprecated misspelling. Use erct:hasProvenanceInfo.</rdfs:comment>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="https://erct.adaptcentre.com/ontology#hasIntervention">
+        <rdfs:label xml:lang="en">has intervention</rdfs:label>
+        <rdfs:comment xml:lang="en">Links a trial or treatment arm to an intervention instance.</rdfs:comment>
+        <rdfs:range rdf:resource="https://erct.adaptcentre.com/ontology#Intervention"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="https://erct.adaptcentre.com/ontology#hasSampling">
+        <rdfs:label xml:lang="en">has sampling</rdfs:label>
+        <rdfs:comment xml:lang="en">Links a trial or methodology node to sampling metadata.</rdfs:comment>
+        <rdfs:range rdf:resource="https://erct.adaptcentre.com/ontology#Sampling"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="https://erct.adaptcentre.com/ontology#hasTreatmentArm">
+        <rdfs:label xml:lang="en">has treatment arm</rdfs:label>
+        <rdfs:comment xml:lang="en">Links a trial to one or more treatment arms.</rdfs:comment>
+        <rdfs:domain rdf:resource="https://erct.adaptcentre.com/ontology#Trial"/>
+        <rdfs:range rdf:resource="https://erct.adaptcentre.com/ontology#TreatmentArm"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="https://erct.adaptcentre.com/ontology#hasTreatmentVar">
+        <rdfs:label xml:lang="en">has treatment variable</rdfs:label>
+        <rdfs:comment xml:lang="en">Links a treatment arm to treatment-effect metadata.</rdfs:comment>
+        <rdfs:domain rdf:resource="https://erct.adaptcentre.com/ontology#TreatmentArm"/>
+        <rdfs:range rdf:resource="https://erct.adaptcentre.com/ontology#TreatmentVar"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="https://erct.adaptcentre.com/ontology#hasTimespan">
+        <rdfs:label xml:lang="en">has timespan</rdfs:label>
+        <rdfs:comment xml:lang="en">Links a trial, intervention, or treatment arm to a start and end date container.</rdfs:comment>
+        <rdfs:range rdf:resource="https://erct.adaptcentre.com/ontology#Timespan"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="https://erct.adaptcentre.com/ontology#takesPlaceIn">
+        <rdfs:label xml:lang="en">takes place in</rdfs:label>
+        <rdfs:comment xml:lang="en">Links an intervention or treatment arm to a place where it occurs.</rdfs:comment>
+        <rdfs:range rdf:resource="https://erct.adaptcentre.com/ontology#Place"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="https://erct.adaptcentre.com/ontology#locatedIn">
+        <rdfs:label xml:lang="en">located in</rdfs:label>
+        <rdfs:comment xml:lang="en">Links a sub-national place such as a region to its parent country.</rdfs:comment>
+        <rdfs:domain rdf:resource="https://erct.adaptcentre.com/ontology#Region"/>
+        <rdfs:range rdf:resource="https://erct.adaptcentre.com/ontology#Country"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="https://erct.adaptcentre.com/ontology#tookPlaceIn">
+        <rdfs:label xml:lang="en">took place in (deprecated)</rdfs:label>
+        <rdfs:comment xml:lang="en">Deprecated legacy spelling. Use erct:takesPlaceIn for event location and erct:hasCountry for trial filtering.</rdfs:comment>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="https://erct.adaptcentre.com/ontology#clusteredBy">
+        <rdfs:label xml:lang="en">clustered by</rdfs:label>
+        <rdfs:comment xml:lang="en">Specifies cluster unit type for clustered sampling, for example village, school, or district.</rdfs:comment>
+        <rdfs:domain rdf:resource="https://erct.adaptcentre.com/ontology#Clustered"/>
+        <rdfs:range rdf:resource="https://erct.adaptcentre.com/ontology#ClusterUnitType"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="https://erct.adaptcentre.com/ontology#stratifiedBy">
+        <rdfs:label xml:lang="en">stratified by</rdfs:label>
+        <rdfs:comment xml:lang="en">Specifies the demographic variable used in stratified randomisation, for example gender or county.</rdfs:comment>
+        <rdfs:domain rdf:resource="https://erct.adaptcentre.com/ontology#Stratified"/>
+        <rdfs:range rdf:resource="https://erct.adaptcentre.com/ontology#demographicVariable"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="https://erct.adaptcentre.com/ontology#statifiedBy">
+        <rdfs:label xml:lang="en">statified by (deprecated typo)</rdfs:label>
+        <rdfs:comment xml:lang="en">Deprecated misspelling. Use erct:stratifiedBy.</rdfs:comment>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:ObjectProperty>
+
+
+    <!-- Datatype properties -->
+
+    <owl:DatatypeProperty rdf:about="https://erct.adaptcentre.com/ontology#hasName">
+        <rdfs:label xml:lang="en">has name</rdfs:label>
+        <rdfs:comment xml:lang="en">Human-readable display name for an entity.</rdfs:comment>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="https://erct.adaptcentre.com/ontology#hasISOAlpha2">
+        <rdfs:label xml:lang="en">has ISO alpha-2 code</rdfs:label>
+        <rdfs:comment xml:lang="en">Two-letter ISO 3166-1 country code used in exports and tabular joins.</rdfs:comment>
+        <rdfs:domain rdf:resource="https://erct.adaptcentre.com/ontology#Country"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <erct:uiSection>Exports</erct:uiSection>
+        <erct:uiExample>KE</erct:uiExample>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="https://erct.adaptcentre.com/ontology#hasISOAlpha3">
+        <rdfs:label xml:lang="en">has ISO alpha-3 code</rdfs:label>
+        <rdfs:comment xml:lang="en">Three-letter ISO 3166-1 country code used in external data integration.</rdfs:comment>
+        <rdfs:domain rdf:resource="https://erct.adaptcentre.com/ontology#Country"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <erct:uiSection>Exports</erct:uiSection>
+        <erct:uiExample>KEN</erct:uiExample>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="https://erct.adaptcentre.com/ontology#hasISO">
+        <rdfs:label xml:lang="en">has ISO code</rdfs:label>
+        <rdfs:comment xml:lang="en">Generic ISO-like code for region records in exports, for example subdivision codes.</rdfs:comment>
+        <rdfs:domain rdf:resource="https://erct.adaptcentre.com/ontology#Region"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <erct:uiSection>Exports</erct:uiSection>
+        <erct:uiExample>ZM-02</erct:uiExample>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="https://erct.adaptcentre.com/ontology#hasDOI">
+        <rdfs:label xml:lang="en">has DOI</rdfs:label>
+        <rdfs:comment xml:lang="en">DOI identifier for a publication. Use canonical DOI format such as 10.1257/rct.1505-3.0.</rdfs:comment>
+        <rdfs:domain rdf:resource="https://erct.adaptcentre.com/ontology#publicationInfo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <erct:uiSection>Submission</erct:uiSection>
+        <erct:uiPlaceholder>10.xxxx/xxxx</erct:uiPlaceholder>
+        <erct:uiExample>10.1257/rct.1505-3.0</erct:uiExample>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="https://erct.adaptcentre.com/ontology#hasJELcode">
+        <rdfs:label xml:lang="en">has JEL code</rdfs:label>
+        <rdfs:comment xml:lang="en">JEL code list for trial publications. Use standard JEL codes such as I25 or O12, separated consistently in data-entry workflows.</rdfs:comment>
+        <rdfs:domain rdf:resource="https://erct.adaptcentre.com/ontology#publicationInfo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <erct:uiSection>Submission</erct:uiSection>
+        <erct:uiPlaceholder>I25, O12</erct:uiPlaceholder>
+        <erct:uiExample>H43</erct:uiExample>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="https://erct.adaptcentre.com/ontology#hasAffiliation">
+        <rdfs:label xml:lang="en">has affiliation</rdfs:label>
+        <rdfs:comment xml:lang="en">Institutional affiliation for a researcher.</rdfs:comment>
+        <rdfs:domain rdf:resource="https://erct.adaptcentre.com/ontology#Researcher"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="https://erct.adaptcentre.com/ontology#hasEmail">
+        <rdfs:label xml:lang="en">has email</rdfs:label>
+        <rdfs:comment xml:lang="en">Email address for a researcher contact. Valid input should be a single email address; avoid adding names, labels, or multiple addresses in one value.</rdfs:comment>
+        <rdfs:domain rdf:resource="https://erct.adaptcentre.com/ontology#Researcher"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <erct:uiSection>Submission</erct:uiSection>
+        <erct:uiPlaceholder>name@example.org</erct:uiPlaceholder>
+        <erct:uiExample>j.doe@university.edu</erct:uiExample>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="https://erct.adaptcentre.com/ontology#hasSampleSize">
+        <rdfs:label xml:lang="en">has sample size</rdfs:label>
+        <rdfs:comment xml:lang="en">Total number of observations used in the analysis. Valid input is an integer count. Avoid free text values such as "about 200" or missing-value tokens such as N/A.</rdfs:comment>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <erct:uiSection>Submission</erct:uiSection>
+        <erct:uiPlaceholder>1200</erct:uiPlaceholder>
+        <erct:uiExample>850</erct:uiExample>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="https://erct.adaptcentre.com/ontology#hasControlGroupSize">
+        <rdfs:label xml:lang="en">has control group size</rdfs:label>
+        <rdfs:comment xml:lang="en">Number of observations in the control arm.</rdfs:comment>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="https://erct.adaptcentre.com/ontology#hasTreatmentGroupSize">
+        <rdfs:label xml:lang="en">has treatment group size</rdfs:label>
+        <rdfs:comment xml:lang="en">Number of observations in the treatment arm.</rdfs:comment>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="https://erct.adaptcentre.com/ontology#hasNoOfClusters">
+        <rdfs:label xml:lang="en">has number of clusters</rdfs:label>
+        <rdfs:comment xml:lang="en">Number of clusters used in clustered randomisation. Valid input is a numeric count only; do not include unit words in the same field.</rdfs:comment>
+        <rdfs:domain rdf:resource="https://erct.adaptcentre.com/ontology#Clustered"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <erct:uiSection>Submission</erct:uiSection>
+        <erct:uiPlaceholder>64</erct:uiPlaceholder>
+        <erct:uiExample>120</erct:uiExample>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="https://erct.adaptcentre.com/ontology#hasPValue">
+        <rdfs:label xml:lang="en">has p-value</rdfs:label>
+        <rdfs:comment xml:lang="en">P-value associated with a treatment estimate. Valid input is a decimal number between 0 and 1.</rdfs:comment>
+        <rdfs:domain rdf:resource="https://erct.adaptcentre.com/ontology#TreatmentVar"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <erct:uiSection>Submission</erct:uiSection>
+        <erct:uiPlaceholder>0.05</erct:uiPlaceholder>
+        <erct:uiExample>0.012</erct:uiExample>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="https://erct.adaptcentre.com/ontology#hasTreatmentEffect">
+        <rdfs:label xml:lang="en">has treatment effect</rdfs:label>
+        <rdfs:comment xml:lang="en">Numeric treatment effect estimate. Include only the estimate, not confidence intervals or textual qualifiers.</rdfs:comment>
+        <rdfs:domain rdf:resource="https://erct.adaptcentre.com/ontology#TreatmentVar"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <erct:uiSection>Submission</erct:uiSection>
+        <erct:uiPlaceholder>1.25</erct:uiPlaceholder>
+        <erct:uiExample>-0.18</erct:uiExample>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="https://erct.adaptcentre.com/ontology#hasPower">
+        <rdfs:label xml:lang="en">has power</rdfs:label>
+        <rdfs:comment xml:lang="en">Statistical power used in study design. Use a decimal probability between 0 and 1 when available.</rdfs:comment>
+        <rdfs:domain rdf:resource="https://erct.adaptcentre.com/ontology#Methodology"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="https://erct.adaptcentre.com/ontology#hasMDE">
+        <rdfs:label xml:lang="en">has minimum detectable effect</rdfs:label>
+        <rdfs:comment xml:lang="en">Minimum detectable effect value reported in methodology metadata. Valid input is numeric.</rdfs:comment>
+        <rdfs:domain rdf:resource="https://erct.adaptcentre.com/ontology#Methodology"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <erct:uiSection>Submission</erct:uiSection>
+        <erct:uiPlaceholder>0.2</erct:uiPlaceholder>
+        <erct:uiExample>0.15</erct:uiExample>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="https://erct.adaptcentre.com/ontology#hasIndicatorType">
+        <rdfs:label xml:lang="en">has indicator type</rdfs:label>
+        <rdfs:comment xml:lang="en">Human-readable type of indicator, for example HDI, GDP, or net savings.</rdfs:comment>
+        <rdfs:domain rdf:resource="https://erct.adaptcentre.com/ontology#Indicator"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <erct:uiSection>Evidence view</erct:uiSection>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="https://erct.adaptcentre.com/ontology#hasUnit">
+        <rdfs:label xml:lang="en">has unit</rdfs:label>
+        <rdfs:comment xml:lang="en">Unit for an indicator value, for example USD or percentage of population.</rdfs:comment>
+        <rdfs:domain rdf:resource="https://erct.adaptcentre.com/ontology#Indicator"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <erct:uiSection>Evidence view</erct:uiSection>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="https://erct.adaptcentre.com/ontology#hasValue">
+        <rdfs:label xml:lang="en">has value</rdfs:label>
+        <rdfs:comment xml:lang="en">Numeric or literal value of an indicator. Prefer numeric values when available and avoid placeholders such as \"None\".</rdfs:comment>
+        <rdfs:domain rdf:resource="https://erct.adaptcentre.com/ontology#Indicator"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <erct:uiSection>Evidence view</erct:uiSection>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="https://erct.adaptcentre.com/ontology#hasStartDate">
+        <rdfs:label xml:lang="en">has start date</rdfs:label>
+        <rdfs:comment xml:lang="en">Start date for trial implementation. Use ISO date format YYYY-MM-DD when possible.</rdfs:comment>
+        <rdfs:domain rdf:resource="https://erct.adaptcentre.com/ontology#Timespan"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+        <erct:uiSection>Submission</erct:uiSection>
+        <erct:uiPlaceholder>2021-09-01</erct:uiPlaceholder>
+        <erct:uiExample>2020-01-15</erct:uiExample>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="https://erct.adaptcentre.com/ontology#hasEndDate">
+        <rdfs:label xml:lang="en">has end date</rdfs:label>
+        <rdfs:comment xml:lang="en">End date for trial implementation. Use ISO date format YYYY-MM-DD when possible.</rdfs:comment>
+        <rdfs:domain rdf:resource="https://erct.adaptcentre.com/ontology#Timespan"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+        <erct:uiSection>Submission</erct:uiSection>
+        <erct:uiPlaceholder>2023-06-30</erct:uiPlaceholder>
+        <erct:uiExample>2022-12-31</erct:uiExample>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="https://erct.adaptcentre.com/ontology#isControl">
+        <rdfs:label xml:lang="en">is control</rdfs:label>
+        <rdfs:comment xml:lang="en">Boolean flag indicating whether a treatment arm is a control condition.</rdfs:comment>
+        <rdfs:domain rdf:resource="https://erct.adaptcentre.com/ontology#TreatmentArm"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="https://erct.adaptcentre.com/ontology#isPublished">
+        <rdfs:label xml:lang="en">is published</rdfs:label>
+        <rdfs:comment xml:lang="en">Boolean flag indicating whether trial results are published.</rdfs:comment>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="https://erct.adaptcentre.com/ontology#isPrimaryResearcher">
+        <rdfs:label xml:lang="en">is primary researcher</rdfs:label>
+        <rdfs:comment xml:lang="en">Boolean flag indicating that the linked researcher is the primary contact.</rdfs:comment>
+        <rdfs:domain rdf:resource="https://erct.adaptcentre.com/ontology#Researcher"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="https://erct.adaptcentre.com/ontology#isPrimaryREsearcher">
+        <rdfs:label xml:lang="en">is primary researcher (deprecated typo)</rdfs:label>
+        <rdfs:comment xml:lang="en">Deprecated misspelling. Use erct:isPrimaryResearcher.</rdfs:comment>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="https://erct.adaptcentre.com/ontology#hasOutcome">
+        <rdfs:label xml:lang="en">has outcome text</rdfs:label>
+        <rdfs:comment xml:lang="en">Free-text outcome description captured from source records. Use erct:hasOutcomeDomain for filterable controlled categorisation.</rdfs:comment>
+        <rdfs:domain rdf:resource="https://erct.adaptcentre.com/ontology#Intervention"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <erct:uiSection>Submission</erct:uiSection>
+        <erct:uiPlaceholder>Primary school enrollment rate</erct:uiPlaceholder>
+        <erct:uiExample>Voter turnout</erct:uiExample>
+    </owl:DatatypeProperty>
+
+
+
+    <!-- ERCT V3 compatibility extensions for interDev2 -->
+
+    <!-- https://erct.adaptcentre.com/ontology#hasExternalClassification -->
+    <owl:ObjectProperty rdf:about="https://erct.adaptcentre.com/ontology#hasExternalClassification">
+        <rdfs:label xml:lang="en">hasExternalClassification</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+
+    <!-- https://erct.adaptcentre.com/ontology#hasDAC -->
+    <owl:DatatypeProperty rdf:about="https://erct.adaptcentre.com/ontology#hasDAC">
+        <rdfs:label xml:lang="en">hasDAC</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+
+    <!-- https://erct.adaptcentre.com/ontology#hasUNSustainableGoal -->
+    <owl:DatatypeProperty rdf:about="https://erct.adaptcentre.com/ontology#hasUNSustainableGoal">
+        <rdfs:label xml:lang="en">hasUNSustainableGoal</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+
+    <!-- https://erct.adaptcentre.com/ontology#hasAbstract -->
+    <owl:DatatypeProperty rdf:about="https://erct.adaptcentre.com/ontology#hasAbstract">
+        <rdfs:label xml:lang="en">hasAbstract</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+
+    <!-- https://erct.adaptcentre.com/ontology#Abstract -->
+    <owl:DatatypeProperty rdf:about="https://erct.adaptcentre.com/ontology#Abstract">
+        <rdfs:label xml:lang="en">Abstract</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+
+    <!-- https://erct.adaptcentre.com/ontology#Authors -->
+    <owl:DatatypeProperty rdf:about="https://erct.adaptcentre.com/ontology#Authors">
+        <rdfs:label xml:lang="en">Authors</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+
+    <!-- https://erct.adaptcentre.com/ontology#Equity_focus -->
+    <owl:DatatypeProperty rdf:about="https://erct.adaptcentre.com/ontology#Equity_focus">
+        <rdfs:label xml:lang="en">Equity_focus</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+
+    <!-- https://erct.adaptcentre.com/ontology#Ethics_Approval -->
+    <owl:DatatypeProperty rdf:about="https://erct.adaptcentre.com/ontology#Ethics_Approval">
+        <rdfs:label xml:lang="en">Ethics_Approval</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+
+    <!-- https://erct.adaptcentre.com/ontology#Evaluation_design -->
+    <owl:DatatypeProperty rdf:about="https://erct.adaptcentre.com/ontology#Evaluation_design">
+        <rdfs:label xml:lang="en">Evaluation_design</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+
+    <!-- https://erct.adaptcentre.com/ontology#Keywords -->
+    <owl:DatatypeProperty rdf:about="https://erct.adaptcentre.com/ontology#Keywords">
+        <rdfs:label xml:lang="en">Keywords</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+
+    <!-- https://erct.adaptcentre.com/ontology#Language -->
+    <owl:DatatypeProperty rdf:about="https://erct.adaptcentre.com/ontology#Language">
+        <rdfs:label xml:lang="en">Language</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+
+    <!-- https://erct.adaptcentre.com/ontology#Mixed_method -->
+    <owl:DatatypeProperty rdf:about="https://erct.adaptcentre.com/ontology#Mixed_method">
+        <rdfs:label xml:lang="en">Mixed_method</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+
+    <!-- https://erct.adaptcentre.com/ontology#Open_Access -->
+    <owl:DatatypeProperty rdf:about="https://erct.adaptcentre.com/ontology#Open_Access">
+        <rdfs:label xml:lang="en">Open_Access</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+
+    <!-- https://erct.adaptcentre.com/ontology#Primary_Dataset_Availability -->
+    <owl:DatatypeProperty rdf:about="https://erct.adaptcentre.com/ontology#Primary_Dataset_Availability">
+        <rdfs:label xml:lang="en">Primary_Dataset_Availability</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+
+    <!-- https://erct.adaptcentre.com/ontology#Sector -->
+    <owl:DatatypeProperty rdf:about="https://erct.adaptcentre.com/ontology#Sector">
+        <rdfs:label xml:lang="en">Sector</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+
+    <!-- https://erct.adaptcentre.com/ontology#Sub-sector -->
+    <owl:DatatypeProperty rdf:about="https://erct.adaptcentre.com/ontology#Sub-sector">
+        <rdfs:label xml:lang="en">Sub-sector</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+
+    <!-- https://erct.adaptcentre.com/ontology#Unit_of_observation -->
+    <owl:DatatypeProperty rdf:about="https://erct.adaptcentre.com/ontology#Unit_of_observation">
+        <rdfs:label xml:lang="en">Unit_of_observation</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+
+    <!-- https://erct.adaptcentre.com/ontology#Pre-Registration -->
+    <owl:DatatypeProperty rdf:about="https://erct.adaptcentre.com/ontology#Pre-Registration">
+        <rdfs:label xml:lang="en">Pre-Registration</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+
+    <!-- https://erct.adaptcentre.com/ontology#Protocol_Pre-Analysis_Plan -->
+    <owl:DatatypeProperty rdf:about="https://erct.adaptcentre.com/ontology#Protocol_Pre-Analysis_Plan">
+        <rdfs:label xml:lang="en">Protocol_Pre-Analysis_Plan</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+
+    <!-- https://erct.adaptcentre.com/ontology#CRS_Voluntary_DAC_Code -->
+    <owl:DatatypeProperty rdf:about="https://erct.adaptcentre.com/ontology#CRS_Voluntary_DAC_Code">
+        <rdfs:label xml:lang="en">CRS_Voluntary_DAC_Code</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+
+    <!-- https://erct.adaptcentre.com/ontology#Implementation_agency -->
+    <owl:DatatypeProperty rdf:about="https://erct.adaptcentre.com/ontology#Implementation_agency">
+        <rdfs:label xml:lang="en">Implementation_agency</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+
+    <!-- https://erct.adaptcentre.com/ontology#Project_name -->
+    <owl:DatatypeProperty rdf:about="https://erct.adaptcentre.com/ontology#Project_name">
+        <rdfs:label xml:lang="en">Project_name</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+
+    <!-- https://erct.adaptcentre.com/ontology#State%2FProvince_name -->
+    <owl:DatatypeProperty rdf:about="https://erct.adaptcentre.com/ontology#State%2FProvince_name">
+        <rdfs:label xml:lang="en">State%2FProvince_name</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+
+    <!-- https://erct.adaptcentre.com/ontology#Research_funding_agency -->
+    <owl:DatatypeProperty rdf:about="https://erct.adaptcentre.com/ontology#Research_funding_agency">
+        <rdfs:label xml:lang="en">Research_funding_agency</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+
+    <!-- https://erct.adaptcentre.com/ontology#Additional_Dataset_Information -->
+    <owl:DatatypeProperty rdf:about="https://erct.adaptcentre.com/ontology#Additional_Dataset_Information">
+        <rdfs:label xml:lang="en">Additional_Dataset_Information</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+
+    <!-- https://erct.adaptcentre.com/ontology#Program_funding_agency -->
+    <owl:DatatypeProperty rdf:about="https://erct.adaptcentre.com/ontology#Program_funding_agency">
+        <rdfs:label xml:lang="en">Program_funding_agency</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+
+    <!-- https://erct.adaptcentre.com/ontology#Equity_dimension -->
+    <owl:DatatypeProperty rdf:about="https://erct.adaptcentre.com/ontology#Equity_dimension">
+        <rdfs:label xml:lang="en">Equity_dimension</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+
+    <!-- https://erct.adaptcentre.com/ontology#Secondary_Dataset_Name -->
+    <owl:DatatypeProperty rdf:about="https://erct.adaptcentre.com/ontology#Secondary_Dataset_Name">
+        <rdfs:label xml:lang="en">Secondary_Dataset_Name</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+
+    <!-- https://erct.adaptcentre.com/ontology#Primary_Dataset_Format -->
+    <owl:DatatypeProperty rdf:about="https://erct.adaptcentre.com/ontology#Primary_Dataset_Format">
+        <rdfs:label xml:lang="en">Primary_Dataset_Format</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+
+    <!-- https://erct.adaptcentre.com/ontology#Analysis_Code_Format -->
+    <owl:DatatypeProperty rdf:about="https://erct.adaptcentre.com/ontology#Analysis_Code_Format">
+        <rdfs:label xml:lang="en">Analysis_Code_Format</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+
+    <!-- https://erct.adaptcentre.com/ontology#Countries -->
+    <owl:DatatypeProperty rdf:about="https://erct.adaptcentre.com/ontology#Countries">
+        <rdfs:label xml:lang="en">Countries</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+
+    <!-- https://erct.adaptcentre.com/ontology#ExternalClassification -->
+    <owl:Class rdf:about="https://erct.adaptcentre.com/ontology#ExternalClassification">
+        <rdfs:label xml:lang="en">ExternalClassification</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- Legacy aliases for interDev2 mapped_data compatibility -->
+
+    <!-- https://erct.adaptcentre.com/ontology#Method -->
+    <owl:Class rdf:about="https://erct.adaptcentre.com/ontology#Method">
+        <rdfs:label xml:lang="en">Method (deprecated)</rdfs:label>
+        <rdfs:comment xml:lang="en">Legacy class name from earlier mapped datasets. Use erct:Methodology.</rdfs:comment>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <owl:equivalentClass rdf:resource="https://erct.adaptcentre.com/ontology#Methodology"/>
+    </owl:Class>
+
+    <!-- https://erct.adaptcentre.com/ontology#Outcome -->
+    <owl:Class rdf:about="https://erct.adaptcentre.com/ontology#Outcome">
+        <rdfs:label xml:lang="en">Outcome (deprecated)</rdfs:label>
+        <rdfs:comment xml:lang="en">Legacy class name from earlier mapped datasets. Use erct:TreatmentVar.</rdfs:comment>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <owl:equivalentClass rdf:resource="https://erct.adaptcentre.com/ontology#TreatmentVar"/>
+    </owl:Class>
+
+    <!-- https://erct.adaptcentre.com/ontology#PublicationInfo -->
+    <owl:Class rdf:about="https://erct.adaptcentre.com/ontology#PublicationInfo">
+        <rdfs:label xml:lang="en">PublicationInfo (deprecated)</rdfs:label>
+        <rdfs:comment xml:lang="en">Legacy class capitalisation from earlier mapped datasets. Use erct:publicationInfo.</rdfs:comment>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <owl:equivalentClass rdf:resource="https://erct.adaptcentre.com/ontology#publicationInfo"/>
+    </owl:Class>
+
+    <!-- https://erct.adaptcentre.com/ontology#hasMethod -->
+    <owl:ObjectProperty rdf:about="https://erct.adaptcentre.com/ontology#hasMethod">
+        <rdfs:label xml:lang="en">has method (deprecated)</rdfs:label>
+        <rdfs:comment xml:lang="en">Legacy property from earlier mapped datasets. Use erct:hasMethodology.</rdfs:comment>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <rdfs:subPropertyOf rdf:resource="https://erct.adaptcentre.com/ontology#hasMethodology"/>
+        <rdfs:domain rdf:resource="https://erct.adaptcentre.com/ontology#Trial"/>
+        <rdfs:range rdf:resource="https://erct.adaptcentre.com/ontology#Methodology"/>
+    </owl:ObjectProperty>
+
+    <!-- https://erct.adaptcentre.com/ontology#hasType -->
+    <owl:DatatypeProperty rdf:about="https://erct.adaptcentre.com/ontology#hasType">
+        <rdfs:label xml:lang="en">has type (deprecated)</rdfs:label>
+        <rdfs:comment xml:lang="en">Legacy property from earlier mapped datasets. Use erct:hasName on controlled concept nodes.</rdfs:comment>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <rdfs:subPropertyOf rdf:resource="https://erct.adaptcentre.com/ontology#hasName"/>
+        <rdfs:domain rdf:resource="https://erct.adaptcentre.com/ontology#TreatmentVar"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+
+    <!-- https://erct.adaptcentre.com/ontology#hasTitle -->
+    <owl:DatatypeProperty rdf:about="https://erct.adaptcentre.com/ontology#hasTitle">
+        <rdfs:label xml:lang="en">has title (deprecated)</rdfs:label>
+        <rdfs:comment xml:lang="en">Legacy property from earlier mapped datasets. Use erct:hasName.</rdfs:comment>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <rdfs:subPropertyOf rdf:resource="https://erct.adaptcentre.com/ontology#hasName"/>
+        <rdfs:domain rdf:resource="https://erct.adaptcentre.com/ontology#publicationInfo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+
+</rdf:RDF>

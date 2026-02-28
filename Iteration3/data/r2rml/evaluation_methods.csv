@@ -1,0 +1,11 @@
+evaluation_method_id,evaluation_method_label
+9564f381321a,Fixed effects (incl. DiD)
+869a5e2cadf8,Randomised controlled trial
+b5baa4d1c089,Statistical matching
+eda166c20157,Instrumental variable estimation
+3da825a99531,Regression discontinuity design
+7c537e5966c8,Unspecified
+5cd0f7a1cac8,Interrupted time series analysis
+5924cb34135f,Quasi-experimental
+88cb5d2468a1,Synthetic control
+2216470a6aac,Experimental

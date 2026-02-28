@@ -1,0 +1,39 @@
+{
+  "name": "interface",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^2.2.4",
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "axios": "^1.7.1",
+    "country-list": "^2.3.0",
+    "framer-motion": "^11.2.10",
+    "qs": "^6.11.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.12.0",
+    "react-router-dom": "^6.23.1",
+    "rollup": "^4.18.0",
+    "slugify": "^1.6.6",
+    "speakingurl": "^14.0.1",
+    "world-countries": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/country-list": "^2.1.4",
+    "@types/node": "^20.11.2",
+    "@types/qs": "^6.9.15",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "typescript": "^4.9.3",
+    "vite": "^4.5.3"
+  }
+}

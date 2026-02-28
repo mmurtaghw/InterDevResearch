@@ -1,0 +1,291 @@
+country_id,country_name
+ni,Nicaragua
+in,India
+ht,Haiti
+ke,Kenya
+cn,China
+gt,Guatemala
+th,Thailand
+rw,Rwanda
+br,Brazil
+mx,Mexico
+ir,"Iran, Islamic Rep."
+eg,"Egypt, Arab Rep."
+tz,Tanzania
+za,South Africa
+np,Nepal
+ug,Uganda
+do,Dominican Republic
+mw,Malawi
+id,Indonesia
+et,Ethiopia
+pe,Peru
+ec,Ecuador
+cm,Cameroon
+af,Afghanistan
+ng,Nigeria
+multi_country,Multi-country
+ma,Morocco
+bd,Bangladesh
+zw,Zimbabwe
+ls,Lesotho
+jo,Jordan
+bf,Burkina Faso
+sk,Slovak Republic
+zm,Zambia
+gh,Ghana
+turkey,Turkey
+pk,Pakistan
+my,Malaysia
+mz,Mozambique
+ar,Argentina
+vietnam,Vietnam
+ro,Romania
+cr,Costa Rica
+lk,Sri Lanka
+ml,Mali
+tg,Togo
+ye,"Yemen, Rep."
+sn,Senegal
+c_te_d_ivoire,Côte d'Ivoire
+south_africa_ethiopia_zambia_zimbabwe_malawi_lesotho_ghana_kenya,"South Africa, Ethiopia, Zambia, Zimbabwe, Malawi, Lesotho, Ghana, Kenya"
+ua,Ukraine
+ph,Philippines
+ne,Niger
+co,Colombia
+tn,Tunisia
+gw,Guinea-Bissau
+tj,Tajikistan
+sv,El Salvador
+bi,Burundi
+mexico_nicaragua,"Mexico, Nicaragua"
+mg,Madagascar
+ps,West Bank and Gaza
+jm,Jamaica
+pakistan_pakistan,"Pakistan, Pakistan"
+hn,Honduras
+lr,Liberia
+cd,"Congo, Dem. Rep."
+bj,Benin
+rs,Serbia
+td,Chad
+ghana_kenya,"Ghana, Kenya"
+kh,Cambodia
+uganda_rwanda_congo_dem_rep,"Uganda, Rwanda, Congo, Dem. Rep."
+bt,Bhutan
+gm,"Gambia, The"
+bo,Bolivia
+croatia_serbia,"Croatia, Serbia"
+sl,Sierra Leone
+hu,Hungary
+tl,Timor-Leste
+bw,Botswana
+hr,Croatia
+kenya_malawi_uganda_zimbabwe,"Kenya, Malawi, Uganda, Zimbabwe"
+sz,Eswatini
+dz,Algeria
+pa,Panama
+mm,Myanmar
+uy,Uruguay
+rwanda_south_africa,"Rwanda, South Africa"
+czech_republic,Czech Republic
+cl,Chile
+sd,Sudan
+py,Paraguay
+iq,Iraq
+burkina_faso_chad_niger,"Burkina Faso, Chad, Niger"
+lb,Lebanon
+somalia,Somalia
+ba,Bosnia and Herzegovina
+niger_chad_mali,"Niger, Chad, Mali"
+benin_mauritania,"Benin, Mauritania"
+ru,Russian Federation
+uz,Uzbekistan
+la,Lao PDR
+cg,"Congo, Rep."
+benin_mozambique,"Benin, Mozambique"
+pg,Papua New Guinea
+al,Albania
+xk,Kosovo
+mn,Mongolia
+kenya_uganda_rwanda,"Kenya, Uganda, Rwanda"
+gy,Guyana
+ao,Angola
+czech_republic_hungary_poland_slovenia,"Czech Republic, Hungary, Poland, Slovenia"
+bg,Bulgaria
+mexico_panama,"Mexico, Panama"
+kenya_south_africa,"Kenya, South Africa"
+malawi_uganda,"Malawi, Uganda"
+mv,Maldives
+congo_dem_rep_rwanda,"Congo, Dem. Rep., Rwanda"
+us,United States
+argentina_brazil_chile_costa_rica_uruguay,"Argentina, Brazil, Chile, Costa Rica, Uruguay"
+bz,Belize
+sy,Syrian Arab Republic
+ethiopia_kenya,"Ethiopia, Kenya"
+kenya_uganda,"Kenya, Uganda"
+colombia_ecuador,"Colombia, Ecuador"
+bangladesh_india,"Bangladesh, India"
+south_africa_nigeria,"South Africa, Nigeria"
+congo_rep_kenya_malawi_rwanda_burundi_uganda_zambia,"Congo, Rep., Kenya, Malawi, Rwanda, Burundi, Uganda, Zambia"
+benin_cameroon_mali_nigeria,"Benin, Cameroon, Mali, Nigeria"
+malawi_south_africa,"Malawi, South Africa"
+cameroon_tanzania,"Cameroon, Tanzania"
+dj,Djibouti
+aw,Aruba
+mr,Mauritania
+bangladesh_india_sri_lanka_pakistan,"Bangladesh, India, Sri Lanka, Pakistan"
+mozambique_south_africa_zimbabwe,"Mozambique, South Africa, Zimbabwe"
+brazil_chile_mexico,"Brazil, Chile, Mexico"
+colombia_paraguay,"Colombia, Paraguay"
+ve,"Venezuela, RB"
+south_africa_tanzania_uganda,"South Africa, Tanzania, Uganda"
+gn,Guinea
+pl,Poland
+nigeria_niger,"Nigeria, Niger"
+burkina_faso_mali,"Burkina Faso, Mali"
+kg,Kyrgyz Republic
+ss,South Sudan
+fj,Fiji
+colombia_brazil_mexico,"Colombia, Brazil, Mexico"
+chile_peru_nicaragua,"Chile, Peru, Nicaragua"
+mexico_brazil_honduras_nicaragua,"Mexico, Brazil, Honduras, Nicaragua"
+tt,Trinidad and Tobago
+am,Armenia
+tanzania_mozambique,"Tanzania, Mozambique"
+ethiopia_tanzania,"Ethiopia, Tanzania"
+mali_burkina_faso,"Mali, Burkina Faso"
+el_salvador_honduras_guatemala,"El Salvador, Honduras, Guatemala"
+cambodia_malaysia,"Cambodia, Malaysia"
+mu,Mauritius
+kz,Kazakhstan
+kr,"Korea, Rep."
+ghana_malawi_zambia_zimbabwe,"Ghana, Malawi, Zambia, Zimbabwe"
+na,Namibia
+chile_mexico_peru,"Chile, Mexico, Peru"
+macedonia_fyr,"Macedonia, FYR"
+nigeria_senegal_uganda,"Nigeria, Senegal, Uganda"
+malawi_ethiopia_tanzania,"Malawi, Ethiopia, Tanzania"
+angola_benin_botswana_burundi_burkina_faso_cameroon_cabo_verde_central_african_republic_chad_congo_rep_c_te_d_ivoire_gabon_gambia_the_ghana_guinea_bissau_guinea_kenya_liberia_lesotho_mali_madagascar_mauritius_malawi_mozambique_namibia_nigeria_niger_south_africa_rwanda_senegal_sierra_leone_sudan_congo_dem_rep,"Angola, Benin, Botswana, Burundi, Burkina Faso, Cameroon, Cabo Verde, Central African Republic, Chad, Congo, Rep., Côte d'Ivoire, Gabon, Gambia, The, Ghana, Guinea-Bissau, Guinea, Kenya, Liberia, Lesotho, Mali, Madagascar, Mauritius, Malawi, Mozambique, Namibia, Nigeria, Niger, South Africa, Rwanda, Senegal, Sierra Leone, Sudan, Congo, Dem. Rep."
+rwanda_uganda_congo_dem_rep,"Rwanda, Uganda, Congo, Dem. Rep."
+ghana_malawi_uganda,"Ghana, Malawi, Uganda"
+zimbabwe_malawi_mozambique,"Zimbabwe, Malawi, Mozambique"
+uganda_rwanda,"Uganda, Rwanda"
+ethiopia_kenya_tanzania_uganda,"Ethiopia, Kenya, Tanzania, Uganda"
+md,Moldova
+brazil_bolivia,"Brazil, Bolivia"
+cy,Cyprus
+india_pakistan,"India, Pakistan"
+south_africa_zambia,"South Africa, Zambia"
+vu,Vanuatu
+eswatini_uganda_zimbabwe,"Eswatini, Uganda, Zimbabwe"
+pt,Portugal
+c_te_d_ivoire_ghana_cameroon_nigeria,"Côte d'Ivoire, Ghana, Cameroon, Nigeria"
+kenya_tanzania_uganda,"Kenya, Tanzania, Uganda"
+indonesia_vietnam,"Indonesia, Vietnam"
+costa_rica_dominican_republic_el_salvador_guatemala_honduras_nicaragua,"Costa Rica, Dominican Republic, El Salvador, Guatemala, Honduras, Nicaragua"
+senegal_burkina_faso,"Senegal, Burkina Faso"
+ethiopia_kenya_malawi_rwanda,"Ethiopia, Kenya, Malawi, Rwanda"
+malawi_ghana_zimbabwe,"Malawi, Ghana, Zimbabwe"
+uganda_kenya_tanzania,"Uganda, Kenya, Tanzania"
+malawi_zambia,"Malawi, Zambia"
+china_brunei_darussalam_cambodia_indonesia_malaysia_myanmar_vietnam_lao_pdr_philippines_singapore_thailand,"China, Brunei Darussalam, Cambodia, Indonesia, Malaysia, Myanmar, Vietnam, Lao PDR, Philippines, Singapore, Thailand"
+not_reported,Not reported
+to,Tonga
+ge,Georgia
+bolivia_colombia_peru,"Bolivia, Colombia, Peru"
+kenya_tanzania,"Kenya, Tanzania"
+bulgaria_turkey,"Bulgaria, Turkey"
+liberia_malawi,"Liberia, Malawi"
+benin_ghana_mali_nigeria,"Benin, Ghana, Mali, Nigeria"
+mali_senegal,"Mali, Senegal"
+guatemala_el_salvador,"Guatemala, El Salvador"
+ecuador_peru,"Ecuador, Peru"
+hk,"Hong Kong SAR, China"
+brazil_chile,"Brazil, Chile"
+el_salvador_nicaragua,"El Salvador, Nicaragua"
+mexico_venezuela_rb,"Mexico, Venezuela, RB"
+colombia_nicaragua,"Colombia, Nicaragua"
+south_africa_uganda,"South Africa, Uganda"
+guatemala_argentina,"Guatemala, Argentina"
+honduras_mexico_nicaragua,"Honduras, Mexico, Nicaragua"
+er,Eritrea
+india_nepal,"India, Nepal"
+burkina_faso_uganda_south_africa,"Burkina Faso, Uganda, South Africa"
+cu,Cuba
+el_salvador_mexico_uruguay,"El Salvador, Mexico, Uruguay"
+chile_guatemala,"Chile, Guatemala"
+by,Belarus
+uganda_kenya_rwanda_tanzania_burundi,"Uganda, Kenya, Rwanda, Tanzania, Burundi"
+uganda_congo_dem_rep_central_african_republic_south_sudan,"Uganda, Congo, Dem. Rep., Central African Republic, South Sudan"
+sb,Solomon Islands
+ethiopia_ghana,"Ethiopia, Ghana"
+bangladesh_india_nepal_pakistan_sri_lanka,"Bangladesh, India, Nepal, Pakistan, Sri Lanka"
+south_africa_tanzania_zimbabwe,"South Africa, Tanzania, Zimbabwe"
+belize_costa_rica_dominican_republic_el_salvador_guatemala_honduras_nicaragua_panama,"Belize, Costa Rica, Dominican Republic, El Salvador, Guatemala, Honduras, Nicaragua, Panama"
+az,Azerbaijan
+bolivia_peru,"Bolivia, Peru"
+ga,Gabon
+tanzania_uganda,"Tanzania, Uganda"
+km,Comoros
+burundi_kenya_uganda_zambia_malawi_rwanda,"Burundi, Kenya, Uganda, Zambia, Malawi, Rwanda"
+zambia_tanzania,"Zambia, Tanzania"
+indonesia_thailand_vietnam,"Indonesia, Thailand, Vietnam"
+ethiopia_uganda,"Ethiopia, Uganda"
+congo_dem_rep_burundi_rwanda,"Congo, Dem. Rep., Burundi, Rwanda"
+czech_republic_estonia_hungary_latvia_lithuania_poland_slovak_republic_slovenia,"Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, Slovak Republic, Slovenia"
+peru_bolivia,"Peru, Bolivia"
+malawi_kenya_mozambique_senegal_togo,"Malawi, Kenya, Mozambique, Senegal, Togo"
+argentina_uruguay,"Argentina, Uruguay"
+bulgaria_russian_federation,"Bulgaria, Russian Federation"
+bangladesh_india_nepal,"Bangladesh, India, Nepal"
+argentina_bolivia_brazil_chile_colombia_dominican_republic_honduras_peru,"Argentina, Bolivia, Brazil, Chile, Colombia, Dominican Republic, Honduras, Peru"
+lv,Latvia
+albania_armenia_azerbaijan_belarus_bosnia_and_herzegovina_bulgaria_croatia_czech_republic_estonia_georgia_hungary_kazakhstan_kyrgyz_republic_latvia_lithuania_macedonia_fyr_moldova_poland_romania_russian_federation_serbia_slovak_republic_slovenia_tajikistan_turkey_turkmenistan_ukraine_uzbekistan,"Albania, Armenia, Azerbaijan, Belarus, Bosnia and Herzegovina, Bulgaria, Croatia, Czech Republic, Estonia, Georgia, Hungary, Kazakhstan, Kyrgyz Republic, Latvia, Lithuania, Macedonia, FYR, Moldova, Poland, Romania, Russian Federation, Serbia, Slovak Republic, Slovenia, Tajikistan, Turkey, Turkmenistan, Ukraine, Uzbekistan"
+bulgaria_romania,"Bulgaria, Romania"
+tanzania_mali,"Tanzania, Mali"
+netherlands_germany,"Netherlands, Germany"
+ws,Samoa
+argentina_bolivia_brazil_chile_colombia_costa_rica_dominican_republic_ecuador_el_salvador_guatemala_honduras_mexico_nicaragua_panama_peru_uruguay_venezuela_rb,"Argentina, Bolivia, Brazil, Chile, Colombia, Costa Rica, Dominican Republic, Ecuador, El Salvador, Guatemala, Honduras, Mexico, Nicaragua, Panama, Peru, Uruguay, Venezuela, RB"
+djibouti_egypt_arab_rep_libya_morocco_tunisia,"Djibouti, Egypt, Arab Rep., Libya, Morocco, Tunisia"
+morocco_tunisia,"Morocco, Tunisia"
+australia_indonesia,"Australia, Indonesia"
+argentina_bolivia_brazil_chile_colombia_dominican_republic_panama_peru,"Argentina, Bolivia, Brazil, Chile, Colombia, Dominican Republic, Panama, Peru"
+mozambique_uganda,"Mozambique, Uganda"
+uzbekistan_kyrgyz_republic_tajikistan,"Uzbekistan, Kyrgyz Republic, Tajikistan"
+lc,St. Lucia
+gabon_tanzania_mozambique_ethiopia_cameroon_congo_dem_rep_ghana_kenya_nigeria_senegal,"Gabon, Tanzania, Mozambique, Ethiopia, Cameroon, Congo, Dem. Rep., Ghana, Kenya, Nigeria, Senegal"
+s_o_tom_and_principe,São Tomé and Principe
+ghana_kenya_south_africa,"Ghana, Kenya, South Africa"
+chile_colombia_mexico_peru,"Chile, Colombia, Mexico, Peru"
+bulgaria_hungary_moldova_romania,"Bulgaria, Hungary, Moldova, Romania"
+thailand_vietnam,"Thailand, Vietnam"
+south_africa_zimbabwe,"South Africa, Zimbabwe"
+georgia_kosovo_tajikistan,"Georgia, Kosovo, Tajikistan"
+indonesia_thailand,"Indonesia, Thailand"
+peru_bolivia_brazil,"Peru, Bolivia, Brazil"
+kenya_uganda_tanzania,"Kenya, Uganda, Tanzania"
+taiwan_china,"Taiwan, China"
+argentina_bolivia_chile_colombia_ecuador_peru_uruguay,"Argentina, Bolivia, Chile, Colombia, Ecuador, Peru, Uruguay"
+benin_togo,"Benin, Togo"
+no,Norway
+ghana_zambia,"Ghana, Zambia"
+senegal_ghana_sierra_leone_cameroon_congo_rep_ethiopia_guinea_mozambique_tanzania,"Senegal, Ghana, Sierra Leone, Cameroon, Congo, Rep., Ethiopia, Guinea, Mozambique, Tanzania"
+brazil_colombia_mexico,"Brazil, Colombia, Mexico"
+tanzania_zambia,"Tanzania, Zambia"
+ghana_c_te_d_ivoire,"Ghana, Côte d'Ivoire"
+benin_botswana_burkina_faso_burundi_cameroon_central_african_republic_chad_comoros_congo_dem_rep_congo_rep_c_te_d_ivoire_gabon_gambia_the_ghana_kenya_liberia_mauritius_mozambique_niger_rwanda_senegal_seychelles_sierra_leone_south_africa_south_sudan_sudan_tanzania_togo_uganda_zimbabwe,"Benin, Botswana, Burkina Faso, Burundi, Cameroon, Central African Republic, Chad, Comoros, Congo, Dem. Rep., Congo, Rep., Côte d'Ivoire, Gabon, Gambia, The, Ghana, Kenya, Liberia, Mauritius, Mozambique, Niger, Rwanda, Senegal, Seychelles, Sierra Leone, South Africa, South Sudan, Sudan, Tanzania, Togo, Uganda, Zimbabwe"
+mexico_honduras_nicaragua,"Mexico, Honduras, Nicaragua"
+cv,Cabo Verde
+ghana_uganda,"Ghana, Uganda"
+dominican_republic_colombia_peru,"Dominican Republic, Colombia, Peru"
+cambodia_thailand,"Cambodia, Thailand"
+ethiopia_ghana_kenya_liberia_malawi_mali_mozambique_rwanda_senegal_tanzania_uganda_zambia,"Ethiopia, Ghana, Kenya, Liberia, Malawi, Mali, Mozambique, Rwanda, Senegal, Tanzania, Uganda, Zambia"
+ly,Libya
+ghana_burkina_faso,"Ghana, Burkina Faso"
+ghana_kenya_lesotho_zambia,"Ghana, Kenya, Lesotho, Zambia"
+kenya_malawi_tanzania,"Kenya, Malawi, Tanzania"
+burundi_south_africa,"Burundi, South Africa"
+jordan_tunisia,"Jordan, Tunisia"
+guinea_kenya_somalia,"Guinea, Kenya, Somalia"
+azerbaijan_georgia_kyrgyz_republic,"Azerbaijan, Georgia, Kyrgyz Republic"

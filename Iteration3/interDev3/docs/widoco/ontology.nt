@@ -1,0 +1,1350 @@
+<https://erct.adaptcentre.com/ontology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://erct.adaptcentre.com/ontology> <http://www.w3.org/2002/07/owl#versionIRI> <https://erct.adaptcentre.com/ontology/5.0.0> .
+<https://erct.adaptcentre.com/ontology> <http://www.w3.org/2002/07/owl#imports> <http://www.w3.org/2004/02/skos/core> .
+<https://erct.adaptcentre.com/ontology> <http://www.w3.org/2002/07/owl#imports> <http://www.w3.org/ns/prov-o> .
+<https://erct.adaptcentre.com/ontology> <http://purl.org/dc/terms/bibliographicCitation> "Evidence from Randomised Controlled Trials Ontology (ERCT), version 5.0.0."@en .
+<https://erct.adaptcentre.com/ontology> <http://purl.org/dc/terms/created> "2026-02-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://erct.adaptcentre.com/ontology> <http://purl.org/dc/terms/creator> "ERCT project team"@en .
+<https://erct.adaptcentre.com/ontology> <http://purl.org/dc/terms/identifier> <https://doi.org/10.5281/zenodo.10993684> .
+<https://erct.adaptcentre.com/ontology> <http://purl.org/dc/terms/issued> "2026-02-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://erct.adaptcentre.com/ontology> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> .
+<https://erct.adaptcentre.com/ontology> <http://purl.org/dc/terms/publisher> "ERCT project"@en .
+<https://erct.adaptcentre.com/ontology> <http://purl.org/dc/terms/source> "ERCT ontology source distribution"@en .
+<https://erct.adaptcentre.com/ontology> <http://purl.org/dc/terms/title> "Evidence from Randomised Controlled Trials Ontology"@en .
+<https://erct.adaptcentre.com/ontology> <http://purl.org/ontology/bibo/doi> "10.5281/zenodo.10993684" .
+<https://erct.adaptcentre.com/ontology> <http://purl.org/vocab/vann/preferredNamespacePrefix> "erct" .
+<https://erct.adaptcentre.com/ontology> <http://purl.org/vocab/vann/preferredNamespaceUri> "https://erct.adaptcentre.com/ontology#" .
+<https://erct.adaptcentre.com/ontology> <http://www.w3.org/2000/01/rdf-schema#comment> "Adds Finding-level evidence units and strengthens SKOS lexical coverage for robust search and filtering; does not model interaction logs or user trust measures."@en .
+<https://erct.adaptcentre.com/ontology> <http://www.w3.org/2000/01/rdf-schema#comment> "ERCT models randomised controlled trial evidence for search, filtering, submission, and export workflows."@en .
+<https://erct.adaptcentre.com/ontology> <http://www.w3.org/2000/01/rdf-schema#label> "Evidence from Randomised Controlled Trials Ontology"@en .
+<https://erct.adaptcentre.com/ontology> <http://www.w3.org/2002/07/owl#versionInfo> "5.0.0" .
+<https://erct.adaptcentre.com/ontology> <http://xmlns.com/foaf/0.1/logo> <https://zenodo.org/badge/DOI/10.5281/zenodo.10993684.svg> .
+<https://erct.adaptcentre.com/ontology> <https://w3id.org/mod#status> "active" .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/terms/bibliographicCitation
+<http://purl.org/dc/terms/bibliographicCitation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/created
+<http://purl.org/dc/terms/created> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/identifier
+<http://purl.org/dc/terms/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/issued
+<http://purl.org/dc/terms/issued> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/publisher
+<http://purl.org/dc/terms/publisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/source
+<http://purl.org/dc/terms/source> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/ontology/bibo/doi
+<http://purl.org/ontology/bibo/doi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespacePrefix
+<http://purl.org/vocab/vann/preferredNamespacePrefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespaceUri
+<http://purl.org/vocab/vann/preferredNamespaceUri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://xmlns.com/foaf/0.1/logo
+<http://xmlns.com/foaf/0.1/logo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://erct.adaptcentre.com/ontology#legacyLiteralValue
+<https://erct.adaptcentre.com/ontology#legacyLiteralValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<https://erct.adaptcentre.com/ontology#legacyLiteralValue> <http://www.w3.org/2000/01/rdf-schema#comment> "Legacy literal encoding for a controlled concept. Use this as an alignment hook when migrating literal facet values to concept IRIs."@en .
+<https://erct.adaptcentre.com/ontology#legacyLiteralValue> <http://www.w3.org/2000/01/rdf-schema#label> "legacy literal value"@en .
+<https://erct.adaptcentre.com/ontology#legacyLiteralValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://erct.adaptcentre.com/ontology#legacyLiteralValue> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2004/02/skos/core#Concept> .
+# 
+# https://erct.adaptcentre.com/ontology#uiExample
+<https://erct.adaptcentre.com/ontology#uiExample> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<https://erct.adaptcentre.com/ontology#uiExample> <http://www.w3.org/2000/01/rdf-schema#comment> "Optional UI hint showing a representative example value."@en .
+<https://erct.adaptcentre.com/ontology#uiExample> <http://www.w3.org/2000/01/rdf-schema#label> "UI example"@en .
+# 
+# https://erct.adaptcentre.com/ontology#uiPlaceholder
+<https://erct.adaptcentre.com/ontology#uiPlaceholder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<https://erct.adaptcentre.com/ontology#uiPlaceholder> <http://www.w3.org/2000/01/rdf-schema#comment> "Optional UI hint for placeholder text shown in a form field."@en .
+<https://erct.adaptcentre.com/ontology#uiPlaceholder> <http://www.w3.org/2000/01/rdf-schema#label> "UI placeholder"@en .
+# 
+# https://erct.adaptcentre.com/ontology#uiSection
+<https://erct.adaptcentre.com/ontology#uiSection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<https://erct.adaptcentre.com/ontology#uiSection> <http://www.w3.org/2000/01/rdf-schema#comment> "Optional UI hint indicating where a field appears in forms or filter panels."@en .
+<https://erct.adaptcentre.com/ontology#uiSection> <http://www.w3.org/2000/01/rdf-schema#label> "UI section"@en .
+# 
+# https://w3id.org/mod#status
+<https://w3id.org/mod#status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Datatypes
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2001/XMLSchema#date
+<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# https://erct.adaptcentre.com/ontology#aboutIntervention
+<https://erct.adaptcentre.com/ontology#aboutIntervention> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://erct.adaptcentre.com/ontology#aboutIntervention> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#Finding> .
+<https://erct.adaptcentre.com/ontology#aboutIntervention> <http://www.w3.org/2000/01/rdf-schema#range> <https://erct.adaptcentre.com/ontology#Intervention> .
+<https://erct.adaptcentre.com/ontology#aboutIntervention> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a finding to the intervention context that the reported result is about."@en .
+<https://erct.adaptcentre.com/ontology#aboutIntervention> <http://www.w3.org/2000/01/rdf-schema#label> "about intervention"@en .
+# 
+# https://erct.adaptcentre.com/ontology#attributedTo
+<https://erct.adaptcentre.com/ontology#attributedTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://erct.adaptcentre.com/ontology#attributedTo> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/prov#wasAttributedTo> .
+<https://erct.adaptcentre.com/ontology#attributedTo> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#EntityWithProvenance> .
+<https://erct.adaptcentre.com/ontology#attributedTo> <http://www.w3.org/2000/01/rdf-schema#range> <https://erct.adaptcentre.com/ontology#Agent> .
+<https://erct.adaptcentre.com/ontology#attributedTo> <http://www.w3.org/2000/01/rdf-schema#comment> "Links an evidence entity to the responsible agent."@en .
+<https://erct.adaptcentre.com/ontology#attributedTo> <http://www.w3.org/2000/01/rdf-schema#label> "attributed to"@en .
+# 
+# https://erct.adaptcentre.com/ontology#clusteredBy
+<https://erct.adaptcentre.com/ontology#clusteredBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://erct.adaptcentre.com/ontology#clusteredBy> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#Clustered> .
+<https://erct.adaptcentre.com/ontology#clusteredBy> <http://www.w3.org/2000/01/rdf-schema#range> <https://erct.adaptcentre.com/ontology#ClusterUnitType> .
+<https://erct.adaptcentre.com/ontology#clusteredBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies cluster unit type for clustered sampling, for example village, school, or district."@en .
+<https://erct.adaptcentre.com/ontology#clusteredBy> <http://www.w3.org/2000/01/rdf-schema#label> "clustered by"@en .
+# 
+# https://erct.adaptcentre.com/ontology#conductedBy
+<https://erct.adaptcentre.com/ontology#conductedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://erct.adaptcentre.com/ontology#conductedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#Trial> .
+<https://erct.adaptcentre.com/ontology#conductedBy> <http://www.w3.org/2000/01/rdf-schema#range> <https://erct.adaptcentre.com/ontology#Researcher> .
+<https://erct.adaptcentre.com/ontology#conductedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a trial to the researcher who conducted it."@en .
+<https://erct.adaptcentre.com/ontology#conductedBy> <http://www.w3.org/2000/01/rdf-schema#label> "conducted by"@en .
+# 
+# https://erct.adaptcentre.com/ontology#extractedFromDocument
+<https://erct.adaptcentre.com/ontology#extractedFromDocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://erct.adaptcentre.com/ontology#extractedFromDocument> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#ExtractionRun> .
+<https://erct.adaptcentre.com/ontology#extractedFromDocument> <http://www.w3.org/2000/01/rdf-schema#range> <https://erct.adaptcentre.com/ontology#SourceDocument> .
+<https://erct.adaptcentre.com/ontology#extractedFromDocument> <http://www.w3.org/2000/01/rdf-schema#comment> "Identifies the source document used for automated extraction."@en .
+<https://erct.adaptcentre.com/ontology#extractedFromDocument> <http://www.w3.org/2000/01/rdf-schema#label> "extracted from document"@en .
+<https://erct.adaptcentre.com/ontology#extractedFromDocument> <https://erct.adaptcentre.com/ontology#uiExample> "http://example.org/document/impact-eval-2024-pdf" .
+<https://erct.adaptcentre.com/ontology#extractedFromDocument> <https://erct.adaptcentre.com/ontology#uiPlaceholder> "Link to source document IRI" .
+<https://erct.adaptcentre.com/ontology#extractedFromDocument> <https://erct.adaptcentre.com/ontology#uiSection> "Extraction provenance" .
+# 
+# https://erct.adaptcentre.com/ontology#generatedAtTime
+<https://erct.adaptcentre.com/ontology#generatedAtTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://erct.adaptcentre.com/ontology#generatedAtTime> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#EntityWithProvenance> .
+<https://erct.adaptcentre.com/ontology#generatedAtTime> <http://www.w3.org/2000/01/rdf-schema#range> <https://erct.adaptcentre.com/ontology#Timespan> .
+<https://erct.adaptcentre.com/ontology#generatedAtTime> <http://www.w3.org/2000/01/rdf-schema#comment> "Deprecated legacy object property linking to erct:Timespan. Use prov:generatedAtTime with an xsd:dateTime literal for canonical provenance timestamps."@en .
+<https://erct.adaptcentre.com/ontology#generatedAtTime> <http://www.w3.org/2000/01/rdf-schema#label> "generated at time (deprecated)"@en .
+<https://erct.adaptcentre.com/ontology#generatedAtTime> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# https://erct.adaptcentre.com/ontology#generatedBy
+<https://erct.adaptcentre.com/ontology#generatedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://erct.adaptcentre.com/ontology#generatedBy> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/prov#wasGeneratedBy> .
+<https://erct.adaptcentre.com/ontology#generatedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#EntityWithProvenance> .
+<https://erct.adaptcentre.com/ontology#generatedBy> <http://www.w3.org/2000/01/rdf-schema#range> <https://erct.adaptcentre.com/ontology#ProvenanceActivity> .
+<https://erct.adaptcentre.com/ontology#generatedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Links an evidence entity to the activity that generated it."@en .
+<https://erct.adaptcentre.com/ontology#generatedBy> <http://www.w3.org/2000/01/rdf-schema#label> "generated by"@en .
+# 
+# https://erct.adaptcentre.com/ontology#hasCountry
+<https://erct.adaptcentre.com/ontology#hasCountry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://erct.adaptcentre.com/ontology#hasCountry> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#Trial> .
+<https://erct.adaptcentre.com/ontology#hasCountry> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://erct.adaptcentre.com/ontology#hasCountry> <http://www.w3.org/2000/01/rdf-schema#comment> "Facet property used by the UI to filter trials by country. Canonical values are controlled IRIs of skos:Concept in erct:CountryScheme, ideally aligned to ISO country identifiers. Legacy data may contain literal values. Pipelines should migrate or align literals to controlled concept IRIs via skos:altLabel or erct:legacyLiteralValue."@en .
+<https://erct.adaptcentre.com/ontology#hasCountry> <http://www.w3.org/2000/01/rdf-schema#label> "has country"@en .
+<https://erct.adaptcentre.com/ontology#hasCountry> <https://erct.adaptcentre.com/ontology#uiExample> "http://example.org/country/KE" .
+<https://erct.adaptcentre.com/ontology#hasCountry> <https://erct.adaptcentre.com/ontology#uiPlaceholder> "Select one or more countries" .
+<https://erct.adaptcentre.com/ontology#hasCountry> <https://erct.adaptcentre.com/ontology#uiSection> "Filters" .
+# 
+# https://erct.adaptcentre.com/ontology#hasEvaluationMethod
+<https://erct.adaptcentre.com/ontology#hasEvaluationMethod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://erct.adaptcentre.com/ontology#hasEvaluationMethod> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#Trial> .
+<https://erct.adaptcentre.com/ontology#hasEvaluationMethod> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://erct.adaptcentre.com/ontology#hasEvaluationMethod> <http://www.w3.org/2000/01/rdf-schema#comment> "Facet property for evaluation design or methodology. Canonical values are controlled IRIs of skos:Concept in erct:EvaluationMethodScheme, for example individual randomization or stratified randomization. Legacy data may contain literal values. Pipelines should migrate or align literals to controlled concept IRIs via skos:altLabel or erct:legacyLiteralValue."@en .
+<https://erct.adaptcentre.com/ontology#hasEvaluationMethod> <http://www.w3.org/2000/01/rdf-schema#label> "has evaluation method"@en .
+<https://erct.adaptcentre.com/ontology#hasEvaluationMethod> <https://erct.adaptcentre.com/ontology#uiExample> "http://example.org/method/stratified_randomization" .
+<https://erct.adaptcentre.com/ontology#hasEvaluationMethod> <https://erct.adaptcentre.com/ontology#uiPlaceholder> "Select evaluation method" .
+<https://erct.adaptcentre.com/ontology#hasEvaluationMethod> <https://erct.adaptcentre.com/ontology#uiSection> "Filters" .
+# 
+# https://erct.adaptcentre.com/ontology#hasEvidenceCompleteness
+<https://erct.adaptcentre.com/ontology#hasEvidenceCompleteness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://erct.adaptcentre.com/ontology#hasEvidenceCompleteness> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#Finding> .
+<https://erct.adaptcentre.com/ontology#hasEvidenceCompleteness> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://erct.adaptcentre.com/ontology#hasEvidenceCompleteness> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a finding to a controlled completeness status. Values should be skos:Concept in erct:EvidenceCompletenessScheme."@en .
+<https://erct.adaptcentre.com/ontology#hasEvidenceCompleteness> <http://www.w3.org/2000/01/rdf-schema#label> "has evidence completeness"@en .
+# 
+# https://erct.adaptcentre.com/ontology#hasEvidenceType
+<https://erct.adaptcentre.com/ontology#hasEvidenceType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://erct.adaptcentre.com/ontology#hasEvidenceType> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#Finding> .
+<https://erct.adaptcentre.com/ontology#hasEvidenceType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://erct.adaptcentre.com/ontology#hasEvidenceType> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a finding to the type of supporting evidence source. Values should be skos:Concept in erct:EvidenceTypeScheme."@en .
+<https://erct.adaptcentre.com/ontology#hasEvidenceType> <http://www.w3.org/2000/01/rdf-schema#label> "has evidence type"@en .
+# 
+# https://erct.adaptcentre.com/ontology#hasExperimentalDesignType
+<https://erct.adaptcentre.com/ontology#hasExperimentalDesignType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://erct.adaptcentre.com/ontology#hasExperimentalDesignType> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#Methodology> .
+<https://erct.adaptcentre.com/ontology#hasExperimentalDesignType> <http://www.w3.org/2000/01/rdf-schema#range> <https://erct.adaptcentre.com/ontology#EvaluationMethod> .
+<https://erct.adaptcentre.com/ontology#hasExperimentalDesignType> <http://www.w3.org/2000/01/rdf-schema#comment> "Deprecated ambiguous facet-like property. Use erct:hasEvaluationMethod for filtering and erct:hasMethodology for structured methodology nodes."@en .
+<https://erct.adaptcentre.com/ontology#hasExperimentalDesignType> <http://www.w3.org/2000/01/rdf-schema#label> "has experimental design type (deprecated)"@en .
+<https://erct.adaptcentre.com/ontology#hasExperimentalDesignType> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# https://erct.adaptcentre.com/ontology#hasExternalClassification
+<https://erct.adaptcentre.com/ontology#hasExternalClassification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://erct.adaptcentre.com/ontology#hasExternalClassification> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://erct.adaptcentre.com/ontology#hasExternalClassification> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#Trial> .
+<https://erct.adaptcentre.com/ontology#hasExternalClassification> <http://www.w3.org/2000/01/rdf-schema#range> <https://erct.adaptcentre.com/ontology#ExternalClassification> .
+<https://erct.adaptcentre.com/ontology#hasExternalClassification> <http://www.w3.org/2000/01/rdf-schema#label> "hasExternalClassification"@en .
+# 
+# https://erct.adaptcentre.com/ontology#hasExtractionRun
+<https://erct.adaptcentre.com/ontology#hasExtractionRun> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://erct.adaptcentre.com/ontology#hasExtractionRun> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#Submission> .
+<https://erct.adaptcentre.com/ontology#hasExtractionRun> <http://www.w3.org/2000/01/rdf-schema#range> <https://erct.adaptcentre.com/ontology#ExtractionRun> .
+<https://erct.adaptcentre.com/ontology#hasExtractionRun> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a submission to the extraction run used to pre-populate metadata."@en .
+<https://erct.adaptcentre.com/ontology#hasExtractionRun> <http://www.w3.org/2000/01/rdf-schema#label> "has extraction run"@en .
+<https://erct.adaptcentre.com/ontology#hasExtractionRun> <https://erct.adaptcentre.com/ontology#uiExample> "http://example.org/extraction/run-2026-02-07-01" .
+<https://erct.adaptcentre.com/ontology#hasExtractionRun> <https://erct.adaptcentre.com/ontology#uiPlaceholder> "Link to extraction run IRI" .
+<https://erct.adaptcentre.com/ontology#hasExtractionRun> <https://erct.adaptcentre.com/ontology#uiSection> "Extraction provenance" .
+# 
+# https://erct.adaptcentre.com/ontology#hasFinding
+<https://erct.adaptcentre.com/ontology#hasFinding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://erct.adaptcentre.com/ontology#hasFinding> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#Trial> .
+<https://erct.adaptcentre.com/ontology#hasFinding> <http://www.w3.org/2000/01/rdf-schema#range> <https://erct.adaptcentre.com/ontology#Finding> .
+<https://erct.adaptcentre.com/ontology#hasFinding> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a trial to a finding-level unit of reported evidence used for citation and comparison."@en .
+<https://erct.adaptcentre.com/ontology#hasFinding> <http://www.w3.org/2000/01/rdf-schema#label> "has finding"@en .
+# 
+# https://erct.adaptcentre.com/ontology#hasFindingOutcomeDomain
+<https://erct.adaptcentre.com/ontology#hasFindingOutcomeDomain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://erct.adaptcentre.com/ontology#hasFindingOutcomeDomain> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#Finding> .
+<https://erct.adaptcentre.com/ontology#hasFindingOutcomeDomain> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://erct.adaptcentre.com/ontology#hasFindingOutcomeDomain> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a finding to an outcome-domain concept. Values should be skos:Concept in erct:OutcomeDomainScheme. Legacy literal values may exist and require alignment during ingestion."@en .
+<https://erct.adaptcentre.com/ontology#hasFindingOutcomeDomain> <http://www.w3.org/2000/01/rdf-schema#label> "has finding outcome domain"@en .
+# 
+# https://erct.adaptcentre.com/ontology#hasFindingProvenanceInfo
+<https://erct.adaptcentre.com/ontology#hasFindingProvenanceInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://erct.adaptcentre.com/ontology#hasFindingProvenanceInfo> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#Finding> .
+<https://erct.adaptcentre.com/ontology#hasFindingProvenanceInfo> <http://www.w3.org/2000/01/rdf-schema#range> <https://erct.adaptcentre.com/ontology#EntityWithProvenance> .
+<https://erct.adaptcentre.com/ontology#hasFindingProvenanceInfo> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a finding to provenance metadata entities using the same provenance model applied at trial level."@en .
+<https://erct.adaptcentre.com/ontology#hasFindingProvenanceInfo> <http://www.w3.org/2000/01/rdf-schema#label> "has finding provenance information"@en .
+# 
+# https://erct.adaptcentre.com/ontology#hasIndicator
+<https://erct.adaptcentre.com/ontology#hasIndicator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://erct.adaptcentre.com/ontology#hasIndicator> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#Country> .
+<https://erct.adaptcentre.com/ontology#hasIndicator> <http://www.w3.org/2000/01/rdf-schema#range> <https://erct.adaptcentre.com/ontology#Indicator> .
+<https://erct.adaptcentre.com/ontology#hasIndicator> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a country to one or more contextual indicators used in evidence exploration and exports."@en .
+<https://erct.adaptcentre.com/ontology#hasIndicator> <http://www.w3.org/2000/01/rdf-schema#label> "has indicator"@en .
+# 
+# https://erct.adaptcentre.com/ontology#hasIntervention
+<https://erct.adaptcentre.com/ontology#hasIntervention> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://erct.adaptcentre.com/ontology#hasIntervention> <http://www.w3.org/2000/01/rdf-schema#range> <https://erct.adaptcentre.com/ontology#Intervention> .
+<https://erct.adaptcentre.com/ontology#hasIntervention> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a trial or treatment arm to an intervention instance."@en .
+<https://erct.adaptcentre.com/ontology#hasIntervention> <http://www.w3.org/2000/01/rdf-schema#label> "has intervention"@en .
+# 
+# https://erct.adaptcentre.com/ontology#hasInterventionType
+<https://erct.adaptcentre.com/ontology#hasInterventionType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://erct.adaptcentre.com/ontology#hasInterventionType> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#Trial> .
+<https://erct.adaptcentre.com/ontology#hasInterventionType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://erct.adaptcentre.com/ontology#hasInterventionType> <http://www.w3.org/2000/01/rdf-schema#comment> "Facet property for intervention category. Canonical values are controlled IRIs of skos:Concept in erct:InterventionTypeScheme. Legacy data may contain literal values. Pipelines should migrate or align literals to controlled concept IRIs via skos:altLabel or erct:legacyLiteralValue."@en .
+<https://erct.adaptcentre.com/ontology#hasInterventionType> <http://www.w3.org/2000/01/rdf-schema#label> "has intervention type"@en .
+<https://erct.adaptcentre.com/ontology#hasInterventionType> <https://erct.adaptcentre.com/ontology#uiExample> "http://example.org/intervention/conditional_cash_transfer" .
+<https://erct.adaptcentre.com/ontology#hasInterventionType> <https://erct.adaptcentre.com/ontology#uiPlaceholder> "Select intervention type" .
+<https://erct.adaptcentre.com/ontology#hasInterventionType> <https://erct.adaptcentre.com/ontology#uiSection> "Filters" .
+# 
+# https://erct.adaptcentre.com/ontology#hasMethod
+<https://erct.adaptcentre.com/ontology#hasMethod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://erct.adaptcentre.com/ontology#hasMethod> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://erct.adaptcentre.com/ontology#hasMethodology> .
+<https://erct.adaptcentre.com/ontology#hasMethod> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#Trial> .
+<https://erct.adaptcentre.com/ontology#hasMethod> <http://www.w3.org/2000/01/rdf-schema#range> <https://erct.adaptcentre.com/ontology#Methodology> .
+<https://erct.adaptcentre.com/ontology#hasMethod> <http://www.w3.org/2000/01/rdf-schema#comment> "Legacy property from earlier mapped datasets. Use erct:hasMethodology."@en .
+<https://erct.adaptcentre.com/ontology#hasMethod> <http://www.w3.org/2000/01/rdf-schema#label> "hasMethod (deprecated)"@en .
+<https://erct.adaptcentre.com/ontology#hasMethod> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# https://erct.adaptcentre.com/ontology#hasMethodology
+<https://erct.adaptcentre.com/ontology#hasMethodology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://erct.adaptcentre.com/ontology#hasMethodology> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#Trial> .
+<https://erct.adaptcentre.com/ontology#hasMethodology> <http://www.w3.org/2000/01/rdf-schema#range> <https://erct.adaptcentre.com/ontology#Methodology> .
+<https://erct.adaptcentre.com/ontology#hasMethodology> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a trial to detailed methodology metadata nodes."@en .
+<https://erct.adaptcentre.com/ontology#hasMethodology> <http://www.w3.org/2000/01/rdf-schema#label> "has methodology"@en .
+# 
+# https://erct.adaptcentre.com/ontology#hasOutcomeDomain
+<https://erct.adaptcentre.com/ontology#hasOutcomeDomain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://erct.adaptcentre.com/ontology#hasOutcomeDomain> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#Trial> .
+<https://erct.adaptcentre.com/ontology#hasOutcomeDomain> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://erct.adaptcentre.com/ontology#hasOutcomeDomain> <http://www.w3.org/2000/01/rdf-schema#comment> "Facet property for broad outcome domain. Canonical values are controlled IRIs of skos:Concept in erct:OutcomeDomainScheme, such as health or income. Legacy data may contain literal values. Pipelines should migrate or align literals to controlled concept IRIs via skos:altLabel or erct:legacyLiteralValue."@en .
+<https://erct.adaptcentre.com/ontology#hasOutcomeDomain> <http://www.w3.org/2000/01/rdf-schema#label> "has outcome domain"@en .
+<https://erct.adaptcentre.com/ontology#hasOutcomeDomain> <https://erct.adaptcentre.com/ontology#uiExample> "http://example.org/outcome/income" .
+<https://erct.adaptcentre.com/ontology#hasOutcomeDomain> <https://erct.adaptcentre.com/ontology#uiPlaceholder> "Select outcome domain" .
+<https://erct.adaptcentre.com/ontology#hasOutcomeDomain> <https://erct.adaptcentre.com/ontology#uiSection> "Filters" .
+# 
+# https://erct.adaptcentre.com/ontology#hasProvenanceInfo
+<https://erct.adaptcentre.com/ontology#hasProvenanceInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://erct.adaptcentre.com/ontology#hasProvenanceInfo> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#Trial> .
+<https://erct.adaptcentre.com/ontology#hasProvenanceInfo> <http://www.w3.org/2000/01/rdf-schema#range> <https://erct.adaptcentre.com/ontology#EntityWithProvenance> .
+<https://erct.adaptcentre.com/ontology#hasProvenanceInfo> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a trial to provenance metadata entities."@en .
+<https://erct.adaptcentre.com/ontology#hasProvenanceInfo> <http://www.w3.org/2000/01/rdf-schema#label> "has provenance information"@en .
+# 
+# https://erct.adaptcentre.com/ontology#hasProvenenceInfo
+<https://erct.adaptcentre.com/ontology#hasProvenenceInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://erct.adaptcentre.com/ontology#hasProvenenceInfo> <http://www.w3.org/2000/01/rdf-schema#comment> "Deprecated misspelling. Use erct:hasProvenanceInfo."@en .
+<https://erct.adaptcentre.com/ontology#hasProvenenceInfo> <http://www.w3.org/2000/01/rdf-schema#label> "has provenence information (deprecated typo)"@en .
+<https://erct.adaptcentre.com/ontology#hasProvenenceInfo> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# https://erct.adaptcentre.com/ontology#hasPublicationInfo
+<https://erct.adaptcentre.com/ontology#hasPublicationInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://erct.adaptcentre.com/ontology#hasPublicationInfo> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#Trial> .
+<https://erct.adaptcentre.com/ontology#hasPublicationInfo> <http://www.w3.org/2000/01/rdf-schema#range> <https://erct.adaptcentre.com/ontology#publicationInfo> .
+<https://erct.adaptcentre.com/ontology#hasPublicationInfo> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a trial to bibliographic metadata such as DOI and JEL codes."@en .
+<https://erct.adaptcentre.com/ontology#hasPublicationInfo> <http://www.w3.org/2000/01/rdf-schema#label> "has publication information"@en .
+# 
+# https://erct.adaptcentre.com/ontology#hasSampling
+<https://erct.adaptcentre.com/ontology#hasSampling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://erct.adaptcentre.com/ontology#hasSampling> <http://www.w3.org/2000/01/rdf-schema#range> <https://erct.adaptcentre.com/ontology#Sampling> .
+<https://erct.adaptcentre.com/ontology#hasSampling> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a trial or methodology node to sampling metadata."@en .
+<https://erct.adaptcentre.com/ontology#hasSampling> <http://www.w3.org/2000/01/rdf-schema#label> "has sampling"@en .
+# 
+# https://erct.adaptcentre.com/ontology#hasSector
+<https://erct.adaptcentre.com/ontology#hasSector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://erct.adaptcentre.com/ontology#hasSector> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#Trial> .
+<https://erct.adaptcentre.com/ontology#hasSector> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://erct.adaptcentre.com/ontology#hasSector> <http://www.w3.org/2000/01/rdf-schema#comment> "Facet property used by the UI to filter trials by sector. Canonical values are controlled IRIs of skos:Concept in erct:SectorScheme. Legacy data may contain literal values. Pipelines should migrate or align literals to controlled concept IRIs via skos:altLabel or erct:legacyLiteralValue."@en .
+<https://erct.adaptcentre.com/ontology#hasSector> <http://www.w3.org/2000/01/rdf-schema#label> "has sector"@en .
+<https://erct.adaptcentre.com/ontology#hasSector> <https://erct.adaptcentre.com/ontology#uiExample> "http://example.org/sector/health" .
+<https://erct.adaptcentre.com/ontology#hasSector> <https://erct.adaptcentre.com/ontology#uiPlaceholder> "Select one or more sectors" .
+<https://erct.adaptcentre.com/ontology#hasSector> <https://erct.adaptcentre.com/ontology#uiSection> "Filters" .
+# 
+# https://erct.adaptcentre.com/ontology#hasSubmission
+<https://erct.adaptcentre.com/ontology#hasSubmission> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://erct.adaptcentre.com/ontology#hasSubmission> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#Trial> .
+<https://erct.adaptcentre.com/ontology#hasSubmission> <http://www.w3.org/2000/01/rdf-schema#range> <https://erct.adaptcentre.com/ontology#Submission> .
+<https://erct.adaptcentre.com/ontology#hasSubmission> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a trial record to the submission event that created or updated it."@en .
+<https://erct.adaptcentre.com/ontology#hasSubmission> <http://www.w3.org/2000/01/rdf-schema#label> "has submission"@en .
+<https://erct.adaptcentre.com/ontology#hasSubmission> <https://erct.adaptcentre.com/ontology#uiExample> "http://example.org/submission/aea-1230-2026-02-07" .
+<https://erct.adaptcentre.com/ontology#hasSubmission> <https://erct.adaptcentre.com/ontology#uiPlaceholder> "Link to submission event IRI" .
+<https://erct.adaptcentre.com/ontology#hasSubmission> <https://erct.adaptcentre.com/ontology#uiSection> "Submission provenance" .
+# 
+# https://erct.adaptcentre.com/ontology#hasTimespan
+<https://erct.adaptcentre.com/ontology#hasTimespan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://erct.adaptcentre.com/ontology#hasTimespan> <http://www.w3.org/2000/01/rdf-schema#range> <https://erct.adaptcentre.com/ontology#Timespan> .
+<https://erct.adaptcentre.com/ontology#hasTimespan> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a trial, intervention, or treatment arm to a start and end date container."@en .
+<https://erct.adaptcentre.com/ontology#hasTimespan> <http://www.w3.org/2000/01/rdf-schema#label> "has timespan"@en .
+# 
+# https://erct.adaptcentre.com/ontology#hasTreatmentArm
+<https://erct.adaptcentre.com/ontology#hasTreatmentArm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://erct.adaptcentre.com/ontology#hasTreatmentArm> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#Trial> .
+<https://erct.adaptcentre.com/ontology#hasTreatmentArm> <http://www.w3.org/2000/01/rdf-schema#range> <https://erct.adaptcentre.com/ontology#TreatmentArm> .
+<https://erct.adaptcentre.com/ontology#hasTreatmentArm> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a trial to one or more treatment arms."@en .
+<https://erct.adaptcentre.com/ontology#hasTreatmentArm> <http://www.w3.org/2000/01/rdf-schema#label> "has treatment arm"@en .
+# 
+# https://erct.adaptcentre.com/ontology#hasTreatmentVar
+<https://erct.adaptcentre.com/ontology#hasTreatmentVar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://erct.adaptcentre.com/ontology#hasTreatmentVar> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#TreatmentArm> .
+<https://erct.adaptcentre.com/ontology#hasTreatmentVar> <http://www.w3.org/2000/01/rdf-schema#range> <https://erct.adaptcentre.com/ontology#TreatmentVar> .
+<https://erct.adaptcentre.com/ontology#hasTreatmentVar> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a treatment arm to treatment-effect metadata."@en .
+<https://erct.adaptcentre.com/ontology#hasTreatmentVar> <http://www.w3.org/2000/01/rdf-schema#label> "has treatment variable"@en .
+# 
+# https://erct.adaptcentre.com/ontology#hasTreatmentVariable
+<https://erct.adaptcentre.com/ontology#hasTreatmentVariable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://erct.adaptcentre.com/ontology#hasTreatmentVariable> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#Finding> .
+<https://erct.adaptcentre.com/ontology#hasTreatmentVariable> <http://www.w3.org/2000/01/rdf-schema#range> <https://erct.adaptcentre.com/ontology#TreatmentVar> .
+<https://erct.adaptcentre.com/ontology#hasTreatmentVariable> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a finding to the treatment-variable node containing effect-size and p-value details."@en .
+<https://erct.adaptcentre.com/ontology#hasTreatmentVariable> <http://www.w3.org/2000/01/rdf-schema#label> "has treatment variable"@en .
+# 
+# https://erct.adaptcentre.com/ontology#hasublicationInfo
+<https://erct.adaptcentre.com/ontology#hasublicationInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://erct.adaptcentre.com/ontology#hasublicationInfo> <http://www.w3.org/2000/01/rdf-schema#comment> "Deprecated typo from earlier mappings. Use erct:hasPublicationInfo."@en .
+<https://erct.adaptcentre.com/ontology#hasublicationInfo> <http://www.w3.org/2000/01/rdf-schema#label> "has publication information (deprecated typo)"@en .
+<https://erct.adaptcentre.com/ontology#hasublicationInfo> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# https://erct.adaptcentre.com/ontology#ingestionMethod
+<https://erct.adaptcentre.com/ontology#ingestionMethod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://erct.adaptcentre.com/ontology#ingestionMethod> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#Submission> .
+<https://erct.adaptcentre.com/ontology#ingestionMethod> <http://www.w3.org/2000/01/rdf-schema#range> <https://erct.adaptcentre.com/ontology#IngestionMethod> .
+<https://erct.adaptcentre.com/ontology#ingestionMethod> <http://www.w3.org/2000/01/rdf-schema#comment> "Controlled method describing how the submission metadata was ingested. Use concepts such as erct:ManualIngestion or erct:LLMAssistedIngestion."@en .
+<https://erct.adaptcentre.com/ontology#ingestionMethod> <http://www.w3.org/2000/01/rdf-schema#label> "ingestion method"@en .
+<https://erct.adaptcentre.com/ontology#ingestionMethod> <https://erct.adaptcentre.com/ontology#uiExample> "erct:LLMAssistedIngestion" .
+<https://erct.adaptcentre.com/ontology#ingestionMethod> <https://erct.adaptcentre.com/ontology#uiPlaceholder> "manual or llm-assisted" .
+<https://erct.adaptcentre.com/ontology#ingestionMethod> <https://erct.adaptcentre.com/ontology#uiSection> "Submission provenance" .
+# 
+# https://erct.adaptcentre.com/ontology#locatedIn
+<https://erct.adaptcentre.com/ontology#locatedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://erct.adaptcentre.com/ontology#locatedIn> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#Region> .
+<https://erct.adaptcentre.com/ontology#locatedIn> <http://www.w3.org/2000/01/rdf-schema#range> <https://erct.adaptcentre.com/ontology#Country> .
+<https://erct.adaptcentre.com/ontology#locatedIn> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a sub-national place such as a region to its parent country."@en .
+<https://erct.adaptcentre.com/ontology#locatedIn> <http://www.w3.org/2000/01/rdf-schema#label> "located in"@en .
+# 
+# https://erct.adaptcentre.com/ontology#performedBy
+<https://erct.adaptcentre.com/ontology#performedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://erct.adaptcentre.com/ontology#performedBy> <http://www.w3.org/2000/01/rdf-schema#range> <https://erct.adaptcentre.com/ontology#Agent> .
+<https://erct.adaptcentre.com/ontology#performedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "General relation linking an activity-like entity to the responsible agent."@en .
+<https://erct.adaptcentre.com/ontology#performedBy> <http://www.w3.org/2000/01/rdf-schema#label> "performed by"@en .
+# 
+# https://erct.adaptcentre.com/ontology#reviewedBy
+<https://erct.adaptcentre.com/ontology#reviewedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://erct.adaptcentre.com/ontology#reviewedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#Submission> .
+<https://erct.adaptcentre.com/ontology#reviewedBy> <http://www.w3.org/2000/01/rdf-schema#range> <https://erct.adaptcentre.com/ontology#Agent> .
+<https://erct.adaptcentre.com/ontology#reviewedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Identifies the reviewer who confirmed or edited extracted metadata before acceptance."@en .
+<https://erct.adaptcentre.com/ontology#reviewedBy> <http://www.w3.org/2000/01/rdf-schema#label> "reviewed by"@en .
+<https://erct.adaptcentre.com/ontology#reviewedBy> <https://erct.adaptcentre.com/ontology#uiExample> "http://example.org/agent/reviewer-17" .
+<https://erct.adaptcentre.com/ontology#reviewedBy> <https://erct.adaptcentre.com/ontology#uiPlaceholder> "Reviewer identifier" .
+<https://erct.adaptcentre.com/ontology#reviewedBy> <https://erct.adaptcentre.com/ontology#uiSection> "Submission provenance" .
+# 
+# https://erct.adaptcentre.com/ontology#statifiedBy
+<https://erct.adaptcentre.com/ontology#statifiedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://erct.adaptcentre.com/ontology#statifiedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Deprecated misspelling. Use erct:stratifiedBy."@en .
+<https://erct.adaptcentre.com/ontology#statifiedBy> <http://www.w3.org/2000/01/rdf-schema#label> "statified by (deprecated typo)"@en .
+<https://erct.adaptcentre.com/ontology#statifiedBy> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# https://erct.adaptcentre.com/ontology#stratifiedBy
+<https://erct.adaptcentre.com/ontology#stratifiedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://erct.adaptcentre.com/ontology#stratifiedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#Stratified> .
+<https://erct.adaptcentre.com/ontology#stratifiedBy> <http://www.w3.org/2000/01/rdf-schema#range> <https://erct.adaptcentre.com/ontology#demographicVariable> .
+<https://erct.adaptcentre.com/ontology#stratifiedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the demographic variable used in stratified randomisation, for example gender or county."@en .
+<https://erct.adaptcentre.com/ontology#stratifiedBy> <http://www.w3.org/2000/01/rdf-schema#label> "stratified by"@en .
+# 
+# https://erct.adaptcentre.com/ontology#takesPlaceIn
+<https://erct.adaptcentre.com/ontology#takesPlaceIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://erct.adaptcentre.com/ontology#takesPlaceIn> <http://www.w3.org/2000/01/rdf-schema#range> <https://erct.adaptcentre.com/ontology#Place> .
+<https://erct.adaptcentre.com/ontology#takesPlaceIn> <http://www.w3.org/2000/01/rdf-schema#comment> "Links an intervention or treatment arm to a place where it occurs."@en .
+<https://erct.adaptcentre.com/ontology#takesPlaceIn> <http://www.w3.org/2000/01/rdf-schema#label> "takes place in"@en .
+# 
+# https://erct.adaptcentre.com/ontology#tookPlaceIn
+<https://erct.adaptcentre.com/ontology#tookPlaceIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://erct.adaptcentre.com/ontology#tookPlaceIn> <http://www.w3.org/2000/01/rdf-schema#comment> "Deprecated legacy spelling. Use erct:takesPlaceIn for event location and erct:hasCountry for trial filtering."@en .
+<https://erct.adaptcentre.com/ontology#tookPlaceIn> <http://www.w3.org/2000/01/rdf-schema#label> "took place in (deprecated)"@en .
+<https://erct.adaptcentre.com/ontology#tookPlaceIn> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# https://erct.adaptcentre.com/ontology#used
+<https://erct.adaptcentre.com/ontology#used> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://erct.adaptcentre.com/ontology#used> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/prov#used> .
+<https://erct.adaptcentre.com/ontology#used> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#ProvenanceActivity> .
+<https://erct.adaptcentre.com/ontology#used> <http://www.w3.org/2000/01/rdf-schema#range> <https://erct.adaptcentre.com/ontology#EntityWithProvenance> .
+<https://erct.adaptcentre.com/ontology#used> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates that a provenance activity used a prior evidence entity as input."@en .
+<https://erct.adaptcentre.com/ontology#used> <http://www.w3.org/2000/01/rdf-schema#label> "used"@en .
+# 
+# https://erct.adaptcentre.com/ontology#wasInformedBy
+<https://erct.adaptcentre.com/ontology#wasInformedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://erct.adaptcentre.com/ontology#wasInformedBy> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/prov#wasInformedBy> .
+<https://erct.adaptcentre.com/ontology#wasInformedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#ProvenanceActivity> .
+<https://erct.adaptcentre.com/ontology#wasInformedBy> <http://www.w3.org/2000/01/rdf-schema#range> <https://erct.adaptcentre.com/ontology#ProvenanceActivity> .
+<https://erct.adaptcentre.com/ontology#wasInformedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates a provenance activity to another provenance activity that informed it."@en .
+<https://erct.adaptcentre.com/ontology#wasInformedBy> <http://www.w3.org/2000/01/rdf-schema#label> "was informed by"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/ns/prov#generatedAtTime
+<http://www.w3.org/ns/prov#generatedAtTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3.org/ns/prov#generatedAtTime> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#EntityWithProvenance> .
+<http://www.w3.org/ns/prov#generatedAtTime> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://www.w3.org/ns/prov#generatedAtTime> <http://www.w3.org/2000/01/rdf-schema#comment> "Canonical provenance timestamp for when an evidence entity was generated. Use xsd:dateTime literals, for example 2026-02-09T10:30:00Z."@en .
+<http://www.w3.org/ns/prov#generatedAtTime> <http://www.w3.org/2000/01/rdf-schema#label> "generated at time"@en .
+# 
+# https://erct.adaptcentre.com/ontology#Abstract
+<https://erct.adaptcentre.com/ontology#Abstract> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://erct.adaptcentre.com/ontology#Abstract> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://erct.adaptcentre.com/ontology#Abstract> <http://www.w3.org/2000/01/rdf-schema#label> "Abstract"@en .
+# 
+# https://erct.adaptcentre.com/ontology#Additional_Dataset_Information
+<https://erct.adaptcentre.com/ontology#Additional_Dataset_Information> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://erct.adaptcentre.com/ontology#Additional_Dataset_Information> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://erct.adaptcentre.com/ontology#Additional_Dataset_Information> <http://www.w3.org/2000/01/rdf-schema#label> "Additional_Dataset_Information"@en .
+# 
+# https://erct.adaptcentre.com/ontology#Analysis_Code_Format
+<https://erct.adaptcentre.com/ontology#Analysis_Code_Format> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://erct.adaptcentre.com/ontology#Analysis_Code_Format> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://erct.adaptcentre.com/ontology#Analysis_Code_Format> <http://www.w3.org/2000/01/rdf-schema#label> "Analysis_Code_Format"@en .
+# 
+# https://erct.adaptcentre.com/ontology#Authors
+<https://erct.adaptcentre.com/ontology#Authors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://erct.adaptcentre.com/ontology#Authors> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://erct.adaptcentre.com/ontology#Authors> <http://www.w3.org/2000/01/rdf-schema#label> "Authors"@en .
+# 
+# https://erct.adaptcentre.com/ontology#CRS_Voluntary_DAC_Code
+<https://erct.adaptcentre.com/ontology#CRS_Voluntary_DAC_Code> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://erct.adaptcentre.com/ontology#CRS_Voluntary_DAC_Code> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://erct.adaptcentre.com/ontology#CRS_Voluntary_DAC_Code> <http://www.w3.org/2000/01/rdf-schema#label> "CRS_Voluntary_DAC_Code"@en .
+# 
+# https://erct.adaptcentre.com/ontology#Countries
+<https://erct.adaptcentre.com/ontology#Countries> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://erct.adaptcentre.com/ontology#Countries> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://erct.adaptcentre.com/ontology#Countries> <http://www.w3.org/2000/01/rdf-schema#label> "Countries"@en .
+# 
+# https://erct.adaptcentre.com/ontology#Equity_dimension
+<https://erct.adaptcentre.com/ontology#Equity_dimension> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://erct.adaptcentre.com/ontology#Equity_dimension> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://erct.adaptcentre.com/ontology#Equity_dimension> <http://www.w3.org/2000/01/rdf-schema#label> "Equity_dimension"@en .
+# 
+# https://erct.adaptcentre.com/ontology#Equity_focus
+<https://erct.adaptcentre.com/ontology#Equity_focus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://erct.adaptcentre.com/ontology#Equity_focus> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://erct.adaptcentre.com/ontology#Equity_focus> <http://www.w3.org/2000/01/rdf-schema#label> "Equity_focus"@en .
+# 
+# https://erct.adaptcentre.com/ontology#Ethics_Approval
+<https://erct.adaptcentre.com/ontology#Ethics_Approval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://erct.adaptcentre.com/ontology#Ethics_Approval> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://erct.adaptcentre.com/ontology#Ethics_Approval> <http://www.w3.org/2000/01/rdf-schema#label> "Ethics_Approval"@en .
+# 
+# https://erct.adaptcentre.com/ontology#Evaluation_design
+<https://erct.adaptcentre.com/ontology#Evaluation_design> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://erct.adaptcentre.com/ontology#Evaluation_design> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://erct.adaptcentre.com/ontology#Evaluation_design> <http://www.w3.org/2000/01/rdf-schema#label> "Evaluation_design"@en .
+# 
+# https://erct.adaptcentre.com/ontology#Implementation_agency
+<https://erct.adaptcentre.com/ontology#Implementation_agency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://erct.adaptcentre.com/ontology#Implementation_agency> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://erct.adaptcentre.com/ontology#Implementation_agency> <http://www.w3.org/2000/01/rdf-schema#label> "Implementation_agency"@en .
+# 
+# https://erct.adaptcentre.com/ontology#Keywords
+<https://erct.adaptcentre.com/ontology#Keywords> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://erct.adaptcentre.com/ontology#Keywords> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://erct.adaptcentre.com/ontology#Keywords> <http://www.w3.org/2000/01/rdf-schema#label> "Keywords"@en .
+# 
+# https://erct.adaptcentre.com/ontology#Language
+<https://erct.adaptcentre.com/ontology#Language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://erct.adaptcentre.com/ontology#Language> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://erct.adaptcentre.com/ontology#Language> <http://www.w3.org/2000/01/rdf-schema#label> "Language"@en .
+# 
+# https://erct.adaptcentre.com/ontology#Mixed_method
+<https://erct.adaptcentre.com/ontology#Mixed_method> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://erct.adaptcentre.com/ontology#Mixed_method> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://erct.adaptcentre.com/ontology#Mixed_method> <http://www.w3.org/2000/01/rdf-schema#label> "Mixed_method"@en .
+# 
+# https://erct.adaptcentre.com/ontology#Open_Access
+<https://erct.adaptcentre.com/ontology#Open_Access> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://erct.adaptcentre.com/ontology#Open_Access> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://erct.adaptcentre.com/ontology#Open_Access> <http://www.w3.org/2000/01/rdf-schema#label> "Open_Access"@en .
+# 
+# https://erct.adaptcentre.com/ontology#Pre-Registration
+<https://erct.adaptcentre.com/ontology#Pre-Registration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://erct.adaptcentre.com/ontology#Pre-Registration> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://erct.adaptcentre.com/ontology#Pre-Registration> <http://www.w3.org/2000/01/rdf-schema#label> "Pre-Registration"@en .
+# 
+# https://erct.adaptcentre.com/ontology#Primary_Dataset_Availability
+<https://erct.adaptcentre.com/ontology#Primary_Dataset_Availability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://erct.adaptcentre.com/ontology#Primary_Dataset_Availability> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://erct.adaptcentre.com/ontology#Primary_Dataset_Availability> <http://www.w3.org/2000/01/rdf-schema#label> "Primary_Dataset_Availability"@en .
+# 
+# https://erct.adaptcentre.com/ontology#Primary_Dataset_Format
+<https://erct.adaptcentre.com/ontology#Primary_Dataset_Format> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://erct.adaptcentre.com/ontology#Primary_Dataset_Format> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://erct.adaptcentre.com/ontology#Primary_Dataset_Format> <http://www.w3.org/2000/01/rdf-schema#label> "Primary_Dataset_Format"@en .
+# 
+# https://erct.adaptcentre.com/ontology#Program_funding_agency
+<https://erct.adaptcentre.com/ontology#Program_funding_agency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://erct.adaptcentre.com/ontology#Program_funding_agency> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://erct.adaptcentre.com/ontology#Program_funding_agency> <http://www.w3.org/2000/01/rdf-schema#label> "Program_funding_agency"@en .
+# 
+# https://erct.adaptcentre.com/ontology#Project_name
+<https://erct.adaptcentre.com/ontology#Project_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://erct.adaptcentre.com/ontology#Project_name> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://erct.adaptcentre.com/ontology#Project_name> <http://www.w3.org/2000/01/rdf-schema#label> "Project_name"@en .
+# 
+# https://erct.adaptcentre.com/ontology#Protocol_Pre-Analysis_Plan
+<https://erct.adaptcentre.com/ontology#Protocol_Pre-Analysis_Plan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://erct.adaptcentre.com/ontology#Protocol_Pre-Analysis_Plan> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://erct.adaptcentre.com/ontology#Protocol_Pre-Analysis_Plan> <http://www.w3.org/2000/01/rdf-schema#label> "Protocol_Pre-Analysis_Plan"@en .
+# 
+# https://erct.adaptcentre.com/ontology#Research_funding_agency
+<https://erct.adaptcentre.com/ontology#Research_funding_agency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://erct.adaptcentre.com/ontology#Research_funding_agency> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://erct.adaptcentre.com/ontology#Research_funding_agency> <http://www.w3.org/2000/01/rdf-schema#label> "Research_funding_agency"@en .
+# 
+# https://erct.adaptcentre.com/ontology#Secondary_Dataset_Name
+<https://erct.adaptcentre.com/ontology#Secondary_Dataset_Name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://erct.adaptcentre.com/ontology#Secondary_Dataset_Name> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://erct.adaptcentre.com/ontology#Secondary_Dataset_Name> <http://www.w3.org/2000/01/rdf-schema#label> "Secondary_Dataset_Name"@en .
+# 
+# https://erct.adaptcentre.com/ontology#Sub-sector
+<https://erct.adaptcentre.com/ontology#Sub-sector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://erct.adaptcentre.com/ontology#Sub-sector> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://erct.adaptcentre.com/ontology#Sub-sector> <http://www.w3.org/2000/01/rdf-schema#label> "Sub-sector"@en .
+# 
+# https://erct.adaptcentre.com/ontology#Unit_of_observation
+<https://erct.adaptcentre.com/ontology#Unit_of_observation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://erct.adaptcentre.com/ontology#Unit_of_observation> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://erct.adaptcentre.com/ontology#Unit_of_observation> <http://www.w3.org/2000/01/rdf-schema#label> "Unit_of_observation"@en .
+# 
+# https://erct.adaptcentre.com/ontology#extractionTimestamp
+<https://erct.adaptcentre.com/ontology#extractionTimestamp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://erct.adaptcentre.com/ontology#extractionTimestamp> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#ExtractionRun> .
+<https://erct.adaptcentre.com/ontology#extractionTimestamp> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://erct.adaptcentre.com/ontology#extractionTimestamp> <http://www.w3.org/2000/01/rdf-schema#comment> "Date-time when the extraction run generated candidate metadata."@en .
+<https://erct.adaptcentre.com/ontology#extractionTimestamp> <http://www.w3.org/2000/01/rdf-schema#label> "extraction timestamp"@en .
+<https://erct.adaptcentre.com/ontology#extractionTimestamp> <https://erct.adaptcentre.com/ontology#uiExample> "2026-02-07T15:20:00Z" .
+<https://erct.adaptcentre.com/ontology#extractionTimestamp> <https://erct.adaptcentre.com/ontology#uiPlaceholder> "2026-02-07T15:20:00Z" .
+<https://erct.adaptcentre.com/ontology#extractionTimestamp> <https://erct.adaptcentre.com/ontology#uiSection> "Extraction provenance" .
+# 
+# https://erct.adaptcentre.com/ontology#hasAbstract
+<https://erct.adaptcentre.com/ontology#hasAbstract> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://erct.adaptcentre.com/ontology#hasAbstract> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://erct.adaptcentre.com/ontology#hasAbstract> <http://www.w3.org/2000/01/rdf-schema#label> "hasAbstract"@en .
+# 
+# https://erct.adaptcentre.com/ontology#hasAffiliation
+<https://erct.adaptcentre.com/ontology#hasAffiliation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://erct.adaptcentre.com/ontology#hasAffiliation> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#Researcher> .
+<https://erct.adaptcentre.com/ontology#hasAffiliation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://erct.adaptcentre.com/ontology#hasAffiliation> <http://www.w3.org/2000/01/rdf-schema#comment> "Institutional affiliation for a researcher."@en .
+<https://erct.adaptcentre.com/ontology#hasAffiliation> <http://www.w3.org/2000/01/rdf-schema#label> "has affiliation"@en .
+# 
+# https://erct.adaptcentre.com/ontology#hasConfidenceIntervalLower
+<https://erct.adaptcentre.com/ontology#hasConfidenceIntervalLower> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://erct.adaptcentre.com/ontology#hasConfidenceIntervalLower> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#Finding> .
+<https://erct.adaptcentre.com/ontology#hasConfidenceIntervalLower> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+<https://erct.adaptcentre.com/ontology#hasConfidenceIntervalLower> <http://www.w3.org/2000/01/rdf-schema#comment> "Lower bound of the confidence interval for a finding effect estimate."@en .
+<https://erct.adaptcentre.com/ontology#hasConfidenceIntervalLower> <http://www.w3.org/2000/01/rdf-schema#label> "has confidence interval lower"@en .
+# 
+# https://erct.adaptcentre.com/ontology#hasConfidenceIntervalUpper
+<https://erct.adaptcentre.com/ontology#hasConfidenceIntervalUpper> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://erct.adaptcentre.com/ontology#hasConfidenceIntervalUpper> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#Finding> .
+<https://erct.adaptcentre.com/ontology#hasConfidenceIntervalUpper> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+<https://erct.adaptcentre.com/ontology#hasConfidenceIntervalUpper> <http://www.w3.org/2000/01/rdf-schema#comment> "Upper bound of the confidence interval for a finding effect estimate."@en .
+<https://erct.adaptcentre.com/ontology#hasConfidenceIntervalUpper> <http://www.w3.org/2000/01/rdf-schema#label> "has confidence interval upper"@en .
+# 
+# https://erct.adaptcentre.com/ontology#hasControlGroupSize
+<https://erct.adaptcentre.com/ontology#hasControlGroupSize> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://erct.adaptcentre.com/ontology#hasControlGroupSize> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#TreatmentArm> .
+<https://erct.adaptcentre.com/ontology#hasControlGroupSize> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://erct.adaptcentre.com/ontology#hasControlGroupSize> <http://www.w3.org/2000/01/rdf-schema#comment> "Number of observations in the control arm."@en .
+<https://erct.adaptcentre.com/ontology#hasControlGroupSize> <http://www.w3.org/2000/01/rdf-schema#label> "has control group size"@en .
+# 
+# https://erct.adaptcentre.com/ontology#hasDAC
+<https://erct.adaptcentre.com/ontology#hasDAC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://erct.adaptcentre.com/ontology#hasDAC> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://erct.adaptcentre.com/ontology#hasDAC> <http://www.w3.org/2000/01/rdf-schema#label> "hasDAC"@en .
+# 
+# https://erct.adaptcentre.com/ontology#hasDOI
+<https://erct.adaptcentre.com/ontology#hasDOI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://erct.adaptcentre.com/ontology#hasDOI> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#publicationInfo> .
+<https://erct.adaptcentre.com/ontology#hasDOI> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://erct.adaptcentre.com/ontology#hasDOI> <http://www.w3.org/2000/01/rdf-schema#comment> "DOI identifier for a publication. Use canonical DOI format such as 10.1257/rct.1505-3.0."@en .
+<https://erct.adaptcentre.com/ontology#hasDOI> <http://www.w3.org/2000/01/rdf-schema#label> "has DOI"@en .
+<https://erct.adaptcentre.com/ontology#hasDOI> <https://erct.adaptcentre.com/ontology#uiExample> "10.1257/rct.1505-3.0" .
+<https://erct.adaptcentre.com/ontology#hasDOI> <https://erct.adaptcentre.com/ontology#uiPlaceholder> "10.xxxx/xxxx" .
+<https://erct.adaptcentre.com/ontology#hasDOI> <https://erct.adaptcentre.com/ontology#uiSection> "Submission" .
+# 
+# https://erct.adaptcentre.com/ontology#hasEffectEstimate
+<https://erct.adaptcentre.com/ontology#hasEffectEstimate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://erct.adaptcentre.com/ontology#hasEffectEstimate> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#Finding> .
+<https://erct.adaptcentre.com/ontology#hasEffectEstimate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+<https://erct.adaptcentre.com/ontology#hasEffectEstimate> <http://www.w3.org/2000/01/rdf-schema#comment> "Primary effect estimate at finding level for export and cross-trial synthesis. When a linked treatment variable exists, values should be aligned."@en .
+<https://erct.adaptcentre.com/ontology#hasEffectEstimate> <http://www.w3.org/2000/01/rdf-schema#label> "has effect estimate"@en .
+# 
+# https://erct.adaptcentre.com/ontology#hasEmail
+<https://erct.adaptcentre.com/ontology#hasEmail> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://erct.adaptcentre.com/ontology#hasEmail> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#Researcher> .
+<https://erct.adaptcentre.com/ontology#hasEmail> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://erct.adaptcentre.com/ontology#hasEmail> <http://www.w3.org/2000/01/rdf-schema#comment> "Email address for a researcher contact. Valid input should be a single email address; avoid adding names, labels, or multiple addresses in one value."@en .
+<https://erct.adaptcentre.com/ontology#hasEmail> <http://www.w3.org/2000/01/rdf-schema#label> "has email"@en .
+<https://erct.adaptcentre.com/ontology#hasEmail> <https://erct.adaptcentre.com/ontology#uiExample> "j.doe@university.edu" .
+<https://erct.adaptcentre.com/ontology#hasEmail> <https://erct.adaptcentre.com/ontology#uiPlaceholder> "name@example.org" .
+<https://erct.adaptcentre.com/ontology#hasEmail> <https://erct.adaptcentre.com/ontology#uiSection> "Submission" .
+# 
+# https://erct.adaptcentre.com/ontology#hasEndDate
+<https://erct.adaptcentre.com/ontology#hasEndDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://erct.adaptcentre.com/ontology#hasEndDate> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#Timespan> .
+<https://erct.adaptcentre.com/ontology#hasEndDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date> .
+<https://erct.adaptcentre.com/ontology#hasEndDate> <http://www.w3.org/2000/01/rdf-schema#comment> "End date for trial implementation. Use ISO date format YYYY-MM-DD when possible."@en .
+<https://erct.adaptcentre.com/ontology#hasEndDate> <http://www.w3.org/2000/01/rdf-schema#label> "has end date"@en .
+<https://erct.adaptcentre.com/ontology#hasEndDate> <https://erct.adaptcentre.com/ontology#uiExample> "2022-12-31" .
+<https://erct.adaptcentre.com/ontology#hasEndDate> <https://erct.adaptcentre.com/ontology#uiPlaceholder> "2023-06-30" .
+<https://erct.adaptcentre.com/ontology#hasEndDate> <https://erct.adaptcentre.com/ontology#uiSection> "Submission" .
+# 
+# https://erct.adaptcentre.com/ontology#hasISO
+<https://erct.adaptcentre.com/ontology#hasISO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://erct.adaptcentre.com/ontology#hasISO> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#Region> .
+<https://erct.adaptcentre.com/ontology#hasISO> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://erct.adaptcentre.com/ontology#hasISO> <http://www.w3.org/2000/01/rdf-schema#comment> "Generic ISO-like code for region records in exports, for example subdivision codes."@en .
+<https://erct.adaptcentre.com/ontology#hasISO> <http://www.w3.org/2000/01/rdf-schema#label> "has ISO code"@en .
+<https://erct.adaptcentre.com/ontology#hasISO> <https://erct.adaptcentre.com/ontology#uiExample> "ZM-02" .
+<https://erct.adaptcentre.com/ontology#hasISO> <https://erct.adaptcentre.com/ontology#uiSection> "Exports" .
+# 
+# https://erct.adaptcentre.com/ontology#hasISOAlpha2
+<https://erct.adaptcentre.com/ontology#hasISOAlpha2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://erct.adaptcentre.com/ontology#hasISOAlpha2> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#Country> .
+<https://erct.adaptcentre.com/ontology#hasISOAlpha2> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://erct.adaptcentre.com/ontology#hasISOAlpha2> <http://www.w3.org/2000/01/rdf-schema#comment> "Two-letter ISO 3166-1 country code used in exports and tabular joins."@en .
+<https://erct.adaptcentre.com/ontology#hasISOAlpha2> <http://www.w3.org/2000/01/rdf-schema#label> "has ISO alpha-2 code"@en .
+<https://erct.adaptcentre.com/ontology#hasISOAlpha2> <https://erct.adaptcentre.com/ontology#uiExample> "KE" .
+<https://erct.adaptcentre.com/ontology#hasISOAlpha2> <https://erct.adaptcentre.com/ontology#uiSection> "Exports" .
+# 
+# https://erct.adaptcentre.com/ontology#hasISOAlpha3
+<https://erct.adaptcentre.com/ontology#hasISOAlpha3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://erct.adaptcentre.com/ontology#hasISOAlpha3> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#Country> .
+<https://erct.adaptcentre.com/ontology#hasISOAlpha3> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://erct.adaptcentre.com/ontology#hasISOAlpha3> <http://www.w3.org/2000/01/rdf-schema#comment> "Three-letter ISO 3166-1 country code used in external data integration."@en .
+<https://erct.adaptcentre.com/ontology#hasISOAlpha3> <http://www.w3.org/2000/01/rdf-schema#label> "has ISO alpha-3 code"@en .
+<https://erct.adaptcentre.com/ontology#hasISOAlpha3> <https://erct.adaptcentre.com/ontology#uiExample> "KEN" .
+<https://erct.adaptcentre.com/ontology#hasISOAlpha3> <https://erct.adaptcentre.com/ontology#uiSection> "Exports" .
+# 
+# https://erct.adaptcentre.com/ontology#hasIndicatorType
+<https://erct.adaptcentre.com/ontology#hasIndicatorType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://erct.adaptcentre.com/ontology#hasIndicatorType> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#Indicator> .
+<https://erct.adaptcentre.com/ontology#hasIndicatorType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://erct.adaptcentre.com/ontology#hasIndicatorType> <http://www.w3.org/2000/01/rdf-schema#comment> "Human-readable type of indicator, for example HDI, GDP, or net savings."@en .
+<https://erct.adaptcentre.com/ontology#hasIndicatorType> <http://www.w3.org/2000/01/rdf-schema#label> "has indicator type"@en .
+<https://erct.adaptcentre.com/ontology#hasIndicatorType> <https://erct.adaptcentre.com/ontology#uiSection> "Evidence view" .
+# 
+# https://erct.adaptcentre.com/ontology#hasJELcode
+<https://erct.adaptcentre.com/ontology#hasJELcode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://erct.adaptcentre.com/ontology#hasJELcode> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#publicationInfo> .
+<https://erct.adaptcentre.com/ontology#hasJELcode> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://erct.adaptcentre.com/ontology#hasJELcode> <http://www.w3.org/2000/01/rdf-schema#comment> "JEL code list for trial publications. Use standard JEL codes such as I25 or O12, separated consistently in data-entry workflows."@en .
+<https://erct.adaptcentre.com/ontology#hasJELcode> <http://www.w3.org/2000/01/rdf-schema#label> "has JEL code"@en .
+<https://erct.adaptcentre.com/ontology#hasJELcode> <https://erct.adaptcentre.com/ontology#uiExample> "H43" .
+<https://erct.adaptcentre.com/ontology#hasJELcode> <https://erct.adaptcentre.com/ontology#uiPlaceholder> "I25, O12" .
+<https://erct.adaptcentre.com/ontology#hasJELcode> <https://erct.adaptcentre.com/ontology#uiSection> "Submission" .
+# 
+# https://erct.adaptcentre.com/ontology#hasMDE
+<https://erct.adaptcentre.com/ontology#hasMDE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://erct.adaptcentre.com/ontology#hasMDE> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#Methodology> .
+<https://erct.adaptcentre.com/ontology#hasMDE> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+<https://erct.adaptcentre.com/ontology#hasMDE> <http://www.w3.org/2000/01/rdf-schema#comment> "Minimum detectable effect value reported in methodology metadata. Valid input is numeric."@en .
+<https://erct.adaptcentre.com/ontology#hasMDE> <http://www.w3.org/2000/01/rdf-schema#label> "has minimum detectable effect"@en .
+<https://erct.adaptcentre.com/ontology#hasMDE> <https://erct.adaptcentre.com/ontology#uiExample> "0.15" .
+<https://erct.adaptcentre.com/ontology#hasMDE> <https://erct.adaptcentre.com/ontology#uiPlaceholder> "0.2" .
+<https://erct.adaptcentre.com/ontology#hasMDE> <https://erct.adaptcentre.com/ontology#uiSection> "Submission" .
+# 
+# https://erct.adaptcentre.com/ontology#hasName
+<https://erct.adaptcentre.com/ontology#hasName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://erct.adaptcentre.com/ontology#hasName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://erct.adaptcentre.com/ontology#hasName> <http://www.w3.org/2000/01/rdf-schema#comment> "Human-readable display name for an entity."@en .
+<https://erct.adaptcentre.com/ontology#hasName> <http://www.w3.org/2000/01/rdf-schema#label> "has name"@en .
+# 
+# https://erct.adaptcentre.com/ontology#hasNoOfClusters
+<https://erct.adaptcentre.com/ontology#hasNoOfClusters> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://erct.adaptcentre.com/ontology#hasNoOfClusters> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#Clustered> .
+<https://erct.adaptcentre.com/ontology#hasNoOfClusters> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://erct.adaptcentre.com/ontology#hasNoOfClusters> <http://www.w3.org/2000/01/rdf-schema#comment> "Number of clusters used in clustered randomisation. Valid input is a numeric count only; do not include unit words in the same field."@en .
+<https://erct.adaptcentre.com/ontology#hasNoOfClusters> <http://www.w3.org/2000/01/rdf-schema#label> "has number of clusters"@en .
+<https://erct.adaptcentre.com/ontology#hasNoOfClusters> <https://erct.adaptcentre.com/ontology#uiExample> "120" .
+<https://erct.adaptcentre.com/ontology#hasNoOfClusters> <https://erct.adaptcentre.com/ontology#uiPlaceholder> "64" .
+<https://erct.adaptcentre.com/ontology#hasNoOfClusters> <https://erct.adaptcentre.com/ontology#uiSection> "Submission" .
+# 
+# https://erct.adaptcentre.com/ontology#hasOutcome
+<https://erct.adaptcentre.com/ontology#hasOutcome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://erct.adaptcentre.com/ontology#hasOutcome> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#Intervention> .
+<https://erct.adaptcentre.com/ontology#hasOutcome> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://erct.adaptcentre.com/ontology#hasOutcome> <http://www.w3.org/2000/01/rdf-schema#comment> "Free-text outcome description captured from source records. Use erct:hasOutcomeDomain for filterable controlled categorisation."@en .
+<https://erct.adaptcentre.com/ontology#hasOutcome> <http://www.w3.org/2000/01/rdf-schema#label> "has outcome text"@en .
+<https://erct.adaptcentre.com/ontology#hasOutcome> <https://erct.adaptcentre.com/ontology#uiExample> "Voter turnout" .
+<https://erct.adaptcentre.com/ontology#hasOutcome> <https://erct.adaptcentre.com/ontology#uiPlaceholder> "Primary school enrollment rate" .
+<https://erct.adaptcentre.com/ontology#hasOutcome> <https://erct.adaptcentre.com/ontology#uiSection> "Submission" .
+# 
+# https://erct.adaptcentre.com/ontology#hasPValue
+<https://erct.adaptcentre.com/ontology#hasPValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://erct.adaptcentre.com/ontology#hasPValue> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#TreatmentVar> .
+<https://erct.adaptcentre.com/ontology#hasPValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+<https://erct.adaptcentre.com/ontology#hasPValue> <http://www.w3.org/2000/01/rdf-schema#comment> "P-value associated with a treatment estimate. Valid input is a decimal number between 0 and 1."@en .
+<https://erct.adaptcentre.com/ontology#hasPValue> <http://www.w3.org/2000/01/rdf-schema#label> "has p-value"@en .
+<https://erct.adaptcentre.com/ontology#hasPValue> <https://erct.adaptcentre.com/ontology#uiExample> "0.012" .
+<https://erct.adaptcentre.com/ontology#hasPValue> <https://erct.adaptcentre.com/ontology#uiPlaceholder> "0.05" .
+<https://erct.adaptcentre.com/ontology#hasPValue> <https://erct.adaptcentre.com/ontology#uiSection> "Submission" .
+# 
+# https://erct.adaptcentre.com/ontology#hasPower
+<https://erct.adaptcentre.com/ontology#hasPower> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://erct.adaptcentre.com/ontology#hasPower> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#Methodology> .
+<https://erct.adaptcentre.com/ontology#hasPower> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+<https://erct.adaptcentre.com/ontology#hasPower> <http://www.w3.org/2000/01/rdf-schema#comment> "Statistical power used in study design. Use a decimal probability between 0 and 1 when available."@en .
+<https://erct.adaptcentre.com/ontology#hasPower> <http://www.w3.org/2000/01/rdf-schema#label> "has power"@en .
+# 
+# https://erct.adaptcentre.com/ontology#hasPublicationDate
+<https://erct.adaptcentre.com/ontology#hasPublicationDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://erct.adaptcentre.com/ontology#hasPublicationDate> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#publicationInfo> .
+<https://erct.adaptcentre.com/ontology#hasPublicationDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date> .
+<https://erct.adaptcentre.com/ontology#hasPublicationDate> <http://www.w3.org/2000/01/rdf-schema#comment> "Publication date for trial outputs. Use ISO date format YYYY-MM-DD."@en .
+<https://erct.adaptcentre.com/ontology#hasPublicationDate> <http://www.w3.org/2000/01/rdf-schema#label> "has publication date"@en .
+<https://erct.adaptcentre.com/ontology#hasPublicationDate> <https://erct.adaptcentre.com/ontology#uiExample> "2023-06-15" .
+<https://erct.adaptcentre.com/ontology#hasPublicationDate> <https://erct.adaptcentre.com/ontology#uiPlaceholder> "2024-10-01" .
+<https://erct.adaptcentre.com/ontology#hasPublicationDate> <https://erct.adaptcentre.com/ontology#uiSection> "Submission" .
+# 
+# https://erct.adaptcentre.com/ontology#hasSampleSize
+<https://erct.adaptcentre.com/ontology#hasSampleSize> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://erct.adaptcentre.com/ontology#hasSampleSize> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#Sampling> .
+<https://erct.adaptcentre.com/ontology#hasSampleSize> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://erct.adaptcentre.com/ontology#hasSampleSize> <http://www.w3.org/2000/01/rdf-schema#comment> "Total number of observations used in the analysis. Valid input is an integer count. Avoid free text values such as \"about 200\" or missing-value tokens such as N/A."@en .
+<https://erct.adaptcentre.com/ontology#hasSampleSize> <http://www.w3.org/2000/01/rdf-schema#label> "has sample size"@en .
+<https://erct.adaptcentre.com/ontology#hasSampleSize> <https://erct.adaptcentre.com/ontology#uiExample> "850" .
+<https://erct.adaptcentre.com/ontology#hasSampleSize> <https://erct.adaptcentre.com/ontology#uiPlaceholder> "1200" .
+<https://erct.adaptcentre.com/ontology#hasSampleSize> <https://erct.adaptcentre.com/ontology#uiSection> "Submission" .
+# 
+# https://erct.adaptcentre.com/ontology#hasStartDate
+<https://erct.adaptcentre.com/ontology#hasStartDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://erct.adaptcentre.com/ontology#hasStartDate> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#Timespan> .
+<https://erct.adaptcentre.com/ontology#hasStartDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date> .
+<https://erct.adaptcentre.com/ontology#hasStartDate> <http://www.w3.org/2000/01/rdf-schema#comment> "Start date for trial implementation. Use ISO date format YYYY-MM-DD when possible."@en .
+<https://erct.adaptcentre.com/ontology#hasStartDate> <http://www.w3.org/2000/01/rdf-schema#label> "has start date"@en .
+<https://erct.adaptcentre.com/ontology#hasStartDate> <https://erct.adaptcentre.com/ontology#uiExample> "2020-01-15" .
+<https://erct.adaptcentre.com/ontology#hasStartDate> <https://erct.adaptcentre.com/ontology#uiPlaceholder> "2021-09-01" .
+<https://erct.adaptcentre.com/ontology#hasStartDate> <https://erct.adaptcentre.com/ontology#uiSection> "Submission" .
+# 
+# https://erct.adaptcentre.com/ontology#hasTitle
+<https://erct.adaptcentre.com/ontology#hasTitle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://erct.adaptcentre.com/ontology#hasTitle> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://erct.adaptcentre.com/ontology#hasName> .
+<https://erct.adaptcentre.com/ontology#hasTitle> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#publicationInfo> .
+<https://erct.adaptcentre.com/ontology#hasTitle> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://erct.adaptcentre.com/ontology#hasTitle> <http://www.w3.org/2000/01/rdf-schema#comment> "Legacy property from earlier mapped datasets. Use erct:hasName."@en .
+<https://erct.adaptcentre.com/ontology#hasTitle> <http://www.w3.org/2000/01/rdf-schema#label> "hasTitle (deprecated)"@en .
+<https://erct.adaptcentre.com/ontology#hasTitle> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# https://erct.adaptcentre.com/ontology#hasTreatmentEffect
+<https://erct.adaptcentre.com/ontology#hasTreatmentEffect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://erct.adaptcentre.com/ontology#hasTreatmentEffect> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#TreatmentVar> .
+<https://erct.adaptcentre.com/ontology#hasTreatmentEffect> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+<https://erct.adaptcentre.com/ontology#hasTreatmentEffect> <http://www.w3.org/2000/01/rdf-schema#comment> "Numeric treatment effect estimate. Include only the estimate, not confidence intervals or textual qualifiers."@en .
+<https://erct.adaptcentre.com/ontology#hasTreatmentEffect> <http://www.w3.org/2000/01/rdf-schema#label> "has treatment effect"@en .
+<https://erct.adaptcentre.com/ontology#hasTreatmentEffect> <https://erct.adaptcentre.com/ontology#uiExample> "-0.18" .
+<https://erct.adaptcentre.com/ontology#hasTreatmentEffect> <https://erct.adaptcentre.com/ontology#uiPlaceholder> "1.25" .
+<https://erct.adaptcentre.com/ontology#hasTreatmentEffect> <https://erct.adaptcentre.com/ontology#uiSection> "Submission" .
+# 
+# https://erct.adaptcentre.com/ontology#hasTreatmentGroupSize
+<https://erct.adaptcentre.com/ontology#hasTreatmentGroupSize> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://erct.adaptcentre.com/ontology#hasTreatmentGroupSize> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#TreatmentArm> .
+<https://erct.adaptcentre.com/ontology#hasTreatmentGroupSize> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://erct.adaptcentre.com/ontology#hasTreatmentGroupSize> <http://www.w3.org/2000/01/rdf-schema#comment> "Number of observations in the treatment arm."@en .
+<https://erct.adaptcentre.com/ontology#hasTreatmentGroupSize> <http://www.w3.org/2000/01/rdf-schema#label> "has treatment group size"@en .
+# 
+# https://erct.adaptcentre.com/ontology#hasType
+<https://erct.adaptcentre.com/ontology#hasType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://erct.adaptcentre.com/ontology#hasType> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://erct.adaptcentre.com/ontology#hasName> .
+<https://erct.adaptcentre.com/ontology#hasType> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#TreatmentVar> .
+<https://erct.adaptcentre.com/ontology#hasType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://erct.adaptcentre.com/ontology#hasType> <http://www.w3.org/2000/01/rdf-schema#comment> "Legacy property from earlier mapped datasets. Use erct:hasName on controlled concept nodes."@en .
+<https://erct.adaptcentre.com/ontology#hasType> <http://www.w3.org/2000/01/rdf-schema#label> "hasType (deprecated)"@en .
+<https://erct.adaptcentre.com/ontology#hasType> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# https://erct.adaptcentre.com/ontology#hasUNSustainableGoal
+<https://erct.adaptcentre.com/ontology#hasUNSustainableGoal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://erct.adaptcentre.com/ontology#hasUNSustainableGoal> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://erct.adaptcentre.com/ontology#hasUNSustainableGoal> <http://www.w3.org/2000/01/rdf-schema#label> "hasUNSustainableGoal"@en .
+# 
+# https://erct.adaptcentre.com/ontology#hasUnit
+<https://erct.adaptcentre.com/ontology#hasUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://erct.adaptcentre.com/ontology#hasUnit> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#Indicator> .
+<https://erct.adaptcentre.com/ontology#hasUnit> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://erct.adaptcentre.com/ontology#hasUnit> <http://www.w3.org/2000/01/rdf-schema#comment> "Unit for an indicator value, for example USD or percentage of population."@en .
+<https://erct.adaptcentre.com/ontology#hasUnit> <http://www.w3.org/2000/01/rdf-schema#label> "has unit"@en .
+<https://erct.adaptcentre.com/ontology#hasUnit> <https://erct.adaptcentre.com/ontology#uiSection> "Evidence view" .
+# 
+# https://erct.adaptcentre.com/ontology#hasValue
+<https://erct.adaptcentre.com/ontology#hasValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://erct.adaptcentre.com/ontology#hasValue> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#Indicator> .
+<https://erct.adaptcentre.com/ontology#hasValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://erct.adaptcentre.com/ontology#hasValue> <http://www.w3.org/2000/01/rdf-schema#comment> "Numeric or literal value of an indicator. Prefer numeric values when available and avoid placeholders such as \\\"None\\\"."@en .
+<https://erct.adaptcentre.com/ontology#hasValue> <http://www.w3.org/2000/01/rdf-schema#label> "has value"@en .
+<https://erct.adaptcentre.com/ontology#hasValue> <https://erct.adaptcentre.com/ontology#uiSection> "Evidence view" .
+# 
+# https://erct.adaptcentre.com/ontology#isControl
+<https://erct.adaptcentre.com/ontology#isControl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://erct.adaptcentre.com/ontology#isControl> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#TreatmentArm> .
+<https://erct.adaptcentre.com/ontology#isControl> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://erct.adaptcentre.com/ontology#isControl> <http://www.w3.org/2000/01/rdf-schema#comment> "Boolean flag indicating whether a treatment arm is a control condition."@en .
+<https://erct.adaptcentre.com/ontology#isControl> <http://www.w3.org/2000/01/rdf-schema#label> "is control"@en .
+# 
+# https://erct.adaptcentre.com/ontology#isPrimaryREsearcher
+<https://erct.adaptcentre.com/ontology#isPrimaryREsearcher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://erct.adaptcentre.com/ontology#isPrimaryREsearcher> <http://www.w3.org/2000/01/rdf-schema#comment> "Deprecated misspelling. Use erct:isPrimaryResearcher."@en .
+<https://erct.adaptcentre.com/ontology#isPrimaryREsearcher> <http://www.w3.org/2000/01/rdf-schema#label> "is primary researcher (deprecated typo)"@en .
+<https://erct.adaptcentre.com/ontology#isPrimaryREsearcher> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# https://erct.adaptcentre.com/ontology#isPrimaryResearcher
+<https://erct.adaptcentre.com/ontology#isPrimaryResearcher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://erct.adaptcentre.com/ontology#isPrimaryResearcher> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#Researcher> .
+<https://erct.adaptcentre.com/ontology#isPrimaryResearcher> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://erct.adaptcentre.com/ontology#isPrimaryResearcher> <http://www.w3.org/2000/01/rdf-schema#comment> "Boolean flag indicating that the linked researcher is the primary contact."@en .
+<https://erct.adaptcentre.com/ontology#isPrimaryResearcher> <http://www.w3.org/2000/01/rdf-schema#label> "is primary researcher"@en .
+# 
+# https://erct.adaptcentre.com/ontology#isPublished
+<https://erct.adaptcentre.com/ontology#isPublished> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://erct.adaptcentre.com/ontology#isPublished> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://erct.adaptcentre.com/ontology#isPublished> <http://www.w3.org/2000/01/rdf-schema#comment> "Boolean flag indicating whether trial results are published."@en .
+<https://erct.adaptcentre.com/ontology#isPublished> <http://www.w3.org/2000/01/rdf-schema#label> "is published"@en .
+# 
+# https://erct.adaptcentre.com/ontology#reviewTimestamp
+<https://erct.adaptcentre.com/ontology#reviewTimestamp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://erct.adaptcentre.com/ontology#reviewTimestamp> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#Submission> .
+<https://erct.adaptcentre.com/ontology#reviewTimestamp> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://erct.adaptcentre.com/ontology#reviewTimestamp> <http://www.w3.org/2000/01/rdf-schema#comment> "Date-time when a submission was reviewed and confirmed by a human reviewer."@en .
+<https://erct.adaptcentre.com/ontology#reviewTimestamp> <http://www.w3.org/2000/01/rdf-schema#label> "review timestamp"@en .
+<https://erct.adaptcentre.com/ontology#reviewTimestamp> <https://erct.adaptcentre.com/ontology#uiExample> "2026-02-07T15:30:00Z" .
+<https://erct.adaptcentre.com/ontology#reviewTimestamp> <https://erct.adaptcentre.com/ontology#uiPlaceholder> "2026-02-07T15:30:00Z" .
+<https://erct.adaptcentre.com/ontology#reviewTimestamp> <https://erct.adaptcentre.com/ontology#uiSection> "Submission provenance" .
+# 
+# https://erct.adaptcentre.com/ontology#usedModelName
+<https://erct.adaptcentre.com/ontology#usedModelName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://erct.adaptcentre.com/ontology#usedModelName> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#ExtractionRun> .
+<https://erct.adaptcentre.com/ontology#usedModelName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://erct.adaptcentre.com/ontology#usedModelName> <http://www.w3.org/2000/01/rdf-schema#comment> "Name of the model used in an extraction run, such as gpt-4o or gemini-1.5-pro."@en .
+<https://erct.adaptcentre.com/ontology#usedModelName> <http://www.w3.org/2000/01/rdf-schema#label> "used model name"@en .
+<https://erct.adaptcentre.com/ontology#usedModelName> <https://erct.adaptcentre.com/ontology#uiExample> "claude-3.5-sonnet" .
+<https://erct.adaptcentre.com/ontology#usedModelName> <https://erct.adaptcentre.com/ontology#uiPlaceholder> "gpt-4o" .
+<https://erct.adaptcentre.com/ontology#usedModelName> <https://erct.adaptcentre.com/ontology#uiSection> "Extraction provenance" .
+# 
+# https://erct.adaptcentre.com/ontology#usedModelVersion
+<https://erct.adaptcentre.com/ontology#usedModelVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://erct.adaptcentre.com/ontology#usedModelVersion> <http://www.w3.org/2000/01/rdf-schema#domain> <https://erct.adaptcentre.com/ontology#ExtractionRun> .
+<https://erct.adaptcentre.com/ontology#usedModelVersion> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://erct.adaptcentre.com/ontology#usedModelVersion> <http://www.w3.org/2000/01/rdf-schema#comment> "Version identifier for the model used in extraction."@en .
+<https://erct.adaptcentre.com/ontology#usedModelVersion> <http://www.w3.org/2000/01/rdf-schema#label> "used model version"@en .
+<https://erct.adaptcentre.com/ontology#usedModelVersion> <https://erct.adaptcentre.com/ontology#uiExample> "2024-11-20" .
+<https://erct.adaptcentre.com/ontology#usedModelVersion> <https://erct.adaptcentre.com/ontology#uiPlaceholder> "2025-01-15" .
+<https://erct.adaptcentre.com/ontology#usedModelVersion> <https://erct.adaptcentre.com/ontology#uiSection> "Extraction provenance" .
+# 
+# https://erct.adaptcentre.com/ontology#State%2FProvince_name
+<https://erct.adaptcentre.com/ontology#State%2FProvince_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://erct.adaptcentre.com/ontology#State%2FProvince_name> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://erct.adaptcentre.com/ontology#State%2FProvince_name> <http://www.w3.org/2000/01/rdf-schema#label> "State%2FProvince_name"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# https://erct.adaptcentre.com/ontology#Agent
+<https://erct.adaptcentre.com/ontology#Agent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://erct.adaptcentre.com/ontology#Agent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/prov#Agent> .
+<https://erct.adaptcentre.com/ontology#Agent> <http://www.w3.org/2000/01/rdf-schema#comment> "A person or organisation involved in generating or conducting trial evidence."@en .
+<https://erct.adaptcentre.com/ontology#Agent> <http://www.w3.org/2000/01/rdf-schema#label> "Agent"@en .
+# 
+# https://erct.adaptcentre.com/ontology#ClusterUnitType
+<https://erct.adaptcentre.com/ontology#ClusterUnitType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://erct.adaptcentre.com/ontology#ClusterUnitType> <http://www.w3.org/2000/01/rdf-schema#comment> "Concept describing the type of cluster used in clustered randomisation, such as village or school."@en .
+<https://erct.adaptcentre.com/ontology#ClusterUnitType> <http://www.w3.org/2000/01/rdf-schema#label> "Cluster unit type"@en .
+# 
+# https://erct.adaptcentre.com/ontology#Clustered
+<https://erct.adaptcentre.com/ontology#Clustered> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://erct.adaptcentre.com/ontology#Clustered> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://erct.adaptcentre.com/ontology#Sampling> .
+<https://erct.adaptcentre.com/ontology#Clustered> <http://www.w3.org/2000/01/rdf-schema#comment> "Sampling approach where randomisation occurs at a group level such as village, school, or district."@en .
+<https://erct.adaptcentre.com/ontology#Clustered> <http://www.w3.org/2000/01/rdf-schema#label> "Clustered sampling"@en .
+# 
+# https://erct.adaptcentre.com/ontology#Country
+<https://erct.adaptcentre.com/ontology#Country> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://erct.adaptcentre.com/ontology#Country> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://erct.adaptcentre.com/ontology#Country> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://erct.adaptcentre.com/ontology#Place> .
+# 
+# https://erct.adaptcentre.com/ontology#EntityWithProvenance
+<https://erct.adaptcentre.com/ontology#EntityWithProvenance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://erct.adaptcentre.com/ontology#EntityWithProvenance> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/prov#Entity> .
+<https://erct.adaptcentre.com/ontology#EntityWithProvenance> <http://www.w3.org/2000/01/rdf-schema#comment> "Any entity tracked with provenance metadata such as attribution, generation time, or generating activity."@en .
+<https://erct.adaptcentre.com/ontology#EntityWithProvenance> <http://www.w3.org/2000/01/rdf-schema#label> "Entity with provenance"@en .
+# 
+# https://erct.adaptcentre.com/ontology#EntityWithProvenence
+<https://erct.adaptcentre.com/ontology#EntityWithProvenence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://erct.adaptcentre.com/ontology#EntityWithProvenence> <http://www.w3.org/2000/01/rdf-schema#comment> "Deprecated misspelling. Use erct:EntityWithProvenance."@en .
+<https://erct.adaptcentre.com/ontology#EntityWithProvenence> <http://www.w3.org/2000/01/rdf-schema#label> "Entity with provenence (deprecated)"@en .
+<https://erct.adaptcentre.com/ontology#EntityWithProvenence> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# https://erct.adaptcentre.com/ontology#EvaluationMethod
+<https://erct.adaptcentre.com/ontology#EvaluationMethod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://erct.adaptcentre.com/ontology#EvaluationMethod> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#Concept> .
+# 
+# https://erct.adaptcentre.com/ontology#ExperimentalDesignType
+<https://erct.adaptcentre.com/ontology#ExperimentalDesignType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://erct.adaptcentre.com/ontology#ExperimentalDesignType> <http://www.w3.org/2000/01/rdf-schema#comment> "Legacy class for experimental design terms. Use erct:EvaluationMethod for canonical filterable concepts."@en .
+<https://erct.adaptcentre.com/ontology#ExperimentalDesignType> <http://www.w3.org/2000/01/rdf-schema#label> "Experimental design type"@en .
+<https://erct.adaptcentre.com/ontology#ExperimentalDesignType> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# https://erct.adaptcentre.com/ontology#ExternalClassification
+<https://erct.adaptcentre.com/ontology#ExternalClassification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://erct.adaptcentre.com/ontology#ExternalClassification> <http://www.w3.org/2000/01/rdf-schema#label> "ExternalClassification"@en .
+# 
+# https://erct.adaptcentre.com/ontology#ExtractionRun
+<https://erct.adaptcentre.com/ontology#ExtractionRun> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://erct.adaptcentre.com/ontology#ExtractionRun> <http://www.w3.org/2000/01/rdf-schema#comment> "An automated extraction event, such as an LLM run that produced candidate metadata."@en .
+<https://erct.adaptcentre.com/ontology#ExtractionRun> <http://www.w3.org/2000/01/rdf-schema#label> "Extraction run"@en .
+<https://erct.adaptcentre.com/ontology#ExtractionRun> <https://erct.adaptcentre.com/ontology#uiExample> "LLM extraction run using gpt-4o for Trial 1230" .
+<https://erct.adaptcentre.com/ontology#ExtractionRun> <https://erct.adaptcentre.com/ontology#uiSection> "Extraction provenance" .
+# 
+# https://erct.adaptcentre.com/ontology#Finding
+<https://erct.adaptcentre.com/ontology#Finding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://erct.adaptcentre.com/ontology#Finding> <http://www.w3.org/2000/01/rdf-schema#comment> "A reported result from a trial linking an outcome and optionally an estimate and uncertainty to a specific intervention or comparison context."@en .
+<https://erct.adaptcentre.com/ontology#Finding> <http://www.w3.org/2000/01/rdf-schema#label> "Finding"@en .
+# 
+# https://erct.adaptcentre.com/ontology#Indicator
+<https://erct.adaptcentre.com/ontology#Indicator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://erct.adaptcentre.com/ontology#Indicator> <http://www.w3.org/2000/01/rdf-schema#comment> "Contextual indicator associated with countries or trials, for example GDP or HDI values."@en .
+<https://erct.adaptcentre.com/ontology#Indicator> <http://www.w3.org/2000/01/rdf-schema#label> "Indicator"@en .
+# 
+# https://erct.adaptcentre.com/ontology#IngestionMethod
+<https://erct.adaptcentre.com/ontology#IngestionMethod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://erct.adaptcentre.com/ontology#IngestionMethod> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://erct.adaptcentre.com/ontology#IngestionMethod> <http://www.w3.org/2000/01/rdf-schema#comment> "Controlled concept describing how metadata was ingested, such as manual entry or LLM-assisted extraction."@en .
+<https://erct.adaptcentre.com/ontology#IngestionMethod> <http://www.w3.org/2000/01/rdf-schema#label> "Ingestion method"@en .
+# 
+# https://erct.adaptcentre.com/ontology#Intervention
+<https://erct.adaptcentre.com/ontology#Intervention> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://erct.adaptcentre.com/ontology#Intervention> <http://www.w3.org/2000/01/rdf-schema#comment> "A treatment or program applied in a trial arm."@en .
+<https://erct.adaptcentre.com/ontology#Intervention> <http://www.w3.org/2000/01/rdf-schema#label> "Intervention"@en .
+# 
+# https://erct.adaptcentre.com/ontology#InterventionType
+<https://erct.adaptcentre.com/ontology#InterventionType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://erct.adaptcentre.com/ontology#InterventionType> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#Concept> .
+# 
+# https://erct.adaptcentre.com/ontology#Method
+<https://erct.adaptcentre.com/ontology#Method> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://erct.adaptcentre.com/ontology#Method> <http://www.w3.org/2002/07/owl#equivalentClass> <https://erct.adaptcentre.com/ontology#Methodology> .
+<https://erct.adaptcentre.com/ontology#Method> <http://www.w3.org/2000/01/rdf-schema#comment> "Legacy class name from earlier mapped datasets. Use erct:Methodology."@en .
+<https://erct.adaptcentre.com/ontology#Method> <http://www.w3.org/2000/01/rdf-schema#label> "Method (deprecated)"@en .
+<https://erct.adaptcentre.com/ontology#Method> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# https://erct.adaptcentre.com/ontology#Methodology
+<https://erct.adaptcentre.com/ontology#Methodology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://erct.adaptcentre.com/ontology#Methodology> <http://www.w3.org/2000/01/rdf-schema#comment> "Method details for trial design, sampling, power, and related study setup metadata."@en .
+<https://erct.adaptcentre.com/ontology#Methodology> <http://www.w3.org/2000/01/rdf-schema#label> "Methodology"@en .
+# 
+# https://erct.adaptcentre.com/ontology#Outcome
+<https://erct.adaptcentre.com/ontology#Outcome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://erct.adaptcentre.com/ontology#Outcome> <http://www.w3.org/2002/07/owl#equivalentClass> <https://erct.adaptcentre.com/ontology#TreatmentVar> .
+<https://erct.adaptcentre.com/ontology#Outcome> <http://www.w3.org/2000/01/rdf-schema#comment> "Legacy class name from earlier mapped datasets. Use erct:TreatmentVar."@en .
+<https://erct.adaptcentre.com/ontology#Outcome> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome (deprecated)"@en .
+<https://erct.adaptcentre.com/ontology#Outcome> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# https://erct.adaptcentre.com/ontology#OutcomeDomain
+<https://erct.adaptcentre.com/ontology#OutcomeDomain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://erct.adaptcentre.com/ontology#OutcomeDomain> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#Concept> .
+# 
+# https://erct.adaptcentre.com/ontology#Place
+<https://erct.adaptcentre.com/ontology#Place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://erct.adaptcentre.com/ontology#Place> <http://www.w3.org/2000/01/rdf-schema#comment> "A geographic entity used for trial location metadata."@en .
+<https://erct.adaptcentre.com/ontology#Place> <http://www.w3.org/2000/01/rdf-schema#label> "Place"@en .
+# 
+# https://erct.adaptcentre.com/ontology#ProvenanceActivity
+<https://erct.adaptcentre.com/ontology#ProvenanceActivity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://erct.adaptcentre.com/ontology#ProvenanceActivity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/prov#Activity> .
+<https://erct.adaptcentre.com/ontology#ProvenanceActivity> <http://www.w3.org/2000/01/rdf-schema#comment> "An activity that generated, transformed, or informed trial evidence."@en .
+<https://erct.adaptcentre.com/ontology#ProvenanceActivity> <http://www.w3.org/2000/01/rdf-schema#label> "Provenance activity"@en .
+# 
+# https://erct.adaptcentre.com/ontology#PublicationInfo
+<https://erct.adaptcentre.com/ontology#PublicationInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://erct.adaptcentre.com/ontology#PublicationInfo> <http://www.w3.org/2002/07/owl#equivalentClass> <https://erct.adaptcentre.com/ontology#publicationInfo> .
+<https://erct.adaptcentre.com/ontology#PublicationInfo> <http://www.w3.org/2000/01/rdf-schema#comment> "Legacy class name from earlier mapped datasets. Use erct:publicationInfo."@en .
+<https://erct.adaptcentre.com/ontology#PublicationInfo> <http://www.w3.org/2000/01/rdf-schema#label> "PublicationInfo (deprecated)"@en .
+<https://erct.adaptcentre.com/ontology#PublicationInfo> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# https://erct.adaptcentre.com/ontology#Random
+<https://erct.adaptcentre.com/ontology#Random> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://erct.adaptcentre.com/ontology#Random> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://erct.adaptcentre.com/ontology#Sampling> .
+<https://erct.adaptcentre.com/ontology#Random> <http://www.w3.org/2000/01/rdf-schema#comment> "Deprecated class name. Use erct:Randomized for individual randomisation."@en .
+<https://erct.adaptcentre.com/ontology#Random> <http://www.w3.org/2000/01/rdf-schema#label> "Random (deprecated)"@en .
+<https://erct.adaptcentre.com/ontology#Random> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# https://erct.adaptcentre.com/ontology#RandomisedControlledTrial
+<https://erct.adaptcentre.com/ontology#RandomisedControlledTrial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://erct.adaptcentre.com/ontology#RandomisedControlledTrial> <http://www.w3.org/2002/07/owl#equivalentClass> <https://erct.adaptcentre.com/ontology#Trial> .
+<https://erct.adaptcentre.com/ontology#RandomisedControlledTrial> <http://www.w3.org/2000/01/rdf-schema#comment> "A trial study with random assignment to treatment and control conditions."@en .
+<https://erct.adaptcentre.com/ontology#RandomisedControlledTrial> <http://www.w3.org/2000/01/rdf-schema#label> "Randomised controlled trial"@en .
+# 
+# https://erct.adaptcentre.com/ontology#Randomized
+<https://erct.adaptcentre.com/ontology#Randomized> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://erct.adaptcentre.com/ontology#Randomized> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://erct.adaptcentre.com/ontology#Sampling> .
+<https://erct.adaptcentre.com/ontology#Randomized> <http://www.w3.org/2000/01/rdf-schema#comment> "Sampling approach where randomisation is at the individual level."@en .
+<https://erct.adaptcentre.com/ontology#Randomized> <http://www.w3.org/2000/01/rdf-schema#label> "Randomized sampling"@en .
+# 
+# https://erct.adaptcentre.com/ontology#Region
+<https://erct.adaptcentre.com/ontology#Region> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://erct.adaptcentre.com/ontology#Region> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://erct.adaptcentre.com/ontology#Place> .
+<https://erct.adaptcentre.com/ontology#Region> <http://www.w3.org/2000/01/rdf-schema#comment> "Sub-national place such as a state, province, or district."@en .
+<https://erct.adaptcentre.com/ontology#Region> <http://www.w3.org/2000/01/rdf-schema#label> "Region"@en .
+# 
+# https://erct.adaptcentre.com/ontology#Researcher
+<https://erct.adaptcentre.com/ontology#Researcher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://erct.adaptcentre.com/ontology#Researcher> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://erct.adaptcentre.com/ontology#Agent> .
+<https://erct.adaptcentre.com/ontology#Researcher> <http://www.w3.org/2000/01/rdf-schema#comment> "A person responsible for trial design, execution, or reporting."@en .
+<https://erct.adaptcentre.com/ontology#Researcher> <http://www.w3.org/2000/01/rdf-schema#label> "Researcher"@en .
+# 
+# https://erct.adaptcentre.com/ontology#Sampling
+<https://erct.adaptcentre.com/ontology#Sampling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://erct.adaptcentre.com/ontology#Sampling> <http://www.w3.org/2000/01/rdf-schema#comment> "Sampling strategy information for a trial or treatment arm."@en .
+<https://erct.adaptcentre.com/ontology#Sampling> <http://www.w3.org/2000/01/rdf-schema#label> "Sampling"@en .
+# 
+# https://erct.adaptcentre.com/ontology#Sector
+<https://erct.adaptcentre.com/ontology#Sector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://erct.adaptcentre.com/ontology#Sector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#Concept> .
+# 
+# https://erct.adaptcentre.com/ontology#SourceDocument
+<https://erct.adaptcentre.com/ontology#SourceDocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://erct.adaptcentre.com/ontology#SourceDocument> <http://www.w3.org/2000/01/rdf-schema#comment> "A document used as extraction input, typically a PDF evaluation report."@en .
+<https://erct.adaptcentre.com/ontology#SourceDocument> <http://www.w3.org/2000/01/rdf-schema#label> "Source document"@en .
+<https://erct.adaptcentre.com/ontology#SourceDocument> <https://erct.adaptcentre.com/ontology#uiExample> "impact_evaluation_report_2024.pdf" .
+<https://erct.adaptcentre.com/ontology#SourceDocument> <https://erct.adaptcentre.com/ontology#uiSection> "Extraction provenance" .
+# 
+# https://erct.adaptcentre.com/ontology#Stratified
+<https://erct.adaptcentre.com/ontology#Stratified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://erct.adaptcentre.com/ontology#Stratified> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://erct.adaptcentre.com/ontology#Sampling> .
+<https://erct.adaptcentre.com/ontology#Stratified> <http://www.w3.org/2000/01/rdf-schema#comment> "Sampling approach where assignment is stratified by a demographic variable such as gender or geography."@en .
+<https://erct.adaptcentre.com/ontology#Stratified> <http://www.w3.org/2000/01/rdf-schema#label> "Stratified sampling"@en .
+# 
+# https://erct.adaptcentre.com/ontology#Submission
+<https://erct.adaptcentre.com/ontology#Submission> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://erct.adaptcentre.com/ontology#Submission> <http://www.w3.org/2000/01/rdf-schema#comment> "An ingestion event representing a user-confirmed submission into the knowledge graph."@en .
+<https://erct.adaptcentre.com/ontology#Submission> <http://www.w3.org/2000/01/rdf-schema#label> "Submission"@en .
+<https://erct.adaptcentre.com/ontology#Submission> <https://erct.adaptcentre.com/ontology#uiExample> "Submission for trial AEARCTR-0001230 confirmed by reviewer" .
+<https://erct.adaptcentre.com/ontology#Submission> <https://erct.adaptcentre.com/ontology#uiSection> "Submission provenance" .
+# 
+# https://erct.adaptcentre.com/ontology#Timespan
+<https://erct.adaptcentre.com/ontology#Timespan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://erct.adaptcentre.com/ontology#Timespan> <http://www.w3.org/2000/01/rdf-schema#comment> "Start and end dates associated with a trial or intervention."@en .
+<https://erct.adaptcentre.com/ontology#Timespan> <http://www.w3.org/2000/01/rdf-schema#label> "Timespan"@en .
+# 
+# https://erct.adaptcentre.com/ontology#TreatmentArm
+<https://erct.adaptcentre.com/ontology#TreatmentArm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://erct.adaptcentre.com/ontology#TreatmentArm> <http://www.w3.org/2000/01/rdf-schema#comment> "A trial arm representing one treatment or control condition."@en .
+<https://erct.adaptcentre.com/ontology#TreatmentArm> <http://www.w3.org/2000/01/rdf-schema#label> "Treatment arm"@en .
+# 
+# https://erct.adaptcentre.com/ontology#TreatmentVar
+<https://erct.adaptcentre.com/ontology#TreatmentVar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://erct.adaptcentre.com/ontology#TreatmentVar> <http://www.w3.org/2000/01/rdf-schema#comment> "Measured treatment effect metadata, including effect size and p-value."@en .
+<https://erct.adaptcentre.com/ontology#TreatmentVar> <http://www.w3.org/2000/01/rdf-schema#label> "Treatment variable"@en .
+# 
+# https://erct.adaptcentre.com/ontology#Trial
+<https://erct.adaptcentre.com/ontology#Trial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://erct.adaptcentre.com/ontology#Trial> <http://www.w3.org/2002/07/owl#equivalentClass> <https://erct.adaptcentre.com/ontology#TrialRecord> .
+<https://erct.adaptcentre.com/ontology#Trial> <http://www.w3.org/2000/01/rdf-schema#comment> "Top-level record used in the UI evidence view and filter facets. One trial may have multiple sectors, countries, intervention types, and outcome domains."@en .
+<https://erct.adaptcentre.com/ontology#Trial> <http://www.w3.org/2000/01/rdf-schema#label> "Trial"@en .
+# 
+# https://erct.adaptcentre.com/ontology#TrialRecord
+<https://erct.adaptcentre.com/ontology#TrialRecord> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://erct.adaptcentre.com/ontology#TrialRecord> <http://www.w3.org/2000/01/rdf-schema#comment> "Legacy class used in existing exports for trial-level rows. Use erct:Trial as the canonical UI-facing class."@en .
+<https://erct.adaptcentre.com/ontology#TrialRecord> <http://www.w3.org/2000/01/rdf-schema#label> "Trial record"@en .
+<https://erct.adaptcentre.com/ontology#TrialRecord> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# https://erct.adaptcentre.com/ontology#demographicVariable
+<https://erct.adaptcentre.com/ontology#demographicVariable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://erct.adaptcentre.com/ontology#demographicVariable> <http://www.w3.org/2000/01/rdf-schema#comment> "Variable used for stratification, such as gender or county."@en .
+<https://erct.adaptcentre.com/ontology#demographicVariable> <http://www.w3.org/2000/01/rdf-schema#label> "Demographic variable"@en .
+# 
+# https://erct.adaptcentre.com/ontology#publicationInfo
+<https://erct.adaptcentre.com/ontology#publicationInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://erct.adaptcentre.com/ontology#publicationInfo> <http://www.w3.org/2000/01/rdf-schema#comment> "Bibliographic metadata for trial outputs such as DOI and JEL codes."@en .
+<https://erct.adaptcentre.com/ontology#publicationInfo> <http://www.w3.org/2000/01/rdf-schema#label> "Publication information"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# https://erct.adaptcentre.com/ontology#Country
+<https://erct.adaptcentre.com/ontology#Country> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://erct.adaptcentre.com/ontology#Country> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://erct.adaptcentre.com/ontology#Country> <http://www.w3.org/2004/02/skos/core#inScheme> <https://erct.adaptcentre.com/ontology#CountryScheme> .
+<https://erct.adaptcentre.com/ontology#CountryScheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# https://erct.adaptcentre.com/ontology#CountryScheme
+<https://erct.adaptcentre.com/ontology#CountryScheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://erct.adaptcentre.com/ontology#CountryScheme> <http://www.w3.org/2000/01/rdf-schema#comment> "Controlled concept scheme for country facet values."@en .
+<https://erct.adaptcentre.com/ontology#CountryScheme> <http://www.w3.org/2000/01/rdf-schema#label> "Country scheme"@en .
+# 
+# https://erct.adaptcentre.com/ontology#Country_KE
+<https://erct.adaptcentre.com/ontology#Country_KE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://erct.adaptcentre.com/ontology#Country_KE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://erct.adaptcentre.com/ontology#Country_KE> <http://www.w3.org/2004/02/skos/core#inScheme> <https://erct.adaptcentre.com/ontology#CountryScheme> .
+<https://erct.adaptcentre.com/ontology#Country_KE> <http://www.w3.org/2000/01/rdf-schema#comment> "Example country concept with code and long-name lexical variants."@en .
+<https://erct.adaptcentre.com/ontology#Country_KE> <http://www.w3.org/2004/02/skos/core#altLabel> "KE"@en .
+<https://erct.adaptcentre.com/ontology#Country_KE> <http://www.w3.org/2004/02/skos/core#altLabel> "Republic of Kenya"@en .
+<https://erct.adaptcentre.com/ontology#Country_KE> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kenya"@en .
+# 
+# https://erct.adaptcentre.com/ontology#EvaluationMethod
+<https://erct.adaptcentre.com/ontology#EvaluationMethod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://erct.adaptcentre.com/ontology#EvaluationMethod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://erct.adaptcentre.com/ontology#EvaluationMethod> <http://www.w3.org/2004/02/skos/core#inScheme> <https://erct.adaptcentre.com/ontology#EvaluationMethodScheme> .
+<https://erct.adaptcentre.com/ontology#EvaluationMethodScheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# https://erct.adaptcentre.com/ontology#EvaluationMethodScheme
+<https://erct.adaptcentre.com/ontology#EvaluationMethodScheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://erct.adaptcentre.com/ontology#EvaluationMethodScheme> <http://www.w3.org/2000/01/rdf-schema#comment> "Controlled concept scheme for evaluation method facet values."@en .
+<https://erct.adaptcentre.com/ontology#EvaluationMethodScheme> <http://www.w3.org/2000/01/rdf-schema#label> "Evaluation method scheme"@en .
+# 
+# https://erct.adaptcentre.com/ontology#EvaluationMethod_StratifiedRandomization
+<https://erct.adaptcentre.com/ontology#EvaluationMethod_StratifiedRandomization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://erct.adaptcentre.com/ontology#EvaluationMethod_StratifiedRandomization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://erct.adaptcentre.com/ontology#EvaluationMethod_StratifiedRandomization> <http://www.w3.org/2004/02/skos/core#inScheme> <https://erct.adaptcentre.com/ontology#EvaluationMethodScheme> .
+<https://erct.adaptcentre.com/ontology#EvaluationMethod_StratifiedRandomization> <http://www.w3.org/2000/01/rdf-schema#comment> "Example evaluation method concept with spelling and phrasing variants."@en .
+<https://erct.adaptcentre.com/ontology#EvaluationMethod_StratifiedRandomization> <http://www.w3.org/2004/02/skos/core#altLabel> "Stratified design"@en .
+<https://erct.adaptcentre.com/ontology#EvaluationMethod_StratifiedRandomization> <http://www.w3.org/2004/02/skos/core#altLabel> "Stratified randomisation"@en .
+<https://erct.adaptcentre.com/ontology#EvaluationMethod_StratifiedRandomization> <http://www.w3.org/2004/02/skos/core#prefLabel> "Stratified randomization"@en .
+# 
+# https://erct.adaptcentre.com/ontology#EvidenceCompletenessScheme
+<https://erct.adaptcentre.com/ontology#EvidenceCompletenessScheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://erct.adaptcentre.com/ontology#EvidenceCompletenessScheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://erct.adaptcentre.com/ontology#EvidenceCompletenessScheme> <http://www.w3.org/2000/01/rdf-schema#comment> "Controlled concept scheme describing whether key evidence fields are complete."@en .
+<https://erct.adaptcentre.com/ontology#EvidenceCompletenessScheme> <http://www.w3.org/2000/01/rdf-schema#label> "Evidence completeness scheme"@en .
+# 
+# https://erct.adaptcentre.com/ontology#EvidenceCompleteness_Complete
+<https://erct.adaptcentre.com/ontology#EvidenceCompleteness_Complete> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://erct.adaptcentre.com/ontology#EvidenceCompleteness_Complete> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://erct.adaptcentre.com/ontology#EvidenceCompleteness_Complete> <http://www.w3.org/2004/02/skos/core#inScheme> <https://erct.adaptcentre.com/ontology#EvidenceCompletenessScheme> .
+<https://erct.adaptcentre.com/ontology#EvidenceCompleteness_Complete> <http://www.w3.org/2004/02/skos/core#prefLabel> "Complete"@en .
+# 
+# https://erct.adaptcentre.com/ontology#EvidenceCompleteness_MissingKeyFields
+<https://erct.adaptcentre.com/ontology#EvidenceCompleteness_MissingKeyFields> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://erct.adaptcentre.com/ontology#EvidenceCompleteness_MissingKeyFields> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://erct.adaptcentre.com/ontology#EvidenceCompleteness_MissingKeyFields> <http://www.w3.org/2004/02/skos/core#inScheme> <https://erct.adaptcentre.com/ontology#EvidenceCompletenessScheme> .
+<https://erct.adaptcentre.com/ontology#EvidenceCompleteness_MissingKeyFields> <http://www.w3.org/2004/02/skos/core#prefLabel> "Missing key fields"@en .
+# 
+# https://erct.adaptcentre.com/ontology#EvidenceCompleteness_Partial
+<https://erct.adaptcentre.com/ontology#EvidenceCompleteness_Partial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://erct.adaptcentre.com/ontology#EvidenceCompleteness_Partial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://erct.adaptcentre.com/ontology#EvidenceCompleteness_Partial> <http://www.w3.org/2004/02/skos/core#inScheme> <https://erct.adaptcentre.com/ontology#EvidenceCompletenessScheme> .
+<https://erct.adaptcentre.com/ontology#EvidenceCompleteness_Partial> <http://www.w3.org/2004/02/skos/core#prefLabel> "Partial"@en .
+# 
+# https://erct.adaptcentre.com/ontology#EvidenceTypeScheme
+<https://erct.adaptcentre.com/ontology#EvidenceTypeScheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://erct.adaptcentre.com/ontology#EvidenceTypeScheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://erct.adaptcentre.com/ontology#EvidenceTypeScheme> <http://www.w3.org/2000/01/rdf-schema#comment> "Controlled concept scheme describing the type of evidence source."@en .
+<https://erct.adaptcentre.com/ontology#EvidenceTypeScheme> <http://www.w3.org/2000/01/rdf-schema#label> "Evidence type scheme"@en .
+# 
+# https://erct.adaptcentre.com/ontology#EvidenceType_Dataset
+<https://erct.adaptcentre.com/ontology#EvidenceType_Dataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://erct.adaptcentre.com/ontology#EvidenceType_Dataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://erct.adaptcentre.com/ontology#EvidenceType_Dataset> <http://www.w3.org/2004/02/skos/core#inScheme> <https://erct.adaptcentre.com/ontology#EvidenceTypeScheme> .
+<https://erct.adaptcentre.com/ontology#EvidenceType_Dataset> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dataset"@en .
+# 
+# https://erct.adaptcentre.com/ontology#EvidenceType_RegistryEntry
+<https://erct.adaptcentre.com/ontology#EvidenceType_RegistryEntry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://erct.adaptcentre.com/ontology#EvidenceType_RegistryEntry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://erct.adaptcentre.com/ontology#EvidenceType_RegistryEntry> <http://www.w3.org/2004/02/skos/core#inScheme> <https://erct.adaptcentre.com/ontology#EvidenceTypeScheme> .
+<https://erct.adaptcentre.com/ontology#EvidenceType_RegistryEntry> <http://www.w3.org/2004/02/skos/core#prefLabel> "Registry entry"@en .
+# 
+# https://erct.adaptcentre.com/ontology#EvidenceType_SecondarySummary
+<https://erct.adaptcentre.com/ontology#EvidenceType_SecondarySummary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://erct.adaptcentre.com/ontology#EvidenceType_SecondarySummary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://erct.adaptcentre.com/ontology#EvidenceType_SecondarySummary> <http://www.w3.org/2004/02/skos/core#inScheme> <https://erct.adaptcentre.com/ontology#EvidenceTypeScheme> .
+<https://erct.adaptcentre.com/ontology#EvidenceType_SecondarySummary> <http://www.w3.org/2004/02/skos/core#prefLabel> "Secondary summary"@en .
+# 
+# https://erct.adaptcentre.com/ontology#EvidenceType_TrialReport
+<https://erct.adaptcentre.com/ontology#EvidenceType_TrialReport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://erct.adaptcentre.com/ontology#EvidenceType_TrialReport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://erct.adaptcentre.com/ontology#EvidenceType_TrialReport> <http://www.w3.org/2004/02/skos/core#inScheme> <https://erct.adaptcentre.com/ontology#EvidenceTypeScheme> .
+<https://erct.adaptcentre.com/ontology#EvidenceType_TrialReport> <http://www.w3.org/2004/02/skos/core#prefLabel> "Trial report"@en .
+# 
+# https://erct.adaptcentre.com/ontology#InterventionType
+<https://erct.adaptcentre.com/ontology#InterventionType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://erct.adaptcentre.com/ontology#InterventionType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://erct.adaptcentre.com/ontology#InterventionType> <http://www.w3.org/2004/02/skos/core#inScheme> <https://erct.adaptcentre.com/ontology#InterventionTypeScheme> .
+<https://erct.adaptcentre.com/ontology#InterventionTypeScheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# https://erct.adaptcentre.com/ontology#InterventionTypeScheme
+<https://erct.adaptcentre.com/ontology#InterventionTypeScheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://erct.adaptcentre.com/ontology#InterventionTypeScheme> <http://www.w3.org/2000/01/rdf-schema#comment> "Controlled concept scheme for intervention type facet values."@en .
+<https://erct.adaptcentre.com/ontology#InterventionTypeScheme> <http://www.w3.org/2000/01/rdf-schema#label> "Intervention type scheme"@en .
+# 
+# https://erct.adaptcentre.com/ontology#InterventionType_CashTransfer
+<https://erct.adaptcentre.com/ontology#InterventionType_CashTransfer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://erct.adaptcentre.com/ontology#InterventionType_CashTransfer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://erct.adaptcentre.com/ontology#InterventionType_CashTransfer> <http://www.w3.org/2004/02/skos/core#inScheme> <https://erct.adaptcentre.com/ontology#InterventionTypeScheme> .
+<https://erct.adaptcentre.com/ontology#InterventionType_CashTransfer> <http://www.w3.org/2000/01/rdf-schema#comment> "Example intervention type concept with shorthand and expanded labels."@en .
+<https://erct.adaptcentre.com/ontology#InterventionType_CashTransfer> <http://www.w3.org/2004/02/skos/core#altLabel> "CCT"@en .
+<https://erct.adaptcentre.com/ontology#InterventionType_CashTransfer> <http://www.w3.org/2004/02/skos/core#altLabel> "Conditional cash transfer"@en .
+<https://erct.adaptcentre.com/ontology#InterventionType_CashTransfer> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cash transfer"@en .
+# 
+# https://erct.adaptcentre.com/ontology#LLMAssistedIngestion
+<https://erct.adaptcentre.com/ontology#LLMAssistedIngestion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://erct.adaptcentre.com/ontology#LLMAssistedIngestion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://erct.adaptcentre.com/ontology#IngestionMethod> .
+<https://erct.adaptcentre.com/ontology#LLMAssistedIngestion> <http://www.w3.org/2000/01/rdf-schema#comment> "Metadata pre-populated using an LLM extraction run before human confirmation."@en .
+<https://erct.adaptcentre.com/ontology#LLMAssistedIngestion> <http://www.w3.org/2000/01/rdf-schema#label> "LLM-assisted ingestion"@en .
+# 
+# https://erct.adaptcentre.com/ontology#ManualIngestion
+<https://erct.adaptcentre.com/ontology#ManualIngestion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://erct.adaptcentre.com/ontology#ManualIngestion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://erct.adaptcentre.com/ontology#IngestionMethod> .
+<https://erct.adaptcentre.com/ontology#ManualIngestion> <http://www.w3.org/2000/01/rdf-schema#comment> "Metadata entered manually without automated extraction support."@en .
+<https://erct.adaptcentre.com/ontology#ManualIngestion> <http://www.w3.org/2000/01/rdf-schema#label> "Manual ingestion"@en .
+# 
+# https://erct.adaptcentre.com/ontology#OutcomeDomain
+<https://erct.adaptcentre.com/ontology#OutcomeDomain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://erct.adaptcentre.com/ontology#OutcomeDomain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://erct.adaptcentre.com/ontology#OutcomeDomain> <http://www.w3.org/2004/02/skos/core#inScheme> <https://erct.adaptcentre.com/ontology#OutcomeDomainScheme> .
+<https://erct.adaptcentre.com/ontology#OutcomeDomainScheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# https://erct.adaptcentre.com/ontology#OutcomeDomainScheme
+<https://erct.adaptcentre.com/ontology#OutcomeDomainScheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://erct.adaptcentre.com/ontology#OutcomeDomainScheme> <http://www.w3.org/2000/01/rdf-schema#comment> "Controlled concept scheme for outcome domain facet values."@en .
+<https://erct.adaptcentre.com/ontology#OutcomeDomainScheme> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome domain scheme"@en .
+# 
+# https://erct.adaptcentre.com/ontology#OutcomeDomain_Income
+<https://erct.adaptcentre.com/ontology#OutcomeDomain_Income> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://erct.adaptcentre.com/ontology#OutcomeDomain_Income> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://erct.adaptcentre.com/ontology#OutcomeDomain_Income> <http://www.w3.org/2004/02/skos/core#inScheme> <https://erct.adaptcentre.com/ontology#OutcomeDomainScheme> .
+<https://erct.adaptcentre.com/ontology#OutcomeDomain_Income> <http://www.w3.org/2000/01/rdf-schema#comment> "Example outcome domain concept with common synonym variants."@en .
+<https://erct.adaptcentre.com/ontology#OutcomeDomain_Income> <http://www.w3.org/2004/02/skos/core#altLabel> "Earnings"@en .
+<https://erct.adaptcentre.com/ontology#OutcomeDomain_Income> <http://www.w3.org/2004/02/skos/core#altLabel> "Household income"@en .
+<https://erct.adaptcentre.com/ontology#OutcomeDomain_Income> <http://www.w3.org/2004/02/skos/core#prefLabel> "Income"@en .
+# 
+# https://erct.adaptcentre.com/ontology#Sector
+<https://erct.adaptcentre.com/ontology#Sector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://erct.adaptcentre.com/ontology#Sector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://erct.adaptcentre.com/ontology#Sector> <http://www.w3.org/2004/02/skos/core#inScheme> <https://erct.adaptcentre.com/ontology#SectorScheme> .
+<https://erct.adaptcentre.com/ontology#SectorScheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# https://erct.adaptcentre.com/ontology#SectorScheme
+<https://erct.adaptcentre.com/ontology#SectorScheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://erct.adaptcentre.com/ontology#SectorScheme> <http://www.w3.org/2000/01/rdf-schema#comment> "Controlled concept scheme for sector facet values."@en .
+<https://erct.adaptcentre.com/ontology#SectorScheme> <http://www.w3.org/2000/01/rdf-schema#label> "Sector scheme"@en .
+# 
+# https://erct.adaptcentre.com/ontology#Sector_Health
+<https://erct.adaptcentre.com/ontology#Sector_Health> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://erct.adaptcentre.com/ontology#Sector_Health> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://erct.adaptcentre.com/ontology#Sector_Health> <http://www.w3.org/2004/02/skos/core#inScheme> <https://erct.adaptcentre.com/ontology#SectorScheme> .
+<https://erct.adaptcentre.com/ontology#Sector_Health> <http://www.w3.org/2000/01/rdf-schema#comment> "Example sector concept with lexical variants for robust filtering."@en .
+<https://erct.adaptcentre.com/ontology#Sector_Health> <http://www.w3.org/2004/02/skos/core#altLabel> "Health sector"@en .
+<https://erct.adaptcentre.com/ontology#Sector_Health> <http://www.w3.org/2004/02/skos/core#altLabel> "Public health"@en .
+<https://erct.adaptcentre.com/ontology#Sector_Health> <http://www.w3.org/2004/02/skos/core#prefLabel> "Health"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Annotations
+# #
+# #################################################################
+# 
+# 
+<https://erct.adaptcentre.com/ontology#Country> <http://www.w3.org/2000/01/rdf-schema#comment> "Country concept used in filtering and evidence context. Values can link to ISO or external geography schemes."@en .
+<https://erct.adaptcentre.com/ontology#Country> <http://www.w3.org/2000/01/rdf-schema#label> "Country"@en .
+<https://erct.adaptcentre.com/ontology#Country> <http://www.w3.org/2004/02/skos/core#prefLabel> "Country"@en .
+# 
+<https://erct.adaptcentre.com/ontology#EvaluationMethod> <http://www.w3.org/2000/01/rdf-schema#comment> "Controlled concept for evaluation design or methodology facets, for example stratified randomisation."@en .
+<https://erct.adaptcentre.com/ontology#EvaluationMethod> <http://www.w3.org/2000/01/rdf-schema#label> "Evaluation method"@en .
+<https://erct.adaptcentre.com/ontology#EvaluationMethod> <http://www.w3.org/2004/02/skos/core#prefLabel> "Evaluation method"@en .
+# 
+<https://erct.adaptcentre.com/ontology#InterventionType> <http://www.w3.org/2000/01/rdf-schema#comment> "Controlled concept describing intervention categories used in filters and summaries."@en .
+<https://erct.adaptcentre.com/ontology#InterventionType> <http://www.w3.org/2000/01/rdf-schema#label> "Intervention type"@en .
+<https://erct.adaptcentre.com/ontology#InterventionType> <http://www.w3.org/2004/02/skos/core#prefLabel> "Intervention type"@en .
+# 
+<https://erct.adaptcentre.com/ontology#OutcomeDomain> <http://www.w3.org/2000/01/rdf-schema#comment> "Controlled concept for domains of measured outcomes such as income, health, education, or behavior."@en .
+<https://erct.adaptcentre.com/ontology#OutcomeDomain> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome domain"@en .
+<https://erct.adaptcentre.com/ontology#OutcomeDomain> <http://www.w3.org/2004/02/skos/core#prefLabel> "Outcome domain"@en .
+# 
+<https://erct.adaptcentre.com/ontology#Sector> <http://www.w3.org/2000/01/rdf-schema#comment> "Controlled concept for trial sector facets, for example health, education, agriculture, or governance."@en .
+<https://erct.adaptcentre.com/ontology#Sector> <http://www.w3.org/2000/01/rdf-schema#label> "Sector"@en .
+<https://erct.adaptcentre.com/ontology#Sector> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sector"@en .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

@@ -1,0 +1,286 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix erct: <https://erct.adaptcentre.com/ontology#> .
+@prefix wb: <https://interdev.adaptcentre.com/worldbank/> .
+
+<#TrialMap>
+    a rr:TriplesMap ;
+    rml:logicalSource [
+        rml:source "data/r2rml/trials.csv" ;
+        rml:referenceFormulation ql:CSV
+    ] ;
+    rr:subjectMap [
+        rr:template "https://interdev.adaptcentre.com/id/{trial_id}" ;
+        rr:class erct:TrialRecord, erct:Trial
+    ] ;
+    rr:predicateObjectMap [ rr:predicate erct:hasName ; rr:objectMap [ rml:reference "title" ] ] ;
+    rr:predicateObjectMap [ rr:predicate erct:Abstract ; rr:objectMap [ rml:reference "abstract" ] ] ;
+    rr:predicateObjectMap [ rr:predicate erct:hasAbstract ; rr:objectMap [ rml:reference "abstract" ] ] ;
+    rr:predicateObjectMap [ rr:predicate erct:Authors ; rr:objectMap [ rml:reference "authors_raw" ] ] ;
+    rr:predicateObjectMap [ rr:predicate erct:Evaluation_design ; rr:objectMap [ rml:reference "evaluation_design" ] ] ;
+    rr:predicateObjectMap [ rr:predicate erct:Project_name ; rr:objectMap [ rml:reference "project_name" ] ] ;
+    rr:predicateObjectMap [ rr:predicate erct:Research_funding_agency ; rr:objectMap [ rml:reference "research_funding_agency" ] ] ;
+    rr:predicateObjectMap [ rr:predicate erct:Implementation_agency ; rr:objectMap [ rml:reference "implementation_agency" ] ] ;
+    rr:predicateObjectMap [ rr:predicate erct:Keywords ; rr:objectMap [ rml:reference "keywords" ] ] ;
+    rr:predicateObjectMap [ rr:predicate erct:Language ; rr:objectMap [ rml:reference "language" ] ] ;
+    rr:predicateObjectMap [ rr:predicate erct:Open_Access ; rr:objectMap [ rml:reference "open_access" ] ] ;
+    rr:predicateObjectMap [ rr:predicate erct:Pre-Registration ; rr:objectMap [ rml:reference "pre_registration" ] ] ;
+    rr:predicateObjectMap [ rr:predicate erct:Primary_Dataset_Availability ; rr:objectMap [ rml:reference "primary_dataset_availability" ] ] ;
+    rr:predicateObjectMap [ rr:predicate erct:Protocol_Pre-Analysis_Plan ; rr:objectMap [ rml:reference "protocol_pre_analysis_plan" ] ] ;
+    rr:predicateObjectMap [ rr:predicate erct:Unit_of_observation ; rr:objectMap [ rml:reference "unit_of_observation" ] ] ;
+    rr:predicateObjectMap [ rr:predicate erct:CRS_Voluntary_DAC_Code ; rr:objectMap [ rml:reference "crs_voluntary_dac_code" ] ] ;
+    rr:predicateObjectMap [ rr:predicate erct:Sub-sector ; rr:objectMap [ rml:reference "sub_sector" ] ] ;
+    rr:predicateObjectMap [ rr:predicate <https://erct.adaptcentre.com/ontology#State%2FProvince_name> ; rr:objectMap [ rml:reference "state_province_name" ] ] ;
+    rr:predicateObjectMap [ rr:predicate erct:Equity_focus ; rr:objectMap [ rml:reference "equity_focus" ] ] ;
+    rr:predicateObjectMap [ rr:predicate erct:Ethics_Approval ; rr:objectMap [ rml:reference "ethics_approval" ] ] ;
+    rr:predicateObjectMap [ rr:predicate erct:Mixed_method ; rr:objectMap [ rml:reference "mixed_method" ] ] ;
+    rr:predicateObjectMap [ rr:predicate erct:Additional_Dataset_Information ; rr:objectMap [ rml:reference "additional_dataset_information" ] ] ;
+    rr:predicateObjectMap [ rr:predicate erct:Secondary_Dataset_Name ; rr:objectMap [ rml:reference "secondary_dataset_name" ] ] ;
+    rr:predicateObjectMap [ rr:predicate dcterms:source ; rr:objectMap [ rml:reference "source_url" ] ] ;
+    rr:predicateObjectMap [ rr:predicate erct:hasPublicationInfo ; rr:objectMap [ rr:template "https://interdev.adaptcentre.com/id/publication_{trial_id}" ; rr:termType rr:IRI ] ] ;
+    rr:predicateObjectMap [ rr:predicate erct:hasMethodology ; rr:objectMap [ rr:template "https://interdev.adaptcentre.com/id/method_{trial_id}" ; rr:termType rr:IRI ] ] ;
+    rr:predicateObjectMap [ rr:predicate erct:hasMethod ; rr:objectMap [ rr:template "https://interdev.adaptcentre.com/id/method_{trial_id}" ; rr:termType rr:IRI ] ] ;
+    rr:predicateObjectMap [ rr:predicate erct:hasSampling ; rr:objectMap [ rr:template "https://interdev.adaptcentre.com/id/{trial_id}_sampling" ; rr:termType rr:IRI ] ] ;
+    rr:predicateObjectMap [ rr:predicate erct:hasSector ; rr:objectMap [ rr:template "https://interdev.adaptcentre.com/id/sector_{sector_id}" ; rr:termType rr:IRI ] ] ;
+    rr:predicateObjectMap [ rr:predicate erct:hasEvaluationMethod ; rr:objectMap [ rr:template "https://interdev.adaptcentre.com/id/v4_evalmethod_{evaluation_method_id}" ; rr:termType rr:IRI ] ] ;
+    rr:predicateObjectMap [ rr:predicate erct:hasSubmission ; rr:objectMap [ rr:template "https://interdev.adaptcentre.com/id/{trial_id}_submission" ; rr:termType rr:IRI ] ] ;
+    rr:predicateObjectMap [ rr:predicate erct:hasExtractionRun ; rr:objectMap [ rr:template "https://interdev.adaptcentre.com/id/{trial_id}_extraction_run" ; rr:termType rr:IRI ] ] .
+
+<#RandomisedTrialTypeMap>
+    a rr:TriplesMap ;
+    rml:logicalSource [
+        rml:source "data/r2rml/randomised_trials.csv" ;
+        rml:referenceFormulation ql:CSV
+    ] ;
+    rr:subjectMap [ rr:template "https://interdev.adaptcentre.com/id/{trial_id}" ] ;
+    rr:predicateObjectMap [ rr:predicate rdf:type ; rr:object erct:RandomisedControlledTrial ] .
+
+<#TrialCountryLinkMap>
+    a rr:TriplesMap ;
+    rml:logicalSource [
+        rml:source "data/r2rml/trial_countries.csv" ;
+        rml:referenceFormulation ql:CSV
+    ] ;
+    rr:subjectMap [ rr:template "https://interdev.adaptcentre.com/id/{trial_id}" ] ;
+    rr:predicateObjectMap [ rr:predicate erct:hasCountry ; rr:objectMap [ rr:template "https://interdev.adaptcentre.com/id/country_{country_id}" ; rr:termType rr:IRI ] ] ;
+    rr:predicateObjectMap [ rr:predicate erct:takesPlaceIn ; rr:objectMap [ rr:template "https://interdev.adaptcentre.com/id/country_{country_id}" ; rr:termType rr:IRI ] ] ;
+    rr:predicateObjectMap [ rr:predicate gn:countryCode ; rr:objectMap [ rml:reference "country_iso2" ] ] .
+
+<#PublicationMap>
+    a rr:TriplesMap ;
+    rml:logicalSource [
+        rml:source "data/r2rml/trials.csv" ;
+        rml:referenceFormulation ql:CSV
+    ] ;
+    rr:subjectMap [
+        rr:template "https://interdev.adaptcentre.com/id/publication_{trial_id}" ;
+        rr:class erct:publicationInfo, erct:PublicationInfo
+    ] ;
+    rr:predicateObjectMap [ rr:predicate erct:hasName ; rr:objectMap [ rml:reference "title" ] ] ;
+    rr:predicateObjectMap [ rr:predicate erct:hasTitle ; rr:objectMap [ rml:reference "title" ] ] ;
+    rr:predicateObjectMap [ rr:predicate erct:hasAbstract ; rr:objectMap [ rml:reference "abstract" ] ] ;
+    rr:predicateObjectMap [ rr:predicate erct:hasDOI ; rr:objectMap [ rml:reference "doi" ] ] ;
+    rr:predicateObjectMap [ rr:predicate erct:isPublished ; rr:objectMap [ rml:reference "is_published" ; rr:datatype xsd:boolean ] ] .
+
+<#MethodologyMap>
+    a rr:TriplesMap ;
+    rml:logicalSource [
+        rml:source "data/r2rml/trials.csv" ;
+        rml:referenceFormulation ql:CSV
+    ] ;
+    rr:subjectMap [
+        rr:template "https://interdev.adaptcentre.com/id/method_{trial_id}" ;
+        rr:class erct:Methodology, erct:Method
+    ] ;
+    rr:predicateObjectMap [ rr:predicate erct:hasExperimentalDesignType ; rr:objectMap [ rr:template "https://interdev.adaptcentre.com/id/v4_evalmethod_{evaluation_method_id}" ; rr:termType rr:IRI ] ] ;
+    rr:predicateObjectMap [ rr:predicate erct:hasPower ; rr:objectMap [ rr:constant "0.8"^^xsd:decimal ] ] .
+
+<#SamplingMap>
+    a rr:TriplesMap ;
+    rml:logicalSource [
+        rml:source "data/r2rml/trials.csv" ;
+        rml:referenceFormulation ql:CSV
+    ] ;
+    rr:subjectMap [
+        rr:template "https://interdev.adaptcentre.com/id/{trial_id}_sampling" ;
+        rr:class erct:Sampling
+    ] .
+
+<#SubmissionMap>
+    a rr:TriplesMap ;
+    rml:logicalSource [
+        rml:source "data/r2rml/trials.csv" ;
+        rml:referenceFormulation ql:CSV
+    ] ;
+    rr:subjectMap [
+        rr:template "https://interdev.adaptcentre.com/id/{trial_id}_submission" ;
+        rr:class erct:Submission, erct:ProvenanceActivity
+    ] ;
+    rr:predicateObjectMap [ rr:predicate erct:hasExtractionRun ; rr:objectMap [ rr:template "https://interdev.adaptcentre.com/id/{trial_id}_extraction_run" ; rr:termType rr:IRI ] ] ;
+    rr:predicateObjectMap [ rr:predicate erct:ingestionMethod ; rr:objectMap [ rr:template "https://interdev.adaptcentre.com/id/{ingestion_method_id}" ; rr:termType rr:IRI ] ] ;
+    rr:predicateObjectMap [ rr:predicate erct:reviewedBy ; rr:object <https://interdev.adaptcentre.com/id/erct_system_agent> ] ;
+    rr:predicateObjectMap [ rr:predicate erct:reviewTimestamp ; rr:objectMap [ rml:reference "review_timestamp" ; rr:datatype xsd:dateTime ] ] .
+
+<#ExtractionRunMap>
+    a rr:TriplesMap ;
+    rml:logicalSource [
+        rml:source "data/r2rml/trials.csv" ;
+        rml:referenceFormulation ql:CSV
+    ] ;
+    rr:subjectMap [
+        rr:template "https://interdev.adaptcentre.com/id/{trial_id}_extraction_run" ;
+        rr:class erct:ExtractionRun, erct:ProvenanceActivity
+    ] ;
+    rr:predicateObjectMap [ rr:predicate erct:extractedFromDocument ; rr:objectMap [ rr:template "https://interdev.adaptcentre.com/id/{trial_id}_source_document" ; rr:termType rr:IRI ] ] ;
+    rr:predicateObjectMap [ rr:predicate erct:performedBy ; rr:object <https://interdev.adaptcentre.com/id/erct_system_agent> ] ;
+    rr:predicateObjectMap [ rr:predicate erct:used ; rr:objectMap [ rr:template "https://interdev.adaptcentre.com/id/{trial_id}_provenance_entity" ; rr:termType rr:IRI ] ] ;
+    rr:predicateObjectMap [ rr:predicate erct:wasInformedBy ; rr:objectMap [ rr:template "https://interdev.adaptcentre.com/id/{trial_id}_submission" ; rr:termType rr:IRI ] ] ;
+    rr:predicateObjectMap [ rr:predicate erct:extractionTimestamp ; rr:objectMap [ rml:reference "extraction_timestamp" ; rr:datatype xsd:dateTime ] ] ;
+    rr:predicateObjectMap [ rr:predicate erct:usedModelName ; rr:objectMap [ rml:reference "used_model_name" ] ] ;
+    rr:predicateObjectMap [ rr:predicate erct:usedModelVersion ; rr:objectMap [ rml:reference "used_model_version" ] ] .
+
+<#SourceDocumentMap>
+    a rr:TriplesMap ;
+    rml:logicalSource [
+        rml:source "data/r2rml/trials.csv" ;
+        rml:referenceFormulation ql:CSV
+    ] ;
+    rr:subjectMap [
+        rr:template "https://interdev.adaptcentre.com/id/{trial_id}_source_document" ;
+        rr:class erct:SourceDocument
+    ] ;
+    rr:predicateObjectMap [ rr:predicate erct:hasName ; rr:objectMap [ rml:reference "title" ] ] ;
+    rr:predicateObjectMap [ rr:predicate dcterms:source ; rr:objectMap [ rml:reference "source_url" ] ] .
+
+<#ResearcherMap>
+    a rr:TriplesMap ;
+    rml:logicalSource [
+        rml:source "data/r2rml/authors.csv" ;
+        rml:referenceFormulation ql:CSV
+    ] ;
+    rr:subjectMap [
+        rr:template "https://interdev.adaptcentre.com/id/researcher_{author_id}" ;
+        rr:class erct:Researcher
+    ] ;
+    rr:predicateObjectMap [ rr:predicate erct:hasName ; rr:objectMap [ rml:reference "author_name" ] ] ;
+    rr:predicateObjectMap [ rr:predicate erct:hasAffiliation ; rr:objectMap [ rml:reference "author_affiliation" ] ] ;
+    rr:predicateObjectMap [ rr:predicate erct:hasEmail ; rr:objectMap [ rr:template "unknown+{author_id}@example.org" ; rr:datatype xsd:string ] ] .
+
+<#TrialConductedByMap>
+    a rr:TriplesMap ;
+    rml:logicalSource [
+        rml:source "data/r2rml/authors.csv" ;
+        rml:referenceFormulation ql:CSV
+    ] ;
+    rr:subjectMap [ rr:template "https://interdev.adaptcentre.com/id/{trial_id}" ] ;
+    rr:predicateObjectMap [ rr:predicate erct:conductedBy ; rr:objectMap [ rr:template "https://interdev.adaptcentre.com/id/researcher_{author_id}" ; rr:termType rr:IRI ] ] .
+
+<#CountryMap>
+    a rr:TriplesMap ;
+    rml:logicalSource [
+        rml:source "data/r2rml/countries_all.csv" ;
+        rml:referenceFormulation ql:CSV
+    ] ;
+    rr:subjectMap [
+        rr:template "https://interdev.adaptcentre.com/id/country_{country_id}" ;
+        rr:class erct:Country, skos:Concept
+    ] ;
+    rr:predicateObjectMap [ rr:predicate erct:hasName ; rr:objectMap [ rml:reference "country_name" ] ] ;
+    rr:predicateObjectMap [ rr:predicate skos:inScheme ; rr:object erct:CountryScheme ] .
+
+<#CountryISOMap>
+    a rr:TriplesMap ;
+    rml:logicalSource [
+        rml:source "data/r2rml/countries_resolved.csv" ;
+        rml:referenceFormulation ql:CSV
+    ] ;
+    rr:subjectMap [ rr:template "https://interdev.adaptcentre.com/id/country_{country_id}" ] ;
+    rr:predicateObjectMap [ rr:predicate erct:hasISO ; rr:objectMap [ rml:reference "country_iso2" ] ] ;
+    rr:predicateObjectMap [ rr:predicate erct:hasISOAlpha2 ; rr:objectMap [ rml:reference "country_iso2" ] ] ;
+    rr:predicateObjectMap [ rr:predicate erct:hasISOAlpha3 ; rr:objectMap [ rml:reference "country_iso3" ] ] .
+
+<#SectorMap>
+    a rr:TriplesMap ;
+    rml:logicalSource [
+        rml:source "data/r2rml/sectors.csv" ;
+        rml:referenceFormulation ql:CSV
+    ] ;
+    rr:subjectMap [
+        rr:template "https://interdev.adaptcentre.com/id/sector_{sector_id}" ;
+        rr:class erct:Sector, skos:Concept
+    ] ;
+    rr:predicateObjectMap [ rr:predicate erct:hasName ; rr:objectMap [ rml:reference "sector_name" ] ] ;
+    rr:predicateObjectMap [ rr:predicate skos:prefLabel ; rr:objectMap [ rml:reference "sector_name" ] ] ;
+    rr:predicateObjectMap [ rr:predicate skos:inScheme ; rr:object erct:SectorScheme ] .
+
+<#EvaluationMethodConceptMap>
+    a rr:TriplesMap ;
+    rml:logicalSource [
+        rml:source "data/r2rml/evaluation_methods.csv" ;
+        rml:referenceFormulation ql:CSV
+    ] ;
+    rr:subjectMap [
+        rr:template "https://interdev.adaptcentre.com/id/v4_evalmethod_{evaluation_method_id}" ;
+        rr:class erct:EvaluationMethod, skos:Concept
+    ] ;
+    rr:predicateObjectMap [ rr:predicate erct:hasName ; rr:objectMap [ rml:reference "evaluation_method_label" ] ] ;
+    rr:predicateObjectMap [ rr:predicate skos:prefLabel ; rr:objectMap [ rml:reference "evaluation_method_label" ] ] ;
+    rr:predicateObjectMap [ rr:predicate skos:inScheme ; rr:object erct:EvaluationMethodScheme ] .
+
+<#IndicatorMap>
+    a rr:TriplesMap ;
+    rml:logicalSource [
+        rml:source "data/r2rml/world_bank_indicators.csv" ;
+        rml:referenceFormulation ql:CSV
+    ] ;
+    rr:subjectMap [
+        rr:template "https://interdev.adaptcentre.com/id/indicator_{indicator_id}" ;
+        rr:class erct:Indicator
+    ] ;
+    rr:predicateObjectMap [ rr:predicate erct:hasIndicatorType ; rr:objectMap [ rr:constant "WorldBank" ; rr:datatype xsd:string ] ] ;
+    rr:predicateObjectMap [ rr:predicate erct:hasName ; rr:objectMap [ rml:reference "indicator_name" ] ] ;
+    rr:predicateObjectMap [ rr:predicate erct:hasUnit ; rr:objectMap [ rml:reference "indicator_unit" ] ] ;
+    rr:predicateObjectMap [ rr:predicate erct:hasValue ; rr:objectMap [ rml:reference "value" ; rr:datatype xsd:decimal ] ] ;
+    rr:predicateObjectMap [ rr:predicate wb:indicatorCode ; rr:objectMap [ rml:reference "indicator_code" ] ] ;
+    rr:predicateObjectMap [ rr:predicate wb:year ; rr:objectMap [ rml:reference "year" ; rr:datatype xsd:gYear ] ] ;
+    rr:predicateObjectMap [ rr:predicate wb:countryISO2 ; rr:objectMap [ rml:reference "country_iso2" ] ] .
+
+<#CountryIndicatorLinkMap>
+    a rr:TriplesMap ;
+    rml:logicalSource [
+        rml:source "data/r2rml/world_bank_indicators.csv" ;
+        rml:referenceFormulation ql:CSV
+    ] ;
+    rr:subjectMap [ rr:template "https://interdev.adaptcentre.com/id/country_{country_id}" ] ;
+    rr:predicateObjectMap [ rr:predicate erct:hasIndicator ; rr:objectMap [ rr:template "https://interdev.adaptcentre.com/id/indicator_{indicator_id}" ; rr:termType rr:IRI ] ] .
+
+<#IngestionMethodMap>
+    a rr:TriplesMap ;
+    rml:logicalSource [
+        rml:source "data/r2rml/ingestion_methods.csv" ;
+        rml:referenceFormulation ql:CSV
+    ] ;
+    rr:subjectMap [
+        rr:template "https://interdev.adaptcentre.com/id/{ingestion_method_id}" ;
+        rr:class erct:IngestionMethod
+    ] ;
+    rr:predicateObjectMap [ rr:predicate erct:hasName ; rr:objectMap [ rml:reference "ingestion_method_name" ] ] .
+
+<#AgentMap>
+    a rr:TriplesMap ;
+    rml:logicalSource [
+        rml:source "data/r2rml/agents.csv" ;
+        rml:referenceFormulation ql:CSV
+    ] ;
+    rr:subjectMap [
+        rr:template "https://interdev.adaptcentre.com/id/{agent_id}" ;
+        rr:class erct:Agent
+    ] ;
+    rr:predicateObjectMap [ rr:predicate erct:hasName ; rr:objectMap [ rml:reference "agent_name" ] ] .
